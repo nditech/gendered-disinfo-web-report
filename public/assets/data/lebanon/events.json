@@ -1,0 +1,37 @@
+[
+    {
+        "description": "A series of civil protests that took place in Lebanon",
+        "date": "2019-10-17",
+        "title": "October Revolution"
+    },
+    {
+        "description": "Saad Hariri resigns in response to protests against the government",
+        "date": "2019-10-29",
+        "title": "PM Saad Hariri resigns"
+    },
+    {
+        "description": "Protests are part of the revolution initiated in October 2019",
+        "date": "2020-01-14",
+        "title": "Protests Resume"
+    },
+    {
+        "description": "The 1st case of COVID19 in Lebanon is confirmed in Beirut",
+        "date": "2020-02-21",
+        "title": "First case of COVID19"
+    },
+    {
+        "description": "The first COVID19 death is recorded",
+        "date": "2020-03-10",
+        "title": "First death due to COVID19"
+    },
+    {
+        "description": "A large amount of ammonium nitrate stored at the Port of Beirut explodes",
+        "date": "2020-06-04",
+        "title": "Beirut Port Explosion"
+    },
+    {
+        "description": "Prime Minister Hassan Diab announced that he and his entire cabinet had resigned following anger over the Beirut explosions",
+        "date": "2020-06-20",
+        "title": "PM and his cabinet resign"
+    }
+]

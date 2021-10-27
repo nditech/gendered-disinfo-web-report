@@ -1,0 +1,15 @@
+{
+    "examples": {
+        "lexicon": [
+            "<p>A <b class='red'>Hidroxicloroquina</b> cada vez mais demonstra sua eficácia em portadores do COVID-19. Tenho recebido relatos de todo o Brasil nesse sentido. Preservar vidas e empregos.</p><p>-Jair M. Bolsonaro</p>",
+            "<p>Agradeço a solidariedade, Presidente @JairBolsonaro! Da mesma maneira, me solidarizo em razão de todas as <b class='red'>notícias falsas</b> e ataques vis que sofre diariamente. Mas a VERDADE prevalecerá sobre quaisquer ilações!</p><p>-Carla Zambelli</p>",
+            "<p>Tá engraçado de ver transmissão ao vivo da Globo, os jornalistas iniciam a reportagem já olhando pra trás pensando que pode vir alguém soltando o grito entalado na garganta dos cidadãos e que virou moda no Brasil: <b class='red'>GLOBOLIXO</b>!</p><p>-Carlos Jordy</p>"
+        ],
+        "queries": [
+            "jair bolsonaro hidroxicloroquina",
+            "ideologia genero gay",
+            "joice hassellmann crime",
+            "traidora milhões"
+        ]
+    }
+}

@@ -1,0 +1,1176 @@
+[
+    {
+        "name": "elizete malafaia",
+        "description": "",
+        "endpoint": {
+            "twitter": {
+                "url": "ElizeteMalafaia",
+                "followers": null
+            }
+        }
+    },
+    {
+        "name": "sérgio moro",
+        "description": "",
+        "endpoint": {
+            "twitter": {
+                "url": "SF_Moro",
+                "followers": null
+            }
+        }
+    },
+    {
+        "name": "janaina paschoal",
+        "description": "",
+        "endpoint": {
+            "twitter": {
+                "url": "JanainaDoBrasil",
+                "followers": null
+            }
+        }
+    },
+    {
+        "name": "tv brasil",
+        "description": "",
+        "endpoint": {
+            "twitter": {
+                "url": "tvbrasil",
+                "followers": null
+            },
+            "facebook": {
+                "url": "tvbrasil",
+                "followers": null
+            },
+            "youtube": {
+                "url": "UCSv9d0kQegylHWpP83jWSQg",
+                "followers": null
+            }
+        }
+    },
+    {
+        "name": "deltan dallagnol",
+        "description": "",
+        "endpoint": {
+            "twitter": {
+                "url": "deltanmd",
+                "followers": null
+            },
+            "facebook": {
+                "url": "deltandallagnol",
+                "followers": null
+            }
+        }
+    },
+    {
+        "name": "bernardo kuster",
+        "description": "Director of Jornal Brasil Fearless (Youtube), essayist, translator and journalist.",
+        "endpoint": {
+            "youtube": {
+                "followers": 916000,
+                "url": "https://www.youtube.com/channel/UCVLMRyUik9KrSdFdfRUiFgg"
+            },
+            "telegram": {
+                "followers": 62495,
+                "url": "https://t.me/bkuster"
+            }
+        }
+    },
+    {
+        "name": "rodrigo maia",
+        "description": "",
+        "endpoint": {
+            "twitter": {
+                "url": "RodrigoMaia",
+                "followers": null
+            },
+            "facebook": {
+                "url": "194263324017292",
+                "followers": null
+            }
+        }
+    },
+    {
+        "name": "marcelo freixo",
+        "description": "",
+        "endpoint": {
+            "twitter": {
+                "url": "MarceloFreixo",
+                "followers": null
+            },
+            "facebook": {
+                "url": "128416167198648",
+                "followers": null
+            }
+        }
+    },
+    {
+        "name": "paulo ap",
+        "description": "",
+        "endpoint": {
+            "twitter": {
+                "url": "pauloap",
+                "followers": null
+            }
+        }
+    },
+    {
+        "name": "silas malafaia",
+        "description": "",
+        "endpoint": {
+            "twitter": {
+                "url": "PastorMalafaia",
+                "followers": null
+            },
+            "facebook": {
+                "url": "SilasMalafaia",
+                "followers": null
+            },
+            "youtube": {
+                "url": "UCEoslUVXeGLIFtyp9ZfnGug",
+                "followers": null
+            }
+        }
+    },
+    {
+        "name": "r. r. soares",
+        "description": "",
+        "endpoint": {
+            "twitter": {
+                "url": "RRSoares_",
+                "followers": null
+            },
+            "facebook": {
+                "url": "missionariorrsoares",
+                "followers": null
+            },
+            "youtube": {
+                "url": "UCWN8Aq3It3npH9-RaTrmLDQ",
+                "followers": null
+            }
+        }
+    },
+    {
+        "name": "gabriel monteiro",
+        "description": "Gabriel Luiz Monteiro de Oliveira is a Brazilian military police officer, youtuber, politician and activist, and a former member of the Free Brazil Movement.",
+        "endpoint": {
+            "twitter": {
+                "url": "https://twitter.com/GMonteiroRJ",
+                "followers": 350600
+            },
+            "facebook": {
+                "followers": 5300000,
+                "url": "https://www.facebook.com/gabrielmonteirobr"
+            },
+            "youtube": {
+                "followers": 4790000,
+                "url": "https://www.youtube.com/channel/UCYCMK_puWK2V5AtdQNIOnhw"
+            }
+        }
+    },
+    {
+        "name": "rodrigo constantino",
+        "description": "Rodrigo Constantino dos Santos is a neoconservative, Brazilian writer, columnist, and political commentator.",
+        "endpoint": {
+            "twitter": {
+                "url": "https://twitter.com/Rconstantino",
+                "followers": 742600
+            },
+            "facebook": {
+                "followers": 438000,
+                "url": "https://www.facebook.com/rconstantinoliberal"
+            },
+            "youtube": {
+                "followers": 755000,
+                "url": "https://www.youtube.com/channel/UCsQZuqvj2yp6DK39TooDd6Q"
+            }
+        }
+    },
+    {
+        "name": "dilma rousseff",
+        "description": "",
+        "endpoint": {
+            "twitter": {
+                "url": "dilmabr",
+                "followers": null
+            }
+        }
+    },
+    {
+        "name": "carlos bolsonaro",
+        "description": "Carlos Nantes Bolsonaro is a Brazilian politician and the second son of Jair Bolsonaro.",
+        "endpoint": {
+            "twitter": {
+                "url": "https://twitter.com/CarlosBolsonaro",
+                "followers": 2100000
+            },
+            "facebook": {
+                "followers": 885917,
+                "url": "https://www.facebook.com/cbolsonaro"
+            },
+            "youtube": {
+                "followers": 319000,
+                "url": "https://www.youtube.com/channel/UCBrntWupyTRnnsRy3dA4VdA"
+            },
+            "telegram": {
+                "followers": 49627,
+                "url": "https://t.me/bolsonarocarlos"
+            }
+        }
+    },
+    {
+        "name": "vlog do lisboa",
+        "description": "Conservative Youtube show",
+        "endpoint": {
+            "twitter": {
+                "url": "https://twitter.com/VlogdoLisboa",
+                "followers": 125200
+            },
+            "telegram": {
+                "url": "https://t.me/vlogdolisboaoficial",
+                "followers": 34066
+            },
+            "youtube": {
+                "url": "https://www.youtube.com/channel/UCeW2XVfsOkghlDuw6N7b_ag",
+                "followers": 742000
+            },
+            "facebook": {
+                "url": "https://www.facebook.com/vlogdolisboa",
+                "followers": 535000
+            }
+        }
+    },
+    {
+        "name": "ana caroline campagnolo",
+        "description": "Ana Caroline Campagnolo Galvão is a Brazilian politician, author, lecturer and historian.",
+        "endpoint": {
+            "facebook": {
+                "url": "https://www.facebook.com/AnaCampagnolo",
+                "followers": 287421
+            },
+            "youtube": {
+                "url": "https://www.youtube.com/channel/UC4Tb1JgVxgKvb3MGWXenC3w",
+                "followers": 347000
+            },
+            "telegram": {
+                "url": "https://t.me/anacampagnolo",
+                "followers": 17203
+            }
+        }
+    },
+    {
+        "name": "damares alves",
+        "description": "Brazilian attorney and evangelical pastor. She has been Minister of Human Rights, Family and Women in the Presidency of Jair Bolsonaro.",
+        "endpoint": {
+            "twitter": {
+                "url": "https://twitter.com/DamaresAlves",
+                "followers": 1200000
+            },
+            "facebook": {
+                "followers": 488013,
+                "url": "https://www.facebook.com/dradamaresalves"
+            },
+            "youtube": {
+                "followers": 16800,
+                "url": "https://www.youtube.com/channel/UCUygDoaCJVidyeo9dQFQFnA"
+            }
+        }
+    },
+    {
+        "name": "wilson lima",
+        "description": "Wilson Miranda Lima is a Brazilian politician, journalist and the Governor of the state of Amazonas.",
+        "endpoint": {
+            "twitter": {
+                "url": "https://twitter.com/wilsonlimaam",
+                "followers": 15200
+            },
+            "facebook": {
+                "url": "https://www.facebook.com/WilsonLimaAM/",
+                "followers": 168189
+            }
+        }
+    },
+    {
+        "name": "alvaro dias",
+        "description": "",
+        "endpoint": {
+            "twitter": {
+                "url": "alvarodias_",
+                "followers": null
+            }
+        }
+    },
+    {
+        "name": "atila iamarino",
+        "description": "",
+        "endpoint": {
+            "twitter": {
+                "url": "oatila",
+                "followers": null
+            },
+            "youtube": {
+                "url": "UCSTlOTcyUmzvhQi6F8lFi5w",
+                "followers": null
+            }
+        }
+    },
+    {
+        "name": "nikolas ferreira",
+        "description": "",
+        "endpoint": {
+            "twitter": {
+                "url": "nikolas_dm",
+                "followers": null
+            }
+        }
+    },
+    {
+        "name": "allan dos santos",
+        "description": "A conservative journalist for Tercalivre.",
+        "endpoint": {
+            "twitter": {
+                "url": "https://twitter.com/allanldsantos",
+                "followers": 301700
+            },
+            "telegram":{
+                "url": "https://t.me/AllanDosSantos",
+                "followers": 108770
+            },
+            "facebook": {
+                "url": "https://www.facebook.com/AllanLDosSantos",
+                "followers": 157000
+            }
+        }
+    },
+    {
+        "name": "carlos jordy",
+        "description": "Federal Deputy elected by Rio de Janeiro, Conservative and part of President Bolsonaro's Base",
+        "endpoint": {
+            "twitter": {
+                "url": "https://twitter.com/carlosjordy",
+                "followers": 517700
+            },
+            "facebook": {
+                "followers": 598493,
+                "url": "https://www.facebook.com/carlosjordyoficial/"
+            },
+            "youtube": {
+                "followers": 48700,
+                "url": "https://www.youtube.com/channel/UCkWU59eSRp41W6bCdyJlRdg"
+            },
+            "telegram": {
+                "followers": 13451,
+                "url": "https://t.me/carlosjordy"
+            }
+        }
+    },
+    {
+        "name": "bia kicis",
+        "description": "Beatriz Kicis Torrents de Sordi, better known as Bia Kicis, is a Brazilian politician, activist, YouTuber, lawyer, and former attorney general for Brazil's Federal District, affiliated to the conservative Social Liberal Party.",
+        "endpoint": {
+            "twitter": {
+                "url": "https://twitter.com/Biakicis",
+                "followers": 936100
+            },
+            "facebook": {
+                "followers": 1163053,
+                "url": "https://www.facebook.com/biakicisoficial/"
+            },
+            "youtube": {
+                "followers": 218000,
+                "url": "https://www.youtube.com/channel/UCeCm6AiQfKamRlBHOGPNVOg"
+            },
+            "telegram": {
+                "followers": 33184,
+                "url": "https://t.me/biakicisoficial"
+            }
+        }
+    },
+    {
+        "name": "flavio dino",
+        "description": "",
+        "endpoint": {
+            "twitter": {
+                "url": "FlavioDino",
+                "followers": null
+            }
+        }
+    },
+    {
+        "name": "fernando haddad",
+        "description": "",
+        "endpoint": {
+            "twitter": {
+                "url": "Haddad_Fernando",
+                "followers": null
+            },
+            "facebook": {
+                "url": "fernandohaddad",
+                "followers": null
+            },
+            "youtube": {
+                "url": "UCpwjvP7rGvgIXoJIcdGjC3g",
+                "followers": null
+            }
+        }
+    },
+    {
+        "name": "danilo gentili",
+        "description": "",
+        "endpoint": {
+            "twitter": {
+                "url": "DaniloGentili",
+                "followers": null
+            },
+            "facebook": {
+                "url": "Danilo.Gentili.Oficial",
+                "followers": null
+            },
+            "youtube": {
+                "url": "UCMN82si2EdJ_eROdcJfSmtw",
+                "followers": null
+            }
+        }
+    },
+    {
+        "name": "carla zambelli",
+        "description": "Carla Zambelli Salgado is a Brazilian political activist, politician. Zambelli has a profile aligned to the political right, being economically liberal and socially conservative.",
+        "endpoint": {
+            "twitter": {
+                "url": "https://twitter.com/CarlaZambelli38",
+                "followers": 1300000
+            },
+            "facebook": {
+                "followers": 2611200,
+                "url": "https://www.facebook.com/ZambelliOficial"
+            },
+            "youtube": {
+                "followers": 540000,
+                "url": "https://www.youtube.com/CarlaZambelli"
+            },
+            "telegram": {
+                "followers": 78253,
+                "url": "https://t.me/carlazambellioficial"
+            }
+        }
+    },
+    {
+        "name": "ciro gomes",
+        "description": "",
+        "endpoint": {
+            "twitter": {
+                "url": "cirogomes",
+                "followers": null
+            }
+        }
+    },
+    {
+        "name": "onyx lorenzoni",
+        "description": "Onyx Dornelles Lorenzoni is a Brazilian politician, businessman, and veterinarian. A member of the Democrats, he is currently a Federal Deputy from Rio Grande do Sul in his fourth term. After the 2018 Brazilian general election, president-elect Jair Bolsonaro invited Lorenzoni to be Chief of Staff.",
+        "endpoint": {
+            "twitter": {
+                "url": "https://twitter.com/onyxlorenzoni",
+                "followers": 860500
+            },
+            "facebook": {
+                "url": "https://www.facebook.com/onyx.lorenzoni",
+                "followers": 373446
+            }
+        }
+    },
+    {
+        "name": "luciano huck",
+        "description": "",
+        "endpoint": {
+            "twitter": {
+                "url": "LucianoHuck",
+                "followers": null
+            },
+            "facebook": {
+                "url": "LucianoHuck",
+                "followers": null
+            }
+        }
+    },
+    {
+        "name": "marco feliciano",
+        "description": "Marco Antônio Feliciano is a Brazilian politician as well as a pastor, writer, film producer, and theologian",
+        "endpoint": {
+            "twitter": {
+                "url": "https://twitter.com/marcofeliciano",
+                "followers": 699100
+            },
+            "facebook": {
+                "followers": 4283614,
+                "url": "https://www.facebook.com/PastorMarcoFeliciano/"
+            },
+            "youtube": {
+                "followers": 240000,
+                "url": "https://www.youtube.com/channel/UCpdI21rGF-U3fMoTMCHotSA"
+            },
+            "telegram": {
+                "followers": 2906,
+                "url": "https://t.me/oficialmarcofeliciano"
+            }
+        }
+    },
+    {
+        "name": "daniel silveira",
+        "description": "Daniel Lucio da Silveira is a former military police officer and Brazilian politician, affiliated with the PTB",
+        "endpoint": {
+            "twitter": {
+                "url": "https://twitter.com/danielPMERJ",
+                "followers": 139400
+            },
+            "facebook": {
+                "followers": 4276,
+                "url": "https://www.facebook.com/danielsilveirafederal"
+            },
+            "youtube": {
+                "followers": 72700,
+                "url": "https://www.youtube.com/channel/UCXwAKQLIE7lTs21VJ1oSBhA"
+            }
+        }
+    },
+    {
+        "name": "sara winter",
+        "description": "",
+        "endpoint": {
+            "twitter": {
+                "url": "(suspended)",
+                "followers": null
+            },
+            "facebook": {
+                "url": "sarawinteroficial",
+                "followers": null
+            },
+            "youtube": {
+                "url": "UCrdfC-88Dd9LkiUunU3qExg",
+                "followers": null
+            }
+        }
+    },
+    {
+        "name": "netinho",
+        "description": "Netinho, is a Brazilian singer and composer",
+        "endpoint": {
+            "facebook": {
+                "followers": 352000,
+                "url": "https://www.facebook.com/NetinhoOficial"
+            },
+            "telegram": {
+                "followers": 25409,
+                "url": "https://t.me/aliadosbrasilconservador"
+            }
+        }
+    },
+    {
+        "name": "luiz eduardo ramos",
+        "description": "",
+        "endpoint": {
+            "twitter": {
+                "url": "MinLuizRamos",
+                "followers": null
+            }
+        }
+    },
+    {
+        "name": "josué neto",
+        "description": "",
+        "endpoint": {
+            "twitter": {
+                "url": "JosueNeto",
+                "followers": null
+            },
+            "facebook": {
+                "url": "josueneto",
+                "followers": null
+            }
+        }
+    },
+    {
+        "name": "manuela davila",
+        "description": "",
+        "endpoint": {
+            "twitter": {
+                "url": "manueladavila",
+                "followers": null
+            }
+        }
+    },
+    {
+        "name": "roberto jefferson",
+        "description": "Roberto Jefferson Monteiro Francisco is a Brazilian lawyer and politician who began his career as a television presenter. He is the National President of the Brazilian Labor Party (PTB).",
+        "endpoint": {
+            "facebook": {
+                "followers": 90658,
+                "url": "https://www.facebook.com/bobjeffoficial/"
+            },
+            "youtube": {
+                "followers": 3900,
+                "url": "https://www.youtube.com/channel/UCT9Hp5jq_o4fls6Wu5THP7w"
+            }
+        }
+    },
+    {
+        "name": "filipe g. martins",
+        "description": "Professor of international politics, political analyst and Special Adviser on International Affairs to President Jair Bolsonaro.",
+        "endpoint": {
+            "twitter": {
+                "url": "https://twitter.com/filgmartin?lang=en",
+                "followers": 407200
+            },
+            "telegram": {
+                "url": "https://t.me/filgmartin",
+                "followers": 34851
+            }
+        }
+    },
+    {
+        "name": "modesto carvalhosa",
+        "description": "",
+        "endpoint": {
+            "twitter": {
+                "url": "CarvalhosaMo",
+                "followers": null
+            }
+        }
+    },
+    {
+        "name": "leandro ruschel",
+        "description": "Entrepreneur and online influencer",
+        "endpoint": {
+            "twitter": {
+                "url": "https://twitter.com/leandroruschel",
+                "followers": 553700
+            },
+            "telegram": {
+                "url": "https://t.me/lruschel",
+                "followers": 30216
+            }
+        }
+    },
+    {
+        "name": "nise yamaguchi",
+        "description": "",
+        "endpoint": {
+            "twitter": {
+                "url": "nise_dra",
+                "followers": null
+            }
+        }
+    },
+    {
+        "name": "ricardo salles",
+        "description": "",
+        "endpoint": {
+            "twitter": {
+                "url": "rsallesmma",
+                "followers": null
+            },
+            "youtube": {
+                "url": "UCQziFSWcDRTVQVnsrDa7v0A",
+                "followers": null
+            }
+        }
+    },
+    {
+        "name": "bispa sonia",
+        "description": "",
+        "endpoint": {
+            "twitter": {
+                "url": "bispasonia",
+                "followers": null
+            }
+        }
+    },
+    {
+        "name": "caroline de toni",
+        "description": "",
+        "endpoint": {
+            "twitter": {
+                "url": "CarolDeToni",
+                "followers": null
+            }
+        }
+    },
+    {
+        "name": "luciano hang",
+        "description": "",
+        "endpoint": {
+            "youtube": {
+                "url": "UCQVGpvqkT_VI_qKg6MYqeWA",
+                "followers": null
+            }
+        }
+    },
+    {
+        "name": "mamãe falei",
+        "description": "Arthur Moledo do Val, also known by his pseudonym Mamãe Falei, is a Brazilian politician, activist member of Free Brazil Movement, YouTuber and entrepreneur.",
+        "endpoint": {
+            "twitter": {
+                "url": "https://twitter.com/arthurmoledoval",
+                "followers": 570700
+            },
+            "facebook": {
+                "url": "https://www.facebook.com/arthurdoval/",
+                "followers": 1692031
+            },
+            "telegram": {
+                "url": "https://t.me/arthurdoval",
+                "followers": 7807
+            },
+            "youtube": {
+                "url": "https://www.youtube.com/channel/UCkSjy-IOEq-eMtarZl2uH1Q",
+                "followers": 2790000
+            }
+        }
+    },
+    {
+        "name": "terça livre",
+        "description": "",
+        "endpoint": {
+            "twitter": {
+                "url": "tercalivre",
+                "followers": null
+            }
+        }
+    },
+    {
+        "name": "osmar terra",
+        "description": "Osmar Gasparini Terra is a Brazilian politician and physician, affiliated to the Brazilian Democratic Movement, current Minister of Citizenship and former Minister of Social and Agrarian Development.",
+        "endpoint": {
+            "twitter": {
+                "url": "https://twitter.com/OsmarTerra",
+                "followers": 384100
+            },
+            "facebook": {
+                "url": "https://www.facebook.com/DeputadoOsmarTerra/",
+                "followers": 123697
+            },
+            "youtube": {
+                "url": "https://www.youtube.com/channel/UCZdKvhFxyXQm-JmyvHUYojA",
+                "followers": 9210
+            }
+        }
+    },
+    {
+        "name": "joão doria",
+        "description": "",
+        "endpoint": {
+            "twitter": {
+                "url": "jdoriajr",
+                "followers": null
+            },
+            "facebook": {
+                "url": "jdoriajr",
+                "followers": null
+            },
+            "youtube": {
+                "url": "UCq3eANcPI9CgeIa0eaxawkw",
+                "followers": null
+            }
+        }
+    },
+    {
+        "name": "ernesto araújo",
+        "description": "",
+        "endpoint": {
+            "twitter": {
+                "url": "ernestofaraujo",
+                "followers": null
+            }
+        }
+    },
+    {
+        "name": "caio coppola",
+        "description": "",
+        "endpoint": {
+            "twitter": {
+                "url": "BoletimCoppolla",
+                "followers": null
+            }
+        }
+    },
+    {
+        "name": "olavo de carvalho",
+        "description": "Olavo Luiz Pimentel de Carvalho is a Brazilian polemicist, self-promoted philosopher, political pundit, former astrologer, journalist and far-right conspiracy theorist.",
+        "endpoint": {
+            "twitter": {
+                "url": "https://twitter.com/opropriolavo",
+                "followers": 669200
+            },
+            "facebook": {
+                "followers": 570182,
+                "url": "https://www.facebook.com/carvalho.olavo/"
+            },
+            "youtube": {
+                "followers": 1030000,
+                "url": "https://www.youtube.com/channel/UC6RQhzm93SterWntL7GzqYQ"
+            },
+            "telegram": {
+                "followers": 73634,
+                "url": "https://t.me/opropriolavo"
+            }
+        }
+    },
+    {
+        "name": "felipe neto",
+        "description": "",
+        "endpoint": {
+            "twitter": {
+                "url": "felipeneto",
+                "followers": null
+            },
+            "youtube": {
+                "url": "UCV306eHqgo0LvBf3Mh36AHg",
+                "followers": null
+            }
+        }
+    },
+    {
+        "name": "oswaldo eustáquio",
+        "description": "Investigative journalist, Pro-Bolsonaro",
+        "endpoint": {
+            "twitter": {
+                "url": "https://twitter.com/oswaldojor",
+                "followers": 137700
+            },
+            "facebook": {
+                "followers": 18490,
+                "url": "https://www.facebook.com/oswaldojornalista/"
+            },
+            "youtube": {
+                "followers": 376000,
+                "url": "https://www.youtube.com/channel/UC7tfOF-BAGCv4f9IaaMv7pQ"
+            },
+            "telegram": {
+                "followers": 2380,
+                "url": "https://t.me/oswaldoeustaquio"
+            }
+        }
+    },
+    {
+        "name": "kim kataguiri",
+        "description": "Kim Patroca Kataguiri is a Brazilian politician, activist, lecturer, and one of the founders and leaders of the Free Brazil Movement.",
+        "endpoint": {
+            "twitter": {
+                "url": "https://twitter.com/kimpkat",
+                "followers": -1
+            },
+            "facebook": {
+                "url": "https://www.facebook.com/kimkataguiri/",
+                "followers": 1600000
+            },
+            "youtube": {
+                "followers": 797000,
+                "url": "https://www.youtube.com/channel/UCpHQyEuBXwYBvXC1_NResCg"
+            },
+            "telegram": {
+                "url": "https://t.me/kimkataguiri/",
+                "followers": 11904
+            }
+        }
+    },
+    {
+        "name": "vanessa navarro",
+        "description": "",
+        "endpoint": {
+            "twitter": {
+                "url": "vanessabolsoneas",
+                "followers": null
+            }
+        }
+    },
+    {
+        "name": "lula",
+        "description": "",
+        "endpoint": {
+            "twitter": {
+                "url": "LulaOficial",
+                "followers": null
+            },
+            "facebook": {
+                "url": "Lula",
+                "followers": null
+            }
+        }
+    },
+    {
+        "name": "paulo figueiredo filho",
+        "description": "Journalist. Grandson of the last military dictator in the authoritarian government that ran Brazil from 1964 to 1985.",
+        "endpoint": {
+            "twitter": {
+                "url": "https://twitter.com/realpfigueiredo",
+                "followers": 305700
+            },
+            "youtube": {
+                "url": "https://www.youtube.com/channel/UCX3lv9cpHmVj7cp_ZkPeJEA",
+                "followers": 459000
+            },
+            "telegram": {
+                "url": "https://t.me/realpfigueiredo",
+                "followers": 58770
+            }
+        }
+    },
+    {
+        "name": "livres",
+        "description": "",
+        "endpoint": {
+            "twitter": {
+                "url": "EuSouLivres",
+                "followers": null
+            }
+        }
+    },
+    {
+        "name": "joice hasselman",
+        "description": "",
+        "endpoint": {
+            "twitter": {
+                "url": "joicehasselmann",
+                "followers": null
+            }
+        }
+    },
+    {
+        "name": "magno malta",
+        "description": "Magno Malta is a Brazilian politician. He has represented Espírito Santo in the Federal Senate since 2003. Previously he was a deputy from Espirito Santo from 1999 to 2003. He is a member of the Party of the Republic.",
+        "endpoint": {
+            "twitter": {
+                "url": "https://twitter.com/magnomalta",
+                "followers": 886800
+            },
+            "facebook": {
+                "url": "https://www.facebook.com/magnomalta",
+                "followers": 2078038
+            }
+        }
+    },
+    {
+        "name": "paulo skaf",
+        "description": "",
+        "endpoint": {
+            "twitter": {
+                "url": "skafoficial",
+                "followers": null
+            }
+        }
+    },
+    {
+        "name": "mario frias",
+        "description": "",
+        "endpoint": {
+            "twitter": {
+                "url": "mfriasoficial",
+                "followers": null
+            }
+        }
+    },
+    {
+        "name": "joao amoedo",
+        "description": "",
+        "endpoint": {
+            "twitter": {
+                "url": "joaoamoedonovo",
+                "followers": null
+            }
+        }
+    },
+    {
+        "name": "vera magalhães",
+        "description": "",
+        "endpoint": {
+            "twitter": {
+                "url": "veramagalhaes",
+                "followers": null
+            },
+            "facebook": {
+                "url": "veramagalhaesjornalista",
+                "followers": null
+            },
+            "youtube": {
+                "url": "UC7w9inoYS9ayNpWfLb5eMFw",
+                "followers": null
+            }
+        }
+    },
+    {
+        "name": "fernando holiday",
+        "description": "Fernando Holiday is a Brazilian politician affiliated to the New Party and councilor of the city of São Paulo. He was elected with 48,055 votes in the 2016 elections, and became the first openly gay councilor.",
+        "endpoint": {
+            "twitter": {
+                "url": "https://twitter.com/fernandoholiday",
+                "followers": 2977000
+            },
+            "facebook": {
+                "url": "https://www.facebook.com/fernandoholiday/",
+                "followers": 714000
+            },
+            "youtube": {
+                "url": "https://www.youtube.com/c/fernandoholiday",
+                "followers": 114000
+            }
+        }
+    },
+    {
+        "name": "luiz bragança",
+        "description": "",
+        "endpoint": {
+            "twitter": {
+                "url": "lpbragancabr",
+                "followers": null
+            }
+        }
+    },
+    {
+        "name": "o giro de noticias",
+        "description": "",
+        "endpoint": {
+            "youtube": {
+                "url": "UCq0sSSg_HEd4Y2g_pBMdL7w",
+                "followers": null
+            }
+        }
+    },
+    {
+        "name": "pingo nos is",
+        "description": "The program 'Os Pingos nos Is' reports on politics and economics.",
+        "endpoint": {
+            "facebook": {
+                "followers": 609048,
+                "url": "https://www.facebook.com/OsPingosnosIsOficial/"
+            },
+            "youtube": {
+                "followers": 3670000,
+                "url": "https://www.youtube.com/channel/UCzjtGnD7qqeaHW3nvDVrjQA"
+            }
+        }
+    },
+    {
+        "name": "antonia fontanelle",
+        "description": "",
+        "endpoint": {
+            "twitter": {
+                "url": "ladyfontenelle",
+                "followers": null
+            },
+            "facebook": {
+                "url": "AntoniaFontenelleOficial",
+                "followers": null
+            },
+            "youtube": {
+                "url": "UCIyF38pflNxJYtuRac0OeoQ",
+                "followers": null
+            }
+        }
+    },
+    {
+        "name": "jair bolsonaro",
+        "description": "Jair Messias Bolsonaro is a Brazilian politician and retired military officer who has been the 38th president of Brazil since 1 January 2019.",
+        "endpoint": {
+            "twitter": {
+                "url": "https://twitter.com/jairbolsonaro",
+                "followers": 7000000
+            },
+            "facebook": {
+                "url": "https://www.facebook.com/jairmessias.bolsonaro/",
+                "followers": 14568072
+            },
+            "telegram": {
+                "url": "https://t.me/jairbolsonarobrasil",
+                "followers": 969371
+            },
+            "youtube": {
+                "url": "https://www.youtube.com/channel/UC8hGUtfEgvvnp6IaHSAg1OQ",
+                "followers": 3550000
+            }
+        }
+    },
+    {
+        "name": "andré mendonça",
+        "description": "",
+        "endpoint": {
+            "twitter": {
+                "url": "AmendoncaAGU",
+                "followers": null
+            }
+        }
+    },
+    {
+        "name": "sikêra júnior",
+        "description": "",
+        "endpoint": {
+            "twitter": {
+                "url": "sikerajr",
+                "followers": null
+            },
+            "youtube": {
+                "url": "UCgqvjxFsQ3wXODvfKKbABKA",
+                "followers": null
+            }
+        }
+    },
+    {
+        "name": "edir macedo",
+        "description": "",
+        "endpoint": {
+            "twitter": {
+                "url": "BispoMacedo",
+                "followers": null
+            },
+            "facebook": {
+                "url": "BispoMacedo",
+                "followers": null
+            },
+            "youtube": {
+                "url": "UC4Cdx80wVil5cVCxhAC8V8w",
+                "followers": null
+            }
+        }
+    },
+    {
+        "name": "gabriela prioli",
+        "description": "",
+        "endpoint": {
+            "twitter": {
+                "url": "GabrielaPrioli",
+                "followers": null
+            }
+        }
+    },
+    {
+        "name": "padre paulo ricardo",
+        "description": "",
+        "endpoint": {
+            "twitter": {
+                "url": "padre_paulo",
+                "followers": null
+            },
+            "facebook": {
+                "url": "padrepaulo",
+                "followers": null
+            }
+        }
+    },
+    {
+        "name": "andré porciuncula",
+        "description": "National Secretary of Promotion and Incentive to Culture of the Special Secretariat of Culture",
+        "endpoint": {
+            "twitter": {
+                "url": "https://twitter.com/andreporci",
+                "followers": 94400
+            }
+        }
+    },
+    {
+        "name": "marcel van hattem",
+        "description": "",
+        "endpoint": {
+            "twitter": {
+                "url": "marcelvanhattem",
+                "followers": null
+            }
+        }
+    }
+]

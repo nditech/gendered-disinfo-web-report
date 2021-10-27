@@ -1,0 +1,47 @@
+[
+    {
+        "description": "The first cases of internal transmission of the novel coronavirus is recorded",
+        "date": "2020-03-05",
+        "title": "First case of COVID19"
+    },
+    {
+        "description": "The first death caused by COVID19 in Brazil is recorded by the Ministry of Health",
+        "date": "2020-03-12",
+        "title": "First death due to COVID19"
+    },
+    {
+        "description": "President Jair Bolsonaro defends the use of chloroquine and hydroxychloroquine",
+        "date": "2020-04-09",
+        "title": "Jair Bolsonaro praises Hydroxychloroquine"
+    },
+    {
+        "description": "President Jair Bolsonaro fires his health minister Luiz Henrique Mandetta",
+        "date": "2020-04-16",
+        "title": "Health Minister is fired"
+    },
+    {
+        "description": "Brazil's Federal Supreme Court orders the Ministry of Health to resume the disclosure of the accumulated data from the official website",
+        "date": "2020-06-08",
+        "title": "Supreme court forces the disclosure of data"
+    },
+    {
+        "description": "President Jair Bolsonaro says in an interview broadcast by TV Brasil that he tested positive for COVID19",
+        "date": "2020-07-07",
+        "title": "Jair Bolsonaro tests positive for COVID19"
+    },
+    {
+        "description": "First Lady Michelle Bolsonaro tests positive for COVID19",
+        "date": "2020-07-30",
+        "title": "Michelle Bolsonaro tests positive for COVID19"
+    },
+    {
+        "description": "President Jair Bolsonaro says he will not take a coronavirus vaccine",
+        "date": "2020-11-26",
+        "title": "Jair Bolsonaro announces he won't take the vaccine"
+    },
+    {
+        "description": "President Jair Bolsonaro chooses doctor Marcelo Queiroga to replace Eduardo Pazuello as fourth Minister of Health",
+        "date": "2021-03-15",
+        "title": "Marcelo Queiroga, Health minister"
+    }
+]
