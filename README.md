@@ -2,6 +2,14 @@
 
 
 
+## Development
+
+### Linter
+
+To lint,
+
+    eslint src/* --fix
+
 
 ## Deployment
 
@@ -12,3 +20,4 @@ Edit the following files
     ./src/constants.json
 
     ./public/index.html
+
