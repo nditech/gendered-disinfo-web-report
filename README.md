@@ -1,23 +1,39 @@
 # Report: State-Based Gendered Disinformation in Brazil & Lebanon
 
 
+## To deploy to S3
 
-## Development
+Here are the instructions to host the website inside an AWS S3 bucket.
 
-### Linter
+1. Go to your [AWS S3 console](https://s3.console.aws.amazon.com/)
 
-To lint,
+2. Click on "Create bucket", set the name and region, and make sure "Block all public access" is unchecked. Then, click on "Create Bucket".
 
-    eslint src/* --fix
+3. Click on your bucket and then click on the "Permissions" tab
 
+4. Edit "Bucket policy" and paste the following policy while making sure to replace {bucket_name} with the name of your bucket:
 
-## Deployment
+        {
+            "Version": "2012-10-17",
+            "Statement": [
+                {
+                    "Sid": "PublicRead",
+                    "Effect": "Allow",
+                    "Principal": "*",
+                    "Action": "s3:GetObject",
+                    "Resource": "arn:aws:s3:::{bucket_name}/*"
+                }
+            ]
+        }
 
-### Changing the url prefix
+5. Click on "Save changes"
 
-Edit the following files
+6. Click on the "Objects" tab and then click on "Upload"
 
-    ./src/constants.json
+7. Drag and drop all the content from the [public](./public/) folder of this repo and then click on "Upload"
 
-    ./public/index.html
+8. Click on the "Properties" tab and scroll down to the "Static website hosting" section. Click on "Edit"
 
+9. Enable Static website hosting, and set "index.html" as the Index document. Click on "Save changes"
+
+10. Make sure everything works by clicking on the Bucket website endpoint
