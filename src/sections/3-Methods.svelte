@@ -2,7 +2,7 @@
 
     // properties
     export let lang;
-    export let params;
+    export let posts;
     export const id = "methods";
 
     // components
@@ -306,7 +306,7 @@
     <TextBlock html={html_2_3_2}/>
 
     <TextBlock html={html_2_4}/>
-    <Lexicon posts={params['examples']['lexicon']}/>
+    <Lexicon posts={posts}/>
 
     <TextBlock html={html_2_5}/>
     <DataCollection/>

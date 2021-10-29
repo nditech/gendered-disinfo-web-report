@@ -281,7 +281,7 @@
     },
     {
         "name": "otv",
-        "description": "",
+        "description": "OTV is a publicly traded television station in Lebanon, connected to the Free Patriotic Movement political party.",
         "endpoint": {
             "facebook": {
                 "url": "https://facebook.com/otvlebanon",
@@ -615,7 +615,7 @@
     },
     {
         "name": "charbel khalil",
-        "description": "",
+        "description": "Lebanese satirist",
         "endpoint": {
             "facebook": {
                 "url": "https://facebook.com/charbel.g.khalil.9",

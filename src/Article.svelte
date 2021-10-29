@@ -36,7 +36,16 @@
     let lebanon_params;
     let lebanon_posts;
 
+    let example_posts;
+
     let ready_raw = false, ready_processed = false;
+
+
+    // concat two arrays
+    const interleave = ([ x, ...xs ], ys = []) => {
+        return x === undefined ? ys : [ x, ...interleave (ys, xs) ]
+    }
+
 
     async function load_raw_data(project_select){
 
@@ -81,6 +90,11 @@
         if(lebanon_results === null || !Array.isArray(lebanon_results) || lebanon_results.length === 0) return;
         [ lebanon_sources, lebanon_submissions, lebanon_lexicon, lebanon_events, lebanon_categories, lebanon_dictionary, lebanon_params ] = lebanon_results;
 
+        // combine example posts
+        const brazil_example_posts = brazil_params['examples']['lexicon'];
+        const lebanon_example_posts = lebanon_params['examples']['lexicon'];
+        example_posts = interleave(brazil_example_posts, lebanon_example_posts)
+
         // set ready flag
         ready_raw = true;
 
@@ -113,7 +127,7 @@
 
         <div class="separator"></div>
 
-        <Methods bind:id={ids['methods']} params={brazil_params} lang={lang}/>
+        <Methods bind:id={ids['methods']} posts={example_posts} lang={lang}/>
 
 
         {#if ready_processed}

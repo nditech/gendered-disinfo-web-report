@@ -1,9 +1,8 @@
 {
     "examples": {
         "lexicon": [
-            "<p><b class='red'>HYDROXYCHLOROQUINE</b> & <b class='red'>AZITHROMYCIN</b>, taken together, have a real chance to be one of the biggest game changers in the history of medicine. The FDA has moved mountains - Thank You!</p><p>-Donald J. Trump</p>",
-            "<p>Wow! Thousands of people forming in Washington (D.C.) for <b class='red'>Stop the Steal</b>. Didn’t know about this, but I’ll be seeing them! <b class='red'>#MAGA</b></p><p>-Donald J. Trump</p>",
-            "<p>Something how Dr. Fauci is revered by the <b class='red'>LameStream Media</b> as such a great professional, having done, they say, such an incredible job, [...] Gee, could this just be more <b class='red'>Fake News</b>?</p><p>-Donald J. Trump</p>"
+            "<p>اللي ماتوا هني وعم يتزعرنوا على #الجيش_اللبناني ما فينا نسمّين #شهداء. انضبّوا بقى <b class='red'>#ثورة_سرقها_الزعران</b></p><p>-Charbel Khalil</p>",
+            "<p>ما رح نسكت! ما رح نسمح يخنقوا صوتنا <b class='red'>بفجورهم بالاعلام</b>!</p><p>-Gebran Bassil</p>"
         ],
         "queries": [
             "شكلها نسوية",
@@ -12,3 +11,4 @@
         ]
     }
 }
+
