@@ -37,3 +37,15 @@ Here are the instructions to host the website inside an AWS S3 bucket.
 9. Enable Static website hosting, and set "index.html" as the Index document. Click on "Save changes"
 
 10. Make sure everything works by clicking on the Bucket website endpoint
+
+
+## To update the S3 deployment
+
+1. Go to your [AWS S3 console](https://s3.console.aws.amazon.com/)
+
+2. Click on your bucket
+
+3. Click on the "Objects" tab and then click on "Upload"
+
+4. Drag and drop all the content from the [public](./public/) folder of this repo and then click on "Upload"
+
