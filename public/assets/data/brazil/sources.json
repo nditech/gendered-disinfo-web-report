@@ -21,11 +21,11 @@
     },
     {
         "name": "janaina paschoal",
-        "description": "",
+        "description": "Brazilian jurist and politician. Member of the Brazilian Social Liberal Party, having been elected state representative of the State of São Paulo in 2018",
         "endpoint": {
             "twitter": {
-                "url": "JanainaDoBrasil",
-                "followers": null
+                "url": "https://twitter.com/JanainaDoBrasil",
+                "followers": 914000
             }
         }
     },
@@ -115,19 +115,19 @@
     },
     {
         "name": "silas malafaia",
-        "description": "",
+        "description": "Brazilian Pentecostal pastor, author and televangelist",
         "endpoint": {
             "twitter": {
-                "url": "PastorMalafaia",
-                "followers": null
+                "url": "https://twitter.com/PastorMalafaia",
+                "followers": 1400000
             },
             "facebook": {
-                "url": "SilasMalafaia",
-                "followers": null
+                "url": "https://www.facebook.com/SilasMalafaia",
+                "followers": 3161000
             },
             "youtube": {
-                "url": "UCEoslUVXeGLIFtyp9ZfnGug",
-                "followers": null
+                "url": "https://www.youtube.com/channel/UCEoslUVXeGLIFtyp9ZfnGug",
+                "followers": 1470000
             }
         }
     },
@@ -315,11 +315,15 @@
     },
     {
         "name": "nikolas ferreira",
-        "description": "",
+        "description": "Elected councilor in Belo Horizonte-MG for the Brazilian Labour Renewal Party",
         "endpoint": {
             "twitter": {
-                "url": "nikolas_dm",
-                "followers": null
+                "url": "https://twitter.com/nikolas_dm",
+                "followers": 374300
+            },
+            "facebook": {
+                "url": "https://www.facebook.com/nikolasferreiradm",
+                "followers": 614763
             }
         }
     },

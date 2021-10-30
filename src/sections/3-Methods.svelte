@@ -25,7 +25,7 @@
 
     const html_0 = `
         <p>
-            The objective of this study was to identify and characterize disinformation campaigns on social media that happened
+            The objective of this study was to identify and characterize gendered disinformation campaigns on social media that happened
             around society-scale shocks. The plan for each investigation was to:
         </p>
 
@@ -34,7 +34,7 @@
                 Select a country-specific shock. This would provide the time and context for the content we would collect.
             </li>
             <li>
-                Collect social media content containing disinformation campaigns pertaining to the shock identified.
+                Collect social media content containing gendered disinformation campaigns pertaining to the shock identified.
             </li>
             <li>
                 Analyze the social media content to compile a body of evidence and then assess its convergence and impact.
@@ -83,7 +83,7 @@
 
         <ol>
             <li>
-                Orientation workshop: we developed a shared understanding of disinformation, particularly as the participants experienced and
+                Orientation workshop: we developed a shared understanding of gendered disinformation, particularly as the participants experienced and
                 observed it in their own media ecosystem.
             </li>
 
@@ -104,7 +104,7 @@
 
             <li>
                 Data collection: using the accounts from step #3 and the lexicon from step #4, we collected social media data that
-                was enriched for disinformation campaign content.
+                was enriched for gendered disinformation campaign content.
             </li>
 
             <li>
@@ -269,7 +269,7 @@
         </p>
 
         <p>
-            <b>Salient narratives</b>: The participants reviewed all the posts that had been flagged as containing disinformation and categorized them by narrative.
+            <b>Salient narratives</b>: The participants reviewed all the posts that had been flagged as containing gendered disinformation and categorized them by narrative.
         </p>
 
         <p>

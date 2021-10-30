@@ -26,7 +26,16 @@
         </p>
 
         <p>
-            In this study, we seek to establish the prevalence and nature of disinformation campaigns during periods of society-scale shock.
+            In societies in which there are entrenched perceptions and stereotypes around gender, claims around gender can be used as the delivery
+            mechanism for disinformation.  This is the focus of this current study. While much work has been done on disinformation, very little is
+            known about the ways in which gendered norms, perceptions, and stereotypes are leveraged to enhance the uptake of disinformation,
+            particularly during society-scale shocks during which populations can be the most vulnerable to the spread of such falsehoods.  We term
+            this particular brand of deception “gendered disinformation” - and when it is employed intentionally by a particular group (e.g., a
+            political party), we refer to it as “gendered disinformation campaigns.”
+        </p>
+
+        <p>
+            In this study, we seek to establish the prevalence and nature of gendered disinformation campaigns during periods of society-scale shock.
             To do this, we conduct parallel investigations in two different countries: Brazil and Lebanon. The studies are methodologically
             identical - which enables us to make comparisons between the two country contexts. Further, our choice of Brazil and Lebanon
             provides the opportunity to examine the prevalence of disinformation in quite different societies - permitting this first study
@@ -35,6 +44,8 @@
         </p>
 
         <p>
+            The importance of this focus is to enhance the understanding of what measures are needed to ensure that women are able to participate
+            in leadership and decision making in the response to and recovery from shocks, such as pandemics, natural disasters, and conflict/violence.
             Our hope is that these findings will inform democratic governance program guidance and interventions aimed at countering the impact
             of these tactics.
         </p>
@@ -42,8 +53,8 @@
         <p>
             This report provides a detailed account and assessment of this study. First we will discuss the methods we used to conduct the
             investigation in each study. Then we will discuss results from each country. Finally, we will discuss our findings around
-            disinformation campaigns in each country - as well as what we can learn about these campaigns by comparing and contrasting our observations
-            and findings between the two cultural contexts.
+            gendered disinformation campaigns in each country - as well as what we can learn about these campaigns by comparing and contrasting
+            our observations and findings between the two cultural contexts.
         </p>
     `;
 

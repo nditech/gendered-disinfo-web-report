@@ -11,11 +11,11 @@
     },
     {
         "name": "salman andary",
-        "description": "",
+        "description": "News Reporter/Producer for Sky News Arabia Bureau Beirut",
         "endpoint": {
             "twitter": {
                 "url": "https://twitter.com/salmanonline",
-                "followers": null
+                "followers": 53700
             }
         }
     },
@@ -31,11 +31,11 @@
     },
     {
         "name": "ali mortada",
-        "description": "",
+        "description": "Journalist for Al Mayadeen News",
         "endpoint": {
             "twitter": {
                 "url": "https://twitter.com/aliimortada",
-                "followers": null
+                "followers": 258200
             }
         }
     },
@@ -101,11 +101,11 @@
     },
     {
         "name": "wiam wahhab",
-        "description": "",
+        "description": "Founder of the Arab Unification Party and Lebanese Minister of Environment",
         "endpoint": {
             "twitter": {
                 "url": "https://twitter.com/wiamwahhab",
-                "followers": null
+                "followers": 958800
             }
         }
     },
@@ -181,11 +181,11 @@
     },
     {
         "name": "bint jbeil",
-        "description": "",
+        "description": "Lebanese and International news network",
         "endpoint": {
             "facebook": {
                 "url": "https://facebook.com/bintjbeil.org",
-                "followers": null
+                "followers": 5448735
             }
         }
     },
@@ -231,21 +231,25 @@
     },
     {
         "name": "mtv",
-        "description": "",
+        "description": "Lebanese and international news network",
         "endpoint": {
             "facebook": {
                 "url": "https://facebook.com/mtvlebanon",
-                "followers": null
+                "followers": 14115737
+            },
+            "twitter": {
+                "url": "https://twitter.com/mtvlebanon",
+                "followers": 1600000
             }
         }
     },
     {
         "name": "sadeq nabolsi",
-        "description": "",
+        "description": "Professor of Political Science at the Lebanese University",
         "endpoint": {
             "twitter": {
                 "url": "https://twitter.com/sadeqnabolsi",
-                "followers": null
+                "followers": 38500
             }
         }
     },
@@ -355,11 +359,11 @@
     },
     {
         "name": "houssam matar",
-        "description": "",
+        "description": "Researcher in International Relations",
         "endpoint": {
             "twitter": {
                 "url": "https://twitter.com/hosmatar",
-                "followers": null
+                "followers": 107900
             }
         }
     },
@@ -419,7 +423,7 @@
         "endpoint": {
             "twitter": {
                 "url": "https://twitter.com/_mjn__",
-                "followers": null
+                "followers": 151800
             }
         }
     },
@@ -435,21 +439,15 @@
     },
     {
         "name": "imad bazzi",
-        "description": "",
+        "description": "Blogger and cyber-activist",
         "endpoint": {
             "facebook": {
                 "url": "https://facebook.com/imad.bazzi",
-                "followers": null
-            }
-        }
-    },
-    {
-        "name": "zeina ibrahim",
-        "description": "",
-        "endpoint": {
-            "facebook": {
-                "url": "https://facebook.com/zeina.i.ibrahim",
-                "followers": null
+                "followers": 30721
+            },
+            "twitter": {
+                "url": "https://twitter.com/trellalb",
+                "followers": 90300
             }
         }
     },
@@ -565,31 +563,43 @@
     },
     {
         "name": "al jadeed",
-        "description": "",
+        "description": "Lebanese, Arab and International news network",
         "endpoint": {
             "facebook": {
                 "url": "https://facebook.com/aljadeedtv",
-                "followers": null
+                "followers": 4605179
+            },
+            "twitter":{
+                "url": "https://twitter.com/aljadeednews",
+                "followers": 1800000
+            },
+            "youtube": {
+                "url": "https://www.youtube.com/user/aljadeedonline",
+                "followers": 1500000
             }
         }
     },
     {
         "name": "paula yacoubian",
-        "description": "",
+        "description": "Lebanese journalist and former politician",
         "endpoint": {
             "twitter": {
                 "url": "https://twitter.com/paulayacoubian",
-                "followers": null
+                "followers": 594800
+            },
+            "facebook": {
+                "url": "https://www.facebook.com/PaulaYacoubian",
+                "followers": 289084
             }
         }
     },
     {
         "name": "gebran bassil",
-        "description": "",
+        "description": "Former Minister of Foreign Affairs of Lebanon. Member of the Lebanese Parliament. President of the Free Patriotic Movement.",
         "endpoint": {
             "twitter": {
                 "url": "https://twitter.com/gebran_bassil",
-                "followers": null
+                "followers": 624800
             }
         }
     },
@@ -649,11 +659,15 @@
     },
     {
         "name": "ziad assouad",
-        "description": "",
+        "description": "MP, Free Patriotic Movement",
         "endpoint": {
             "twitter": {
                 "url": "https://twitter.com/ZiadAssouad",
-                "followers": null
+                "followers": 105300
+            },
+            "facebook": {
+                "url": "https://www.facebook.com/ZiadAssouad/",
+                "followers": 37962
             }
         }
     },
@@ -669,21 +683,29 @@
     },
     {
         "name": "salem zahran",
-        "description": "",
+        "description": "Lebanese journalist, media figure and political analyst, director of the Media Focus Center",
         "endpoint": {
             "twitter": {
                 "url": "https://twitter.com/salemzahran05",
-                "followers": null
+                "followers": 718800
+            },
+            "youtube": {
+                "url": "https://www.youtube.com/salemzahran",
+                "followers": 63500
+            },
+            "facebook": {
+                "url": "https://www.facebook.com/salemalizahran/",
+                "followers": 526000
             }
         }
     },
     {
         "name": "walid joumblatt",
-        "description": "",
+        "description": "President of the Progressive Socialist Party of Lebanon",
         "endpoint": {
             "twitter": {
                 "url": "https://twitter.com/walidjoumblatt",
-                "followers": null
+                "followers": 1000000
             }
         }
     },

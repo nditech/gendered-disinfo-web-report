@@ -8,9 +8,10 @@ import { url_to_platform_type } from './libs/socialmedia.js';
 // ADJUST
 function of_interest(submission){
     return submission['categories'].length > 0 &&
-            submission['results']['harms_women'] === 'yes' &&
-            submission['results']['contains_disinfo'] === 'yes';
+        submission['results']['harms_women'] === 'yes' &&
+        submission['results']['contains_disinfo'] === 'yes';
 }
+
 
 export function get_max_followers(belligerent){
     return Math.max(...Object.keys(belligerent['endpoint']).map(key => belligerent['endpoint'][key]['followers']))

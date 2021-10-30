@@ -22,7 +22,7 @@
 
     // constants
     const COORDINATION_MAX_NUMBER_OF_DAYS = 15;
-    const MIN_NBR_OF_PUBLICATION_OF_INTEREST = 0;
+    const MIN_NBR_OF_PUBLICATION_OF_INTEREST = 1;
 
     // submissions
     let submissions_of_interest = submissions.filter(submission => submission['of_interest']);
@@ -97,7 +97,6 @@
             'value': d['name_count'],
         }
     })
-
 
     // --- texts ---
     const text_1 = `
