@@ -9,6 +9,9 @@ export function add_scroll_fade_transition(el, delay=0, scroll_padding=0){
         return;
     }
 
+    // grab main
+    const main = document.querySelector('main');
+
     // grab screen height
     const screen_height = window.screen.height;
 
@@ -16,7 +19,7 @@ export function add_scroll_fade_transition(el, delay=0, scroll_padding=0){
     el.classList.add('fade-out');
 
     // scroll fade in/out
-    window.addEventListener('scroll', () => {
+    main.addEventListener('scroll', () => {
 
         // grab positions
         const { top, bottom } = el.getBoundingClientRect();
@@ -48,5 +51,5 @@ export function add_scroll_fade_transition(el, delay=0, scroll_padding=0){
                 el.classList.add('fade-out');
             }, delay)
         }
-    })
+    });
 }

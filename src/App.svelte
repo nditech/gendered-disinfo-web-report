@@ -4,7 +4,10 @@
     import { SUPPORTED_LANGUAGES, URL_PREFIX } from './constants.json';
 
     // locale lib
-    import { loadLangFromURL, getUrlParams } from './libs/url.js';
+    import { getUrlParams } from './libs/url.js';
+
+    // background
+    import Background from './Background.svelte';
 
     // import Pages
     import Article from './Article.svelte';
@@ -65,16 +68,17 @@
 {/if}
 
 
+<!-- Background -->
+<Background/>
+
 <!-- Where the content goes -->
 <Article lang={lang}/>
-
 
 <!-- Footer -->
 <div class="footer">
     <hr>
     {@html getString(lang, 'footer')}
 </div>
-
 
 <style>
 
@@ -118,10 +122,16 @@
         max-width: 150px;
     }
 
+
     .footer {
-        margin: 48px auto 0px;
-        padding-bottom: 16px;
-        max-width: var(--max-width-large);
+        position: absolute;
+        z-index: -1;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: 0px auto;
+        padding: 0px;
+        width: 100%;
         text-align: center;
         font-weight: 300;
         font-style: italic;

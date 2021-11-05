@@ -23,10 +23,6 @@
     // load constants from json file
     import { URL_PREFIX } from './constants.json';
 
-    // sections bindings
-    let ids = {};
-
-
     // process vars
     let brazil_sources, brazil_submissions, brazil_lexicon, brazil_events, brazil_categories, brazil_dictionary;
     let brazil_params;
@@ -109,54 +105,66 @@
 </script>
 
 
+<!-- Loader -->
+{#if !ready_raw}
+    <Loader onstart={true}/>
+{/if}
+
 <main>
 
+    <!-- Title -->
     <div class="title">
         <h1>{getString(lang, 'title')}</h1>
         <h2>{getString(lang, `case_studies`)}</h2>
     </div>
 
     <hr>
-
     <div class="separator"></div>
+    <Introduction lang={lang}/>
 
+    <!-- Main content -->
     {#if ready_raw}
 
-        <!-- no id for the first one -->
-        <Introduction lang={lang}/>
-
         <div class="separator"></div>
-
-        <Methods bind:id={ids['methods']} posts={example_posts} lang={lang}/>
-
-
+        <Methods posts={example_posts} lang={lang}/>
+        
         {#if ready_processed}
 
             <div class="separator"></div>
 
-            <CaseStudies bind:id={ids['casestudies']} lang={lang}
+            <CaseStudies lang={lang}
                 brazil_categories={brazil_categories} brazil_events={brazil_events} brazil_submissions={brazil_submissions} brazil_lexicon={brazil_lexicon} brazil_posts={brazil_posts} brazil_sources={brazil_sources} brazil_dictionary={brazil_dictionary} brazil_params={brazil_params}
                 lebanon_categories={lebanon_categories} lebanon_events={lebanon_events} lebanon_submissions={lebanon_submissions} lebanon_lexicon={lebanon_lexicon} lebanon_posts={lebanon_posts} lebanon_sources={lebanon_sources} lebanon_dictionary={lebanon_dictionary} lebanon_params={lebanon_params}/>
         {/if}
 
+        <div class="separator"></div>
         <Discussion lang={lang}/>
 
+        <div class="separator"></div>
         <Conclusion lang={lang}/>
 
-    {:else}
-        <Loader onstart={true}/>
     {/if}
 
-</main>
 
+</main>
 
 <style>
 
     main {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 60px;
+        width: 100vw;
+        width: 100%;
+        margin: 0px auto;
+		padding: 0px;
+        padding-top: 96px;
+        padding-bottom: 96px;
 		text-align: center;
-		padding: 32px;
-        padding-top: 64px;
-        margin: auto;
+        overflow-y: scroll;
+        z-index: 1;
 	}
 
     .separator {
@@ -229,6 +237,8 @@
         max-width: var(--max-width);
         background-color: black;
         opacity: 0.2;
+        margin: 0px auto;
+        padding: 0px;
     }
 
     /* Text formatting */

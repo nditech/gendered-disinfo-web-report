@@ -20,6 +20,9 @@
         const canvas = d3.select('#barplot');
         const tooltip = d3.select('#barplottooltip')
 
+        // grab main
+        const main = document.querySelector('main');
+        
         // get screen size
         const screen_height = window.screen.height;
 
@@ -28,7 +31,7 @@
         let drawn = false;
 
         // animate
-        window.addEventListener('scroll', () => {
+        main.addEventListener('scroll', () => {
 
             // get position of svg
             const { top, bottom } = svg.node().getBoundingClientRect()

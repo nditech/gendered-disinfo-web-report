@@ -3,9 +3,6 @@
     // ui lib
     import { onMount } from "svelte";
 
-    // transition lib
-    import { add_scroll_fade_transition } from "../../libs/transition";
-
     // import constants
     import { URL_PREFIX } from '../../constants.json';
 
@@ -145,9 +142,6 @@
 
         // launch
         animate();
-
-        // set fade in
-        add_scroll_fade_transition(canvas);
     })
 
 </script>

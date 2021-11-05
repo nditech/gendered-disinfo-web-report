@@ -213,7 +213,7 @@ export function draw (matrix, source_mapping, time_scale, color_scale, canvas, t
     // create group in which we will append our objects
     const rect_g = svg.append('g')
         .attr('transform', 'translate(' + margin.left + ',' + margin.top + ')')
-
+        
     const events_g = svg.append('g')
         .attr('transform', 'translate(' + margin.left + ',' + margin.top + ')')
 

@@ -25,6 +25,9 @@
         const canvas = d3.select(`#${dataviz_id}`);
         const tooltip = d3.select(`#${tooltip_id}`);
 
+        // grab main
+        const main = document.querySelector('main');
+
         // get screen size
         const screen_height = window.screen.height;
 
@@ -33,7 +36,7 @@
         let drawn = false;
 
         // animate
-        window.addEventListener('scroll', () => {
+        main.addEventListener('scroll', () => {
 
             // get position of svg
             const { top, bottom } = svg.node().getBoundingClientRect()

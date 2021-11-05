@@ -59,6 +59,7 @@ export class Renderer {
             .attr('width', graph_width + margin.left + margin.right)
             .attr('height', canvas_height + margin.top + margin.bottom)
             .style('border', '1px solid #ccc')
+            .style('background-color', 'white')
 
         // append our groups to the svg
         this.g_graph = graph_svg.append('g');

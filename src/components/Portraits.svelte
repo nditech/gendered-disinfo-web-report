@@ -3,26 +3,6 @@
     // properties
     export let data;
 
-    // import ui lib
-    import { onMount } from 'svelte';
-
-    // import transition lib
-    import { add_scroll_fade_transition } from '../libs/transition.js';
-
-    onMount(() => {
-
-        // grab parent div
-        const elements = document.getElementById('portraits-container').getElementsByTagName('div');
-
-        // apply transition to each
-        for (let i = 0; i < elements.length; i++) {
-
-            // dont apply to non-picture divs
-            if(!elements[i].classList.contains('portraits')) continue;
-
-            // add_scroll_fade_transition(elements[i], i*50);
-        }
-    })
 
 </script>
 

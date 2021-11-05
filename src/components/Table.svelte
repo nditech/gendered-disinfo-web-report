@@ -294,10 +294,14 @@
     .table-headers {
         z-index: 900;
         padding-bottom: 8px;
+        background-color: white;
+        border: 1px solid #999;
     }
 
     .table-values {
         z-index: 800;
+        background-color: white;
+        border: 1px solid #999;
     }
 
     .value {

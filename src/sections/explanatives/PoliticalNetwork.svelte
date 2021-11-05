@@ -1,24 +1,7 @@
 <script>
 
-    // import ui lib
-    import { onMount } from 'svelte';
-
     // import constants
     import { URL_PREFIX } from '../../constants.json'
-
-    // import transition lib
-    import { add_scroll_fade_transition } from '../../libs/transition.js';
-
-    onMount(() => {
-
-        // grab parent div
-        const elements = document.getElementById('political-network-container').getElementsByTagName('div');
-
-        // apply transition to each
-        for (let i = 0; i < elements.length; i++) {
-            add_scroll_fade_transition(elements[i], i*100);
-        }
-    })
 
 </script>
 

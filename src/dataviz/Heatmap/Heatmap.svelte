@@ -29,6 +29,9 @@
         // convert to matrix
         const { matrix, source_mapping, time_scale, color_scale } = matrixify(data, NBR_OF_TIME_STEPS);
 
+        // grab main
+        const main = document.querySelector('main');
+        
         // append svg object to the body
         const canvas = d3.select(`#${heatmap_id}`);
 
@@ -43,7 +46,7 @@
         let drawn = false;
 
         // animate
-        window.addEventListener('scroll', () => {
+        main.addEventListener('scroll', () => {
 
             // get position of svg
             const { top, bottom } = svg.node().getBoundingClientRect()
