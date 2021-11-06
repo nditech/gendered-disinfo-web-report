@@ -7,13 +7,13 @@
     import * as THREE from 'three';
 
     // constants
-    const position_spread = 30;
-    const nbr_of_objects = 80;
+    const position_spread = 20;
+    const nbr_of_objects = 5;
     const speed_limiter = 0.5;
 
     // helper functions
-    const material_objs = new THREE.MeshBasicMaterial( { color: 0x000000, opacity: 0.05, transparent: true, wireframe: true } );
-    const material_knot = new THREE.MeshBasicMaterial( { color: 0x000000, opacity: 0.02, transparent: true, wireframe: true } );
+    const material_objs = new THREE.MeshBasicMaterial( { color: 0x000000, opacity: 0.06, transparent: true, wireframe: true } );
+    const material_knot = new THREE.MeshBasicMaterial( { color: 0x000000, opacity: 0.06, transparent: true, wireframe: true } );
     const rand_radius = () => { return Math.ceil(Math.random()*2); };
     const rand_details = () => { return Math.ceil(Math.random()*2); };
     const rand_position = () => {  return Array(3).fill().map(() => THREE.MathUtils.randFloatSpread(position_spread)) }
@@ -70,7 +70,7 @@
         objects.forEach(obj => scene.add( obj ));
 
         // generate a knot
-        const geometry = new THREE.TorusKnotGeometry(20, 6, 200, 100, 3, 5)
+        const geometry = new THREE.TorusKnotGeometry(20, 6, 200, 20, 3, 5)
         const knot = new THREE.Mesh( geometry, material_knot );
         knot.position.set(5, 5, 5) 
         scene.add( knot )
