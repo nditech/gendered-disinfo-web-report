@@ -6,9 +6,6 @@
     // locale lib
     import { getUrlParams } from './libs/url.js';
 
-    // background
-    import Background from './Background.svelte';
-
     // import Pages
     import Article from './Article.svelte';
 
@@ -67,9 +64,6 @@
     </div>
 {/if}
 
-
-<!-- Background -->
-<Background/>
 
 <!-- Where the content goes -->
 <Article lang={lang}/>

@@ -6,6 +6,9 @@
     // components
     import Loader from './components/Loader.svelte';
 
+    // background
+    import Background from './Background.svelte';
+
     // import sections
     import Introduction from './sections/1-Introduction.svelte';
     import Methods from './sections/3-Methods.svelte';
@@ -108,6 +111,11 @@
 <!-- Loader -->
 {#if !ready_raw}
     <Loader onstart={true}/>
+{/if}
+
+<!-- Background -->
+{#if ready_raw}
+    <Background/>
 {/if}
 
 <main>
