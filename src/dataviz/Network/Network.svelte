@@ -2,7 +2,8 @@
 
     // properties
     export let lang;
-    export let submissions;
+    export let nodes;
+    export let vertices;
 
     // import d3 stuff
     import * as d3 from 'd3';
@@ -20,27 +21,32 @@
 
     // Graph
     let graph = null;
+    let canvas;
+    let tooltip;
 
     onMount(async () => {
 
         // get div object
-        const canvas = d3.select(`#${network_id}`);
+        canvas = d3.select(`#${network_id}`);
 
         // get tip info box
-        const tooltip = d3.select(`#${networktooltip_id}`);
-
-        // render graph
-        graph = new Graph(submissions, canvas, tooltip);
+        tooltip = d3.select(`#${networktooltip_id}`);
     })
 
-</script>
+    $: if(nodes, vertices){
+        if(graph === null){
+            graph = new Graph(nodes, vertices, canvas, tooltip);
+        }else{
+            graph.update(nodes, vertices);
+        }
+    }
 
+</script>
 
 <div class="container">
     <div id="{network_id}"></div>
     <div id="{networktooltip_id}" class='tooltip'></div>
 </div>
-
 
 
 <style>
@@ -53,4 +59,5 @@
         margin: auto;
         text-align: center;
     }
+
 </style>

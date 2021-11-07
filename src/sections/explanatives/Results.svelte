@@ -6,7 +6,7 @@
     export let sources, submissions, events, categories, dictionary, lexicon;
 
     // import dataviz
-    import Network from '../../dataviz/NetworkGeneral/Network.svelte';
+    import Network from '../../dataviz/Network/Network.svelte';
     import Heatmap from '../../dataviz/Heatmap/Heatmap.svelte';
     import DotMatrixPlot from '../../dataviz/DotMatrixPlot/DotMatrixPlot.svelte';
 

@@ -164,7 +164,7 @@
         left: 0;
         right: 0;
         bottom: 60px;
-        width: 80vw;
+        width: 100%;
         margin: 0px auto;
 		padding: 0px;
         padding-top: 96px;
@@ -173,15 +173,9 @@
         overflow-y: scroll;
         overflow-x: hidden;
         z-index: 1;
-        -ms-overflow-style: none;  /* IE and Edge */
-        scrollbar-width: none;  /* Firefox */
 	}
 
-    /* Hide scrollbar for Chrome, Safari and Opera */
-    main::-webkit-scrollbar {
-        display: none;
-    }
-
+    /* footer starts to span two lines when width < 446px */
     @media (max-width: 446px) {
         main{
             bottom: 84px;
@@ -202,9 +196,9 @@
         --main-color: hsl(219, 42%, 41%);
         --main-color-dark: hsl(219, 42%, 28%);
         --main-color-light: hsl(219, 42%, 54%);
-        --max-width-small: 500px;
-        --max-width: 600px;
-        --max-width-large: 700px;
+        --max-width-small: 40vw;
+        --max-width: 60vw;
+        --max-width-large: 70vw;
         --font-size-very-very-very-small: 0.7em;
         --font-size-very-very-small: 0.8em;
         --font-size-very-small: 0.9em;
@@ -221,6 +215,16 @@
         --line-height: 1.45em;
         --line-height-small: 1.2em;
     }
+
+    /* If screen is small (e.g. mobile) we make the article take up a larger fraction of the screen width */
+    @media (max-width: 768px) {
+        :global(:root) {
+            --max-width-small: 60vw;
+            --max-width: 80vw;
+            --max-width-large: 90vw;
+        }
+    }
+
 
     :global(body) {
         font-family: charter, Georgia, Cambria, "Times New Roman", Times, serif;

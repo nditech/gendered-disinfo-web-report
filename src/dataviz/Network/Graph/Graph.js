@@ -5,24 +5,27 @@ import { DataLoader } from './DataLoader.js'
 import { Renderer } from './Renderer.js'
 
 export class Graph {
-    constructor (data, canvas, tooltip, callback) {
+    constructor (nodes, vertices, canvas, tooltip, callback) {
+
+        // set data
+        this.canvas = canvas;
+        this.tooltip = tooltip;
+        this.callback = callback;
+
         // load data
-        this.dataLoader = new DataLoader(data)
+        this.dataLoader = new DataLoader(nodes, vertices)
 
         // render
-        this.render = new Renderer(this.dataLoader, canvas, tooltip, callback)
+        this.render = new Renderer(this.dataLoader, this.canvas, this.tooltip, this.callback)
     }
 
-    filter (min_date, max_date) {
-        this.render.graph.filter(min_date, max_date)
-    }
+    update(nodes, vertices){
 
-    redraw_graph () {
-        this.render.redraw_graph()
-    }
+        // load data
+        this.dataLoader = new DataLoader(nodes, vertices)
 
-    redraw_words () {
-        this.render.redraw_words()
+        // render
+        this.render = new Renderer(this.dataLoader, this.canvas, this.tooltip, this.callback)
     }
 
     async run_physics () {

@@ -200,7 +200,7 @@
     </div>
 {/if}
 
-{#if _values !== null && Array.isArray(_values) && _values.length > 0 }
+{#if _values !== null }
     <!-- Values -->
     <div class="table-values" id="{table_id_values}">
         <table class={disable ? 'disabled' : 'enabled'}>
@@ -302,6 +302,7 @@
         z-index: 800;
         background-color: white;
         border: 1px solid #999;
+        padding-bottom: 4px;
     }
 
     .value {
