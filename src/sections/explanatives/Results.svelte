@@ -140,7 +140,7 @@
     <TextBlock html={text_1}/>
     <Heatmap data={heatmap} events={events}/>
 
-    <h1 class="subsubsubtitle">Accounts</h1>
+    <h1 class="subsubsubtitle">Belligerents</h1>
     <TextBlock html={text_5}/>
     <Portraits data={belligerents}/>
 

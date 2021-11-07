@@ -66,8 +66,8 @@
         padding: 0px;
         margin: 0px;
         height: auto;
-        opacity: 1.0;
         filter: grayscale(100%);
+        opacity: 0.6;
     }
 
 

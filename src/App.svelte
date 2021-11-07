@@ -125,7 +125,7 @@
         right: 0;
         margin: 0px auto;
         padding: 0px;
-        width: 100%;
+        width: 80vw;
         text-align: center;
         font-weight: 300;
         font-style: italic;

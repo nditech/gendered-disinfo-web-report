@@ -93,6 +93,7 @@
         padding: 0px;
         margin: 0px;
         height: auto;
+        filter: grayscale(100%);
         opacity: 0.6;
     }
 

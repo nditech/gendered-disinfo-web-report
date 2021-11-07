@@ -192,8 +192,8 @@
         </h1>
 
         <p>
-            To collect social media posts we used the official interface provided by each platform. However, to go beyond the limits
-            on the number of requests that can be made, we also had to use a custom browser-based scraper.
+            To collect social media posts we used the official interface provided by each platform. Additionally, 
+            we used a custom browser-based scraper to go beyond the imposed limits on the number of requests. 
         </p>
         <p>
             Hundreds of thousands of social media posts were expected to be collected and it takes on average ${average_review_time_seconds} seconds
@@ -265,7 +265,7 @@
             Once all the social media posts had been reviewed by the participants, we conducted analysis on 4 fronts.
         </p>
         <p>
-            <b>Accounts</b>: We looked at who were behind the accounts that published disinformation – their political affiliation, their partisanship.
+            <b>Belligerents</b>: We looked at who were behind the accounts that published disinformation – their political affiliation, their partisanship.
         </p>
 
         <p>

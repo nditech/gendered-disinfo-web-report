@@ -164,16 +164,29 @@
         left: 0;
         right: 0;
         bottom: 60px;
-        width: 100vw;
-        width: 100%;
+        width: 80vw;
         margin: 0px auto;
 		padding: 0px;
         padding-top: 96px;
         padding-bottom: 96px;
 		text-align: center;
         overflow-y: scroll;
+        overflow-x: hidden;
         z-index: 1;
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
 	}
+
+    /* Hide scrollbar for Chrome, Safari and Opera */
+    main::-webkit-scrollbar {
+        display: none;
+    }
+
+    @media (max-width: 446px) {
+        main{
+            bottom: 84px;
+        }
+    }
 
     .separator {
         height: 16px;
