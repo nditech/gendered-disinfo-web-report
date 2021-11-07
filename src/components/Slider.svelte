@@ -59,9 +59,9 @@
 </script>
 
 <div class='buttons'>
-    <img alt="previous" src='{URL_PREFIX}/assets/imgs/previous.svg' on:click={() => { previous(); }}>
+    <img alt="previous" src='{URL_PREFIX}/assets/imgs/previous.png' on:click={() => { previous(); }}>
     <h1>{title}</h1>
-    <img alt="next" src='{URL_PREFIX}/assets/imgs/next.svg' on:click={() => { next(); }}>
+    <img alt="next" src='{URL_PREFIX}/assets/imgs/next.png' on:click={() => { next(); }}>
 </div>
 
 <style>
@@ -77,7 +77,7 @@
     img {
         width: 48px;
         cursor: pointer;
-        opacity: 0.4;
+        opacity: 0.6;
     }
 
     img:hover {
