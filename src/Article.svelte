@@ -23,6 +23,10 @@
     import { request_GET, getRequestWrapper } from './libs/http.js';
     import { unzip } from './libs/unzip.js';
 
+    // check if on mobile
+    import { isMobile } from './libs/system.js';
+    const _isMobile = isMobile();
+
     // load constants from json file
     import { URL_PREFIX } from './constants.json';
 
@@ -114,7 +118,7 @@
 {/if}
 
 <!-- Background -->
-{#if ready_raw && ready_processed}
+{#if !_isMobile && ready_raw && ready_processed}
     <Background/>
 {/if}
 
