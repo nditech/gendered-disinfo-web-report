@@ -114,7 +114,7 @@
 {/if}
 
 <!-- Background -->
-{#if ready_raw}
+{#if ready_raw && ready_processed}
     <Background/>
 {/if}
 
@@ -383,6 +383,16 @@
         -ms-animation: fadeIn 1.5s;
         opacity: 1.0;
     }
+
+    :global(.fade-in-long) {
+        animation: fadeIn 3.0s;
+        -webkit-animation: fadeIn 3.0s;
+        -moz-animation: fadeIn 3.0s;
+        -o-animation: fadeIn 3.0s;
+        -ms-animation: fadeIn 3.0s;
+        opacity: 1.0;
+    }
+
     @keyframes fadeIn {
         0% {opacity:0;}
         100% {opacity:1;}
@@ -407,6 +417,7 @@
         0% {opacity:0;}
         100% {opacity:1;}
     }
+
 
     :global(.fade-out) {
         animation: fadeOut 1.5s;

@@ -164,7 +164,7 @@
 
 </script>
 
-<canvas id="bg"></canvas>
+<canvas id="bg" class="fade-in-long"></canvas>
 
 <style>
 
