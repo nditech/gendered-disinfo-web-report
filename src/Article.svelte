@@ -338,7 +338,7 @@
     /* D3 tooltip */
     :global(.tooltip) {
         display: none;
-        position: absolute;
+        position: fixed;
         text-align: left;
         border: 1px solid #333;
         background: rgb(255, 255, 255);
