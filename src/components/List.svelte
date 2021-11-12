@@ -23,7 +23,7 @@
     div.content {
         text-align: justify;
         margin: auto;
-        font-weight: var(--font-normal);
+        font-weight: var(--font-weight-normal);
         max-width: var(--max-width);
         color: var(--black);
         font-size: var(--font-size-small);

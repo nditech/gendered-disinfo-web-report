@@ -9,6 +9,9 @@
     // import Pages
     import Article from './Article.svelte';
 
+    // import components
+    import Footer from './components/Footer.svelte';
+
     // grab params from url
     const params = getUrlParams();
     let { lang } = params;
@@ -69,10 +72,7 @@
 <Article lang={lang}/>
 
 <!-- Footer -->
-<div class="footer">
-    <hr>
-    {@html getString(lang, 'footer')}
-</div>
+<Footer lang={lang}/>
 
 <style>
 
@@ -116,21 +116,5 @@
         max-width: 150px;
     }
 
-
-    .footer {
-        position: absolute;
-        z-index: -1;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        margin: 0px auto;
-        padding: 0px;
-        width: 80vw;
-        text-align: center;
-        font-weight: 300;
-        font-style: italic;
-        font-size: var(--font-size-very-small);
-        color: var(--black);
-    }
 
 </style>

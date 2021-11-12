@@ -56,7 +56,7 @@
     }
 
     .political-network h1{
-        font-weight: var(--font-bold);
+        font-weight: var(--font-weight-bold);
         font-size: var(--font-size-very-small);
         color: var(--black);
         margin: 0px;
@@ -64,7 +64,7 @@
     }
 
     .political-network p{
-        font-weight: var(--font-normal);
+        font-weight: var(--font-weight-normal);
         font-size: var(--font-size-very-very-very-small);
         color: var(--black);
         word-spacing: var(--word-spacing-small);

@@ -11,6 +11,7 @@
 
     // import sections
     import Introduction from './sections/1-Introduction.svelte';
+    import GenderedDisinfo from './sections/2-GenderedDisinfo.svelte';
     import Methods from './sections/3-Methods.svelte';
     import CaseStudies from './sections/4-CaseStudies.svelte';
     import Discussion from './sections/5-Discussion.svelte';
@@ -134,6 +135,10 @@
     <div class="separator"></div>
     <Introduction lang={lang}/>
 
+
+    <div class="separator"></div>
+    <GenderedDisinfo lang={lang}/>
+
     <!-- Main content -->
     {#if ready_raw}
 
@@ -167,7 +172,7 @@
         top: 0;
         left: 0;
         right: 0;
-        bottom: 60px;
+        bottom: 79px;
         width: 100%;
         margin: 0px auto;
 		padding: 0px;
@@ -180,9 +185,9 @@
 	}
 
     /* footer starts to span two lines when width < 446px */
-    @media (max-width: 446px) {
+    @media (max-width: 368px) {
         main{
-            bottom: 84px;
+            bottom: 102px;
         }
     }
 
@@ -210,8 +215,9 @@
         --font-size-normal: 1.3em;
         --font-size-large: 1.8em;
         --font-size-very-large: 2em;
-        --font-bold: 600;
-        --font-normal: 400;
+        --font-weight-bold: 600;
+        --font-weight-normal: 400;
+        --font-weight-light: 200;
         --word-spacing: 0.025em;
         --word-spacing-small: 0.01em;
         --letter-spacing: 0.02em;
@@ -258,6 +264,7 @@
 
     :global(p){
         color: var(--black);
+        hyphens: none;
     }
 
     :global(hr) {
@@ -286,7 +293,7 @@
         color: var(--black-dark);
         margin-bottom: 12px;
         padding-top: 12px;
-        font-weight: var(--font-bold);
+        font-weight: var(--font-weight-bold);
         font-size: var(--font-size-very-large);
     }
 
@@ -295,7 +302,7 @@
         padding: 0px;
         color: var(--black-dark);
         margin-bottom: 24px;
-        font-weight: var(--font-normal);
+        font-weight: var(--font-weight-normal);
         font-size: var(--font-size-small);
     }
 
@@ -303,7 +310,7 @@
         text-align: left;
         color: var(--black-dark);
         margin: 1.5em auto 0.5em;
-        font-weight: var(--font-bold);
+        font-weight: var(--font-weight-bold);
         font-size: var(--font-size-normal);
         max-width: var(--max-width);
     }
@@ -312,7 +319,7 @@
         text-align: left;
         color: var(--black-dark);
         margin: 1.5em auto -0.5em;
-        font-weight: var(--font-bold);
+        font-weight: var(--font-weight-bold);
         font-size: var(--font-size-small);
         max-width: var(--max-width);
     }
@@ -323,7 +330,7 @@
         color: var(--black-dark);
         margin: 1.5em auto -0.75em;
         padding: 0px;
-        font-weight: var(--font-bold);
+        font-weight: var(--font-weight-bold);
         font-size: var(--font-size-very-small);
         max-width: var(--max-width);
     }
@@ -337,6 +344,11 @@
         text-decoration: underline;
         font-size: var(--font-size-very-small);
         max-width: var(--max-width);
+    }
+
+
+    :global(.italic) {
+        font-style: italic;
     }
 
     /* D3 tooltip */

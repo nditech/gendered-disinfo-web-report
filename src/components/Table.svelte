@@ -306,13 +306,13 @@
     }
 
     .value {
-        font-weight: var(--font-normal);
+        font-weight: var(--font-weight-normal);
         font-size: var(--font-size-very-very-very-small);
         text-transform: lowercase;
     }
 
     .header {
-        font-weight: var(--font-bold);
+        font-weight: var(--font-weight-bold);
         font-size: var(--font-size-very-very-small);
     }
 

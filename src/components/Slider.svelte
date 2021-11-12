@@ -69,7 +69,7 @@
     h1 {
         margin: auto;
         padding: 0px;
-        font-weight: var(--font-bold);
+        font-weight: var(--font-weight-bold);
         font-size: var(--font-size-small);
         text-transform: capitalize;
     }

@@ -71,7 +71,7 @@
     }
 
     .information-disorder h1{
-        font-weight: var(--font-bold);
+        font-weight: var(--font-weight-bold);
         font-size: var(--font-size-very-small);
         color: var(--black);
         margin: 0px;
@@ -79,7 +79,7 @@
     }
 
     .information-disorder p{
-        font-weight: var(--font-normal);
+        font-weight: var(--font-weight-normal);
         font-size: var(--font-size-very-very-very-small);
         color: var(--black);
         word-spacing: var(--word-spacing-small);
