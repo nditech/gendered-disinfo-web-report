@@ -8,6 +8,7 @@ export const canvas_width = isMobile() ? 320 : 500
 export const canvas_height = isMobile() ? 320 : 500
 export const margin = { top: 8, right: 8, bottom: 8, left: 8 }
 
+
 // Nodes
 export const default_node_opacity = 0.7
 export const default_node_non_opacity = 0.3
@@ -20,6 +21,12 @@ export const default_link_opacity = 0.3
 export const default_link_non_opacity = 0.0
 export const min_lines_width = 8
 export const max_lines_width = 30
+
+// Words
+export const default_word_opacity = 0.7
+export const default_word_non_opacity = 0.3
+export const default_word_move_transition_in_ms = 1000
+export const max_font_size = 12;
 
 // --- Graph Physics ---
 

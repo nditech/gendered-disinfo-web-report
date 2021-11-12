@@ -417,7 +417,8 @@ function compute_nodes(posts, belligerents){
             return {
                 'categories': post['categories'],
                 'published_at': post['published_at'],
-                'url': post['url']
+                'url': post['url'],
+                'lexicon_match': post['lexicon_match']
             }
         })
 
@@ -551,7 +552,7 @@ export function posts_to_graph(posts, categories, belligerents, max_time_diff_in
         // associate a unique id to each post
         const posts_1 = node_1['posts'].map((d, i) => {
             d['id'] = `1-${i}`;
-            d['source'] = node_1['key']
+            d['source'] = node_1['key'];
             return d;
         });
         const posts_2 = node_2['posts'].map((d, i) => {
@@ -593,6 +594,11 @@ export function posts_to_graph(posts, categories, belligerents, max_time_diff_in
 
         // set urls
         vertice['urls'] = _posts.map(post => post['url']);
+
+        // set lexicon match, keep words that are in ALL posts
+        const unique_words_1 = new Set([].concat.apply([], node_1['posts'].map(post => post.lexicon_match)))
+        const unique_words_2 = new Set([].concat.apply([], node_2['posts'].map(post => post.lexicon_match)))
+        vertice['lexicon_match'] = [...new Set([...unique_words_1].filter(x => unique_words_2.has(x)))]
 
         // set html
         vertice['tooltip'] = `

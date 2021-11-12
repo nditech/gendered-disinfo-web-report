@@ -172,7 +172,7 @@
         top: 0;
         left: 0;
         right: 0;
-        bottom: 79px;
+        bottom: 65px;
         width: 100%;
         margin: 0px auto;
 		padding: 0px;
@@ -187,7 +187,7 @@
     /* footer starts to span two lines when width < 446px */
     @media (max-width: 368px) {
         main{
-            bottom: 102px;
+            bottom: 88px;
         }
     }
 

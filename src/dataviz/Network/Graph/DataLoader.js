@@ -15,10 +15,12 @@ export class DataLoader {
         // source data
         this.nodes = nodes
         this.vertices = vertices
+        this.lexicon = this.compute_ranked_lexicon(nodes)
 
         // displayed data
         this._nodes = null
         this._vertices = null
+        this._lexicon = null
 
         // array of all the unique source names - the name of our nodes
         this.keys = [...new Set(this.nodes.map(node => node.key))]
@@ -30,8 +32,10 @@ export class DataLoader {
     deepcopy () {
         this._nodes = JSON.parse(JSON.stringify(this.nodes))
         this._vertices = JSON.parse(JSON.stringify(this.vertices))
+        this._lexicon = JSON.parse(JSON.stringify(this.lexicon))
         this.nodes = JSON.parse(JSON.stringify(this.nodes))
         this.vertices = JSON.parse(JSON.stringify(this.vertices))
+        this.lexicon = JSON.parse(JSON.stringify(this.lexicon))
     }
 
     compute_normalized_adjacency_matrix (vertices) {
@@ -75,4 +79,28 @@ export class DataLoader {
             nodes[i].centrality = centrality[+node.id]
         })
     }
+
+    compute_ranked_lexicon (nodes) {
+        // array of all the unique lexicon matches
+        let all_lexicon_matches = [].concat.apply([], nodes.map(node => [].concat.apply([], node.posts.map(post => post.lexicon_match))))
+        
+        // create a dict of the word count
+        const all_lexicon_matches_dict = {}
+        all_lexicon_matches.forEach(w => {
+            all_lexicon_matches_dict[w] = 0
+        })
+        all_lexicon_matches.forEach(w => {
+            all_lexicon_matches_dict[w] += 1
+        })
+
+        // remove duplicates
+        all_lexicon_matches = [...new Set(all_lexicon_matches)]
+
+        // sort in descending order using count
+        all_lexicon_matches.sort((a, b) => all_lexicon_matches_dict[b] - all_lexicon_matches_dict[a])
+
+        // set
+        return all_lexicon_matches
+    }
+
 }

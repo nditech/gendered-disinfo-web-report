@@ -21,7 +21,7 @@
         max-width: var(--max-width);
         color: var(--black);
         background-color: rgba(255, 255, 255, 0.7);
-        box-shadow: 0px 0px 8px 4px rgba(255, 255, 255, 0.3);
+        box-shadow: 0px 0px 12px 4px rgba(255, 255, 255, 0.7);
     }
 
     @media (max-width : 599px) {

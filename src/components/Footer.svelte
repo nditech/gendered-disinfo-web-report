@@ -10,8 +10,8 @@
 
 <div>
     <hr>
-    <p class="italic">For any inquiries contact us at <a href="mailto:{email}" target="_blank" rel="noopener noreferrer">{email}</a></p>
-    <p class="smaller"><a href="/assets/files/pgp.pub" target="_blank" rel="noopener noreferrer">PGP Public Key</a></p>
+    <p class="italic" style="margin-top: 8px;">For any inquiries contact us at <a href="mailto:{email}" target="_blank" rel="noopener noreferrer">{email}</a></p>
+    <p style="margin-bottom: 8px;"><a href="/assets/files/pgp.pub" target="_blank" rel="noopener noreferrer">PGP Public Key</a></p>
 </div>
 
 
@@ -38,15 +38,17 @@
     }
 
     p {
-        margin: 10px 0px;
-        font-size: var(--font-size-small);
+        margin: 0px 0px 0px;
+        padding: 0px;
+        font-size: var(--font-size-very-small);
         font-weight: var(--font-weight-light);
         color: var(--black);
     }
 
     a {
-        margin: 10px 0px;
-        font-size: var(--font-size-small);
+        margin: 0px;
+        padding: 0px;
+        font-size: var(--font-size-very-small);
         font-weight: var(--font-weight-light);
         color: var(--black);        
     }
@@ -56,20 +58,5 @@
         color: var(--black-light);
     }
 
-    .smaller {
-        font-size: var(--font-size-very-small);
-    }
-
-
-    @media (max-width : 599px) {
-        /* styles for browsers smaller than 600px; */
-        p {
-            font-size: var(--font-size-very-small);
-        }
-
-        a {
-            font-size: var(--font-size-very-small);
-        }
-    }
 
 </style>

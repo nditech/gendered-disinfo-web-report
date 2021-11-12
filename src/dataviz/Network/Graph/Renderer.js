@@ -14,15 +14,15 @@ import { isMobile } from '../../../libs/system.js';
 
 // import env
 import {
-    margin, canvas_width, canvas_height, default_node_color,
+    margin, canvas_width, canvas_height, default_node_color, 
     max_circle_radius, circle_padding, min_lines_width, max_lines_width,
     max_nbr_of_steps_init, max_nbr_of_steps_drag,
+    default_word_opacity, default_word_non_opacity, max_font_size,
     default_link_opacity, default_link_non_opacity, default_node_opacity, default_node_non_opacity
 } from './env.js'
 
 // import lib
 import { distance_between_2_points, does_circles_overlap, is_circle_outside_of_canvas, random_displacement } from './libs/geometry.js'
-
 
 export class Renderer {
     constructor (graph, canvas, tooltip, callback) {
@@ -38,10 +38,12 @@ export class Renderer {
         // our ui elements
         this.canvas = canvas
         this.tooltip = tooltip
-        this.info = null
         this.g_graph = null
-        this.g_graph = null
+        this.g_words = null
         this.max_circle_radius = max_circle_radius
+
+        // words variables
+        this.font_size = null
 
         // init UI
         this.init()
@@ -60,9 +62,18 @@ export class Renderer {
             .attr('height', canvas_height + margin.top + margin.bottom)
             .style('border', '1px solid #ccc')
             .style('background-color', 'white')
+        
+        // font size for the words
+        this.font_size = ((canvas_height + margin.top + margin.bottom) / (this.graph.lexicon.length + 1.0))
+        if(this.font_size > max_font_size){
+            this.font_size = max_font_size;
+        }
 
         // append our groups to the svg
         this.g_graph = graph_svg.append('g');
+        this.g_words = graph_svg.append('g')
+                        .attr('class', 'lexicon')
+                        .attr('transform', 'translate(8, 4)')
 
         // make graph zoomable & draggable
         const drag_zoom = d3.zoom()
@@ -72,10 +83,6 @@ export class Renderer {
             })
         graph_svg.call(drag_zoom)
             .call(drag_zoom.transform, d3.zoomIdentity.translate(canvas_width/2.0, canvas_height/2.0).scale(0.1))
-
-
-        // append an info box
-        this.info = graph_svg.append('text').attr('transform', 'translate(' + ((canvas_width + margin.left + margin.right) / 2.0 - 16) + ',' + (canvas_height + margin.top) + ')')
 
         // find the maximum circle radius to fit all circles inside the canvas
         let _ignition = true
@@ -109,9 +116,6 @@ export class Renderer {
     }
 
     async run_physics (init = false) {
-        // set text
-        // this.info.text('optimizing...')
-
         if (init) {
             this.physics.load_data(this.graph.nodes, this.graph.vertices)
             await this.physics.run(max_nbr_of_steps_init, 10)
@@ -119,9 +123,6 @@ export class Renderer {
             this.physics.load_data(this.graph._nodes, this.graph._vertices)
             await this.physics.run(max_nbr_of_steps_drag, 20)
         }
-
-        // set text
-        // this.info.text('')
     }
 
     are_there_nodes_outside_canvas () {
@@ -247,7 +248,7 @@ export class Renderer {
     get_nodes_linked_to_this_node (node_id) {
         // push all
         let linked_node_ids = []
-        this.graph._vertices.filter(l => {
+        this.graph.vertices.filter(l => {
             return l.node_1_id === node_id || l.node_2_id === node_id
         }).forEach(l => {
             linked_node_ids.push(l.node_1_id === node_id ? l.node_2_id : l.node_1_id)
@@ -274,6 +275,7 @@ export class Renderer {
         // deep copy
         const vertices = this.graph.vertices
         const nodes = this.graph.nodes
+        const lexicon = this.graph.lexicon
 
         // convert nodes to dict
         const nodes_dict = {}
@@ -322,13 +324,18 @@ export class Renderer {
                 this.tooltip.html(() => d['tooltip'])
 
                 // show/hide nodes
-                this.g_graph.selectAll('circle').attr('opacity', (circle_d) => {
+                this.g_graph.selectAll('circle').attr('opacity', circle_d => {
                     return node_ids.includes(circle_d.id) ? default_node_opacity : default_node_non_opacity
                 })
 
                 // show/hide vertices
-                this.g_graph.selectAll('line').attr('opacity', (line_d) => {
+                this.g_graph.selectAll('line').attr('opacity', line_d => {
                     return node_1_id === line_d.node_1_id && node_2_id === line_d.node_2_id ? default_link_opacity : default_link_non_opacity
+                })
+
+                // show/hide words
+                this.g_words.selectAll('text').attr('opacity', text_d => {
+                    return d.lexicon_match.includes(text_d) ? default_word_opacity : default_word_non_opacity
                 })
             })
             .on('mousemove', (event) => {
@@ -344,6 +351,7 @@ export class Renderer {
                 // show all nodes
                 this.g_graph.selectAll('circle').attr('opacity', default_node_opacity)
                 this.g_graph.selectAll('line').attr('opacity', default_link_opacity)
+                this.g_words.selectAll('text').attr('opacity', default_word_opacity)
             })
             .on('click', (e, d) => {
                 if(isMobile()) return;
@@ -389,17 +397,25 @@ export class Renderer {
                 this.tooltip.style('display', 'inline')
                 this.tooltip.html(() => d['tooltip'])
 
+                // get lexicon
+                const node_lexicon = [].concat.apply([], d.posts.map(post => post.lexicon_match));
+
                 // get all the source names linked to this node
                 const linked_node_ids = this.get_nodes_linked_to_this_node(node_id)
 
                 // show/hide nodes
-                this.g_graph.selectAll('circle').attr('opacity', (circle_d, i) => {
+                this.g_graph.selectAll('circle').attr('opacity', circle_d => {
                     return node_id === circle_d.id || linked_node_ids.includes(circle_d.id) ? default_node_opacity : default_node_non_opacity
                 })
 
                 // show/hide vertices
-                this.g_graph.selectAll('line').attr('opacity', (line_d) => {
+                this.g_graph.selectAll('line').attr('opacity', line_d => {
                     return [line_d.node_1_id, line_d.node_2_id].includes(node_id) ? default_link_opacity : default_link_non_opacity
+                })
+
+                // show/hide words
+                this.g_words.selectAll('text').attr('opacity', text_d => {
+                    return node_lexicon.includes(text_d) ? default_word_opacity : default_word_non_opacity
                 })
             })
             .on('mousemove', (event) => {
@@ -415,6 +431,7 @@ export class Renderer {
                 // show all nodes
                 this.g_graph.selectAll('circle').attr('opacity', default_node_opacity)
                 this.g_graph.selectAll('line').attr('opacity', default_link_opacity)
+                this.g_words.selectAll('text').attr('opacity', default_word_opacity)
             })
             .on('click', (e, d) => {
                 if(isMobile()) return;
@@ -452,6 +469,48 @@ export class Renderer {
                 return d.cy - d.radius - 32
             })
             .text(d => d['key'])
+
+        
+        // draw words
+        this.g_words.selectAll('text')
+            .data(lexicon)
+            .enter()
+            .append('text')
+            .attr('cursor', 'pointer')
+            .attr('opacity', default_word_opacity)
+            .attr('font-size', `${this.font_size}px`)
+            .attr('y', (d, i) => {
+                return `${(i+1) * this.font_size}px`
+            })
+            .text(d => d)
+            .on('mouseover', (_, d) => {
+
+                // show/hide words
+                this.g_words.selectAll('text').attr('opacity', text_d => {
+                    return d === text_d ? default_word_opacity : default_word_non_opacity
+                })
+
+                // show/hide nodes
+                this.g_graph.selectAll('circle').attr('opacity', circle_d => {
+                    const node_lexicon = [].concat.apply([], circle_d.posts.map(post => post.lexicon_match));
+                    return node_lexicon.includes(d) ? default_node_opacity : default_node_non_opacity
+                })
+                this.g_graph.selectAll('text').attr('opacity', circle_d => {
+                    const node_lexicon = [].concat.apply([], circle_d.posts.map(post => post.lexicon_match));
+                    return node_lexicon.includes(d) ? default_word_opacity : default_word_non_opacity
+                })
+
+                // show/hide links
+                this.g_graph.selectAll('line').attr('opacity', line_d => {
+                    return line_d.lexicon_match.includes(d) ? default_link_opacity : default_link_non_opacity
+                })
+            })
+            .on('mouseout', () => {
+                this.g_graph.selectAll('circle').attr('opacity', default_node_opacity)
+                this.g_graph.selectAll('text').attr('opacity', default_word_opacity)
+                this.g_graph.selectAll('line').attr('opacity', default_link_opacity)
+                this.g_words.selectAll('text').attr('opacity', default_word_opacity)
+            })
     }
 
     update_positions (nodes) {

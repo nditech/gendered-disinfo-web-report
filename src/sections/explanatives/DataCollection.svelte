@@ -1,8 +1,5 @@
 <script>
 
-    // import ui lib
-    import { onMount } from 'svelte';
-
     // import constants
     import { URL_PREFIX } from '../../constants.json'
 
@@ -51,14 +48,6 @@
         align-items: center;
         text-align: center;
         max-width: 200px;
-    }
-
-    .data-collection h1{
-        font-weight: var(--font-weight-normal);
-        font-size: var(--font-size-very-small);
-        color: var(--black);
-        margin: 0px;
-        padding: 0px;
     }
 
     img {
