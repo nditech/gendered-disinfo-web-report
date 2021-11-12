@@ -10,8 +10,8 @@
 
 <div>
     <hr>
-    <p class="italic" style="margin-top: 8px;">For any inquiries contact us at <a href="mailto:{email}" target="_blank" rel="noopener noreferrer">{email}</a></p>
-    <p style="margin-bottom: 8px;"><a href="/assets/files/pgp.pub" target="_blank" rel="noopener noreferrer">PGP Public Key</a></p>
+    <p class="italic" style="margin-top: 8px;">For any inquiries contact us at <a href="mailto:{email}" target="_blank">{email}</a></p>
+    <p style="margin-bottom: 8px;"><a href="/assets/files/pgp.pub.txt" target="_blank" rel="noopener noreferrer">PGP Public Key</a></p>
 </div>
 
 

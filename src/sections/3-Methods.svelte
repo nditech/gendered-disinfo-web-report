@@ -192,8 +192,8 @@
         </h1>
 
         <p>
-            To aggregate social media posts we used the official interface provided by each platform. Additionally, 
-            we used a custom browser-based scraper to collect beyond the imposed limits on the number of requests. 
+            To collect social media posts, we used the official interface provided by each platform and a custom browser-based 
+            scraper to go beyond the imposed limits on the number of requests. 
         </p>
         <p>
             Hundreds of thousands of social media posts were expected to be collected and it takes on average ${average_review_time_seconds} seconds

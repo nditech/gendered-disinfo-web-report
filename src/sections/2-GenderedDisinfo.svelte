@@ -84,8 +84,9 @@
         This ultimately threatens the democratic space and gets amplified beyond the political world. According to NDI’s report 
         on addressing gender and disinformation, “reflecting the permeability of our media environments, this gendered 
         disinformation can, in turn, be used either by non-state-based actors to pursue Online VAW-P to their own ends or be 
-        unintentionally amplified by media professionals and citizens who are not able to discern its lack of integrity.” It is 
-        also crucial to highlight that state-based gendered disinformation campaigns are not limited to authoritarian states. 
+        unintentionally amplified by media professionals and citizens who are not able to discern its lack of integrity” – 
+        <a href="https://www.ndi.org/publications/addressing-online-misogyny-and-gendered-disinformation-how-guide" target="_blank">ref</a>. 
+        It is also crucial to highlight that state-based gendered disinformation campaigns are not limited to authoritarian states. 
         Countries with strong women’s rights policies and a history of democracy are also susceptible to these types of attacks. 
     </p>
     `;

@@ -187,6 +187,7 @@
 
 </script>
 
+<br>
 {#if _headers !== null }
     <!-- Headers -->
     <div class="table-headers" id="{table_id_headers}" >

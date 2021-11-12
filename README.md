@@ -49,3 +49,13 @@ Here are the instructions to host the website inside an AWS S3 bucket.
 
 4. Drag and drop all the content from the [public](./public/) folder of this repo and then click on "Upload"
 
+
+## Updating the PGP key
+
+Viewers might want to reach out by email. They can encrypt their message using the PGP public key displayed at 
+the bottom of the page. 
+
+Many tools are available to generate a new public/private key pair, encrypt a message using the public key, and 
+decrypt the message using the private key. 
+
+For testing purposes, you can use the online [pgptool](https://pgptool.org/). 
