@@ -66,7 +66,7 @@
         padding: 0px;
         margin: 0px;
         height: auto;
-        opacity: 0.6;
+        opacity: 0.75;
         filter: grayscale(100%);
         border-radius: 50%;
         border: 1px solid #000;

@@ -265,6 +265,14 @@
     :global(p){
         color: var(--black);
         hyphens: none;
+        margin: 8px 0px;
+        padding: 0px;
+    }
+
+    :global(li){
+        hyphens: none;
+        margin: 8px 0px;
+        padding: 0px;
     }
 
     :global(hr) {

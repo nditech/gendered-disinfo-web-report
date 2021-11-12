@@ -11,7 +11,7 @@
 <div>
     <hr>
     <p class="italic">For any inquiries contact us at <a href="mailto:{email}" target="_blank" rel="noopener noreferrer">{email}</a></p>
-    <p><a href="/assets/files/pgp.pub" target="_blank" rel="noopener noreferrer">PGP Public Key</a></p>
+    <p class="smaller"><a href="/assets/files/pgp.pub" target="_blank" rel="noopener noreferrer">PGP Public Key</a></p>
 </div>
 
 
@@ -54,6 +54,10 @@
     a:hover {
         text-decoration: underline;
         color: var(--black-light);
+    }
+
+    .smaller {
+        font-size: var(--font-size-very-small);
     }
 
 

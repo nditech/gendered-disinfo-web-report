@@ -15,11 +15,13 @@
 
     div.content {
         text-align: justify;
-        margin: auto;
+        margin: 0px auto;
+        padding: 0px;
         font-weight: var(--font-weight-normal);
         max-width: var(--max-width);
         color: var(--black);
-        hyphens: auto;
+        background-color: rgba(255, 255, 255, 0.7);
+        box-shadow: 0px 0px 8px 4px rgba(255, 255, 255, 0.3);
     }
 
     @media (max-width : 599px) {
