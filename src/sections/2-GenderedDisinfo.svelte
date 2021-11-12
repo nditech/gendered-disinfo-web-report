@@ -12,7 +12,7 @@
 
 
     // ---
-    const title = 'Gendered Definition';
+    const title = 'Gender';
 
     const subtitle_1 = `Gendered Disinformation`;
 
@@ -24,9 +24,6 @@
         women. These attacks fall under the umbrella of online violence against women in politics (VAW-P), which “encompasses 
         the wide variety of attacks women experience when participating in democratic discourse on the internet.”        
         – <a href="https://www.ndi.org/publications/addressing-online-misogyny-and-gendered-disinformation-how-guide" target="_blank">ref</a>.
-    </p>
-    <p>
-        There are three common types of online information intended to cause harm in a political context. They are outlined below.
     </p>
     `;
 
@@ -101,9 +98,9 @@
     <h1 class="subsubtitle">{subtitle_1}</h1>
     <TextBlock html={html_1}/>
 
-    <div>
+    <!-- <div>
         <img alt="information venn diagram" src="{URL_PREFIX}/assets/explanatives/information_venn.png">
-    </div>
+    </div> -->
 
     <TextBlock html={html_2}/>
 

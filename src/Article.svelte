@@ -336,7 +336,7 @@
     :global(.subsubsubtitle) {
         text-align: left;
         color: var(--black-dark);
-        margin: 1.5em auto -0.75em;
+        margin: 1.5em auto -0.5em;
         padding: 0px;
         font-weight: var(--font-weight-bold);
         font-size: var(--font-size-very-small);
@@ -347,13 +347,12 @@
     :global(.subsubsubtitle-underline) {
         text-align: left;
         color: var(--black-dark);
-        margin: 1.5em auto -0.75em;
+        margin: 1.5em auto -0.5em;
         padding: 0px;
         text-decoration: underline;
         font-size: var(--font-size-very-small);
         max-width: var(--max-width);
     }
-
 
     :global(.italic) {
         font-style: italic;

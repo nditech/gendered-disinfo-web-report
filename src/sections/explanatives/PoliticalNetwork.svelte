@@ -71,6 +71,8 @@
         margin: 0px;
         padding: 0px;
         line-height: var(--line-height-small);
+        background-color: rgba(255, 255, 255, 0.7);
+        box-shadow: 0px 0px 12px 4px rgba(255, 255, 255, 0.7);
     }
 
     img {

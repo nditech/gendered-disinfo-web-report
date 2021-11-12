@@ -36,7 +36,6 @@ function get_tooltip_text (d) {
         <h2>${d.source_name}</h2>
         <p><b>${d.data.length} ${d.data.length > 1 ? 'posts' : 'post'}</b></p>
         ${d.data.map(p => `<p>${p.published_at}</p>`).join('')}
-
     `
 }
 
@@ -347,7 +346,8 @@ export function draw (matrix, source_mapping, time_scale, color_scale, canvas, t
             .attr('x', '0px')
             .attr('y', `0px`)
             .attr('transform', (d,i) => {
-                const adjust = i % 2 ? -2 : -6;
+                // TODO
+                const adjust = (i === 2) ? -2 : -6;
                 return `translate(${_time_scale(new Date(d.date)) - 2}, ${adjust}), rotate(-20)`;
             })
             .text(d => d.title)
