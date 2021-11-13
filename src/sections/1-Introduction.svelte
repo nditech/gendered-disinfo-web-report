@@ -38,9 +38,9 @@
             In this study, we seek to establish the prevalence and nature of gendered disinformation campaigns during periods of society-scale shock.
             To do this, we conduct parallel investigations in two different countries: Brazil and Lebanon. The studies are methodologically
             identical - which enables us to make comparisons between the two country contexts. Further, our choice of Brazil and Lebanon
-            provides the opportunity to examine the prevalence of disinformation in quite different societies - permitting this first study
+            provides the opportunity to examine disinformation in quite different societies - permitting this first study
             to provide a broad characterization of disinformation campaigns as they may exist. We look for disinformation campaigns in the
-            places where they are often most prevalent and easiest to find: social media.
+            places where they are often most widespread and easiest to find: social media.
         </p>
 
         <p>
