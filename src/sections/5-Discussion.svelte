@@ -12,11 +12,6 @@
     const title = 'Discussion';
     const html = `
     <p>
-        Evidence of gendered disinformation campaigns within the studied time frame was found to be negligible. Although harmful 
-        gendered narratives published by political insiders were discovered, prevalence, and characteristic display of 
-        coordination were not.  
-    </p>
-    <p>
         One of two alternatives could explain our findings. First, active state-based gendered disinformation did occur and the 
         methodology or its implementation failed to detect it. Second, given the definitions and parameters of the study, the 
         phenomenon did not occur. 
