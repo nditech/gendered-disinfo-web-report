@@ -50,11 +50,11 @@
         </p>
 
         <p>
-            We looked for disinformation campaigns in the places where they are often most widespread and easiest 
-            to find: social media. We expected to find a lot of gendered disinformation, but surprisingly
-            evidence of gendered disinformation campaigns within the studied time frame was found to be negligible. 
-            Although harmful gendered narratives published by political insiders were discovered, 
-            prevalence, and characteristic display of coordination was not. 
+            We looked for disinformation campaigns in the places where they are often most widespread and easiest to find: social media. 
+            More specifically, we looked at 4 social media platforms – Telegram, Youtube, Facebook and Twitter. We expected to find a lot of gendered disinformation, 
+            but surprisingly evidence of gendered disinformation campaigns within the studied time frame was found to be negligible. 
+            Although harmful gendered narratives published by political insiders were discovered, prevalence, and characteristic 
+            display of coordination was not. 
         </p>
 
         <p>

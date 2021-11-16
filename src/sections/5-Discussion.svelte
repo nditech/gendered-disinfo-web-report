@@ -18,7 +18,7 @@
     </p>
     <p>
         Our analysis and experience suggests that of the two options, the second is the most plausible. To substantiate our proposition, 
-        here are some precautions that were taken . 
+        here are some precautions that were taken. 
     </p>
     <ol>
         <li>
