@@ -12,7 +12,7 @@
     const title = 'Conclusion';
     const html = `
         <p>
-            ...
+            
         </p>
     `;
 

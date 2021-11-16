@@ -18,16 +18,18 @@
     const title = 'Interventions';
     const text_1 = `
     <p>
-        The rationale for conducting this research stems from the conviction that we can't tackle what we don't know or 
-        can't measure. In this section, we discuss the strategies that can be employed to counter the spread of harmful narratives. 
+        We can't tackle what we don't know or can't measure. This is the rationale for conducting this research.
+        However, knowing and measuring is not enough to achieve impact, surfacing these information-related problems 
+        should lead to concrete actions.  
     </p>
     <p>
-        Countering narratives can feel like a sisyphean task. Narratives do not have a face, they live in 
-        the <i>zeitgeist</i>. People are carriers.
+        Countering narratives can feel like a sisyphean task. Narratives do not have a face, they live in the <i>zeitgeist</i> and 
+        trying to censor often leads to the <a href="https://en.wikipedia.org/wiki/Streisand_effect" target="_blank">Streisand effect</a>.
+        Only a holistic approach, requiring the benevolent involvement and collaboration of all stakeholders 
+        (i.e. government, media, civil society, population), can lead to a healthy information space.
     </p>
     <p>
-        Achieving a healthy information space requires the benevolent involvement and collaboration of all 
-        stakeholders – government, media, civil society, international community, diaspora, and local population.
+        In this section, we provide a blueprint that can be employed to counter the spread of harmful narratives.
     </p>
     `
 
@@ -80,10 +82,7 @@
             Resources should be deployed to mend affected communities
         </li>
         <li>
-            Thought leaders should be held accountable
-        </li>
-        <li>
-            Surgical banning of accounts
+            Thought leaders should be held accountable, paired with surgical and temporary banning of accounts. 
         </li>
     </ul>
     `;
@@ -134,6 +133,8 @@
     img {
         border: 1px solid var(--black);
         max-width: var(--max-width-small);
+        filter: grayscale(100%);
+        opacity: 0.8;
     }
 
     .caption {

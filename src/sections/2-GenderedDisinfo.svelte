@@ -111,9 +111,9 @@
 
     <TextBlock html={html_3}/>
 
-    <h1 class="subsubtitle">{subtitle_2}</h1>
+    <!-- <h1 class="subsubtitle">{subtitle_2}</h1>
 
-    <TextBlock html={html_4}/>
+    <TextBlock html={html_4}/> -->
 
     <h1 class="subsubtitle">{subtitle_3}</h1>
 
@@ -139,6 +139,8 @@
     img {
         border: 1px solid var(--black);
         max-width: var(--max-width-small);
+        filter: grayscale(100%);
+        opacity: 0.6;
     }
 
 
