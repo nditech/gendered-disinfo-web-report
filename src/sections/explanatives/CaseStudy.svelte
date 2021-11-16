@@ -49,8 +49,7 @@
     const subsubtitle_3 = "Political Network";
     const subsubtitle_4 = "Lexicon";
     const subsubtitle_5 = "Dataset";
-    const subsubtitle_6 = "Annotation";
-    const subsubtitle_7 = "Results"
+    const subsubtitle_6 = "Results"
 
     // --- text ---
     const text_2 = `
@@ -86,13 +85,6 @@
     `;
 
 
-    const text_6 = `
-    <p>
-        After filtering, <b>${submissions.length.toLocaleString()} posts</b> remained and were sent to our in-situ participants to be reviewed.
-    </p>
-    `;
-
-
 </script>
 
     <h1 class="subsubsubtitle">{subsubtitle_1}</h1>
@@ -115,9 +107,6 @@
     <DataSearchEngine posts={posts} dictionary={dictionary} params={params}/>
 
     <h1 class="subsubtitle">{subsubtitle_6}</h1>
-    <TextBlock html={text_6}/>
-
-    <h1 class="subsubtitle">{subsubtitle_7}</h1>
     <Results sources={sources} submissions={submissions} events={events} categories={categories} dictionary={dictionary} lexicon={lexicon}/>
 
 <style>

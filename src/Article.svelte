@@ -15,7 +15,8 @@
     import Methods from './sections/3-Methods.svelte';
     import CaseStudies from './sections/4-CaseStudies.svelte';
     import Discussion from './sections/5-Discussion.svelte';
-    import Conclusion from './sections/6-Conclusion.svelte';
+    import Interventions from './sections/6-Interventions.svelte';
+    import Conclusion from './sections/7-Conclusion.svelte';
 
     // import libs
     import { onMount } from 'svelte';
@@ -156,6 +157,9 @@
 
         <div class="separator"></div>
         <Discussion lang={lang}/>
+
+        <div class="separator"></div>
+        <Interventions lang={lang}/>
 
         <div class="separator"></div>
         <Conclusion lang={lang}/>

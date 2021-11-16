@@ -101,7 +101,8 @@
     // --- texts ---
     const text_1 = `
     <p>
-        We discovered a total of <b>${submissions_of_interest.length}</b> posts containing disinformation from <b>${belligerents.length}</b> belligerents or <b>${nbr_of_belligerents_accounts}</b> social media accounts.
+        After filtering, <b>${submissions.length.toLocaleString()} posts</b> remained and were sent to our in-situ participants to be reviewed.
+        Annotation unearthed a total of <b>${submissions_of_interest.length}</b> posts containing disinformation from <b>${belligerents.length}</b> belligerents or <b>${nbr_of_belligerents_accounts}</b> social media accounts.
     </p>
     `;
 

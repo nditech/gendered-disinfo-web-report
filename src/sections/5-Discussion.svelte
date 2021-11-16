@@ -31,8 +31,8 @@
         </li>
         <li>
             Annotation of the social media posts was sliced into many small increments. Results would be reviewed 
-            and tools would be tuned after each completed chunk. Unearthed during the review, keywords are added 
-            to the lexicon, events to the timeline, and political insiders to the network map.
+            and tools would be tuned after each completed chunk. Keywords would be added to the lexicon, 
+            events to the timeline, and political insiders to the network map.
         </li>
         <li>
             Flagging a social media post as containing disinformation is a judgement call. To curb subjectivity, 
@@ -53,13 +53,13 @@
         of Brazil and Lebanon. 
     </p>
     <p>
-        Strong gendered beliefs are mainstream and are regularly part of the public discourse and women lived experience. 
-        However, political elites are careful with the content they post to avoid a public record of overtly gendered attacks. 
+        Strong gendered beliefs are mainstream and are regularly part of the public discourse. However, political elites are 
+        careful with the content they post to avoid a public record of overtly gendered attacks. 
     </p>
     <p>
         In Bolsonaro's Brazil and the sectarian Lebanese society, information published by the political network is weaponized 
-        on creation. The population is accustomed and desensitized to deceit, calumny, or inveracity. In this context, disinformation 
-        blends in with the rest of the information landscape and is often impossible to distinguish. 
+        on creation. The population is accustomed and desensitized to deceit, calumny, or inveracity. In this context, 
+        disinformation might not be the predilected vehicle as it blends in with the rest of the information landscape. 
     </p>
     `;
 
