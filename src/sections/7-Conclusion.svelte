@@ -27,7 +27,7 @@
             We expect our partners in Brazil and Lebanon to build upon it and use it in subsequent projects involving the examination 
             of Telegram, Youtube, Facebook and Twitter.
         </p>
-        <p>TEST - 3</p>
+        <p>TEST - 2</p>
     `;
 
 </script>
