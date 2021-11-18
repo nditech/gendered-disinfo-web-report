@@ -19,7 +19,7 @@
             In the wake of shocks, people want answers but facts have yet to emerge. As a result, falsehoods proliferate with incredible 
             velocity. Forums, digital and non-digital, become a capharnaum. In charge of managing the response, the State and institutions 
             take steps to inform and guide a concerned public. Opportunistic leaders can leverage their position for power consolidation. 
-            They overlook, condone, or amplify inveracities to undermine the integrity of the information space. In extremis, they employ 
+            They overlook, condone, or amplify false information to undermine the integrity of the information space. In extremis, they employ 
             propaganda to manipulate public opinion. To achieve their goal, they must somehow disguise the deceit in an appealing, 
             disarming veneer that will encourage its intended audience to accept it uncritically. Familiar ideas and widely-held beliefs, 
             including established cultural norms, can provide such “packaging”.
