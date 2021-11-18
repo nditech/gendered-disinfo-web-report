@@ -25,8 +25,8 @@
 
     const html_0 = `
         <p>
-            The objective of this study was to identify and characterize gendered disinformation campaigns on social media that happened
-            around society-scale shocks. The plan for each investigation was to:
+            The objective of this study was to identify and characterize gendered disinformation campaigns on social media that 
+            happened around society-scale shocks. Each investigation was carried out in three phases:
         </p>
 
         <ol>
@@ -71,8 +71,8 @@
             that automated methods - whether standard keyword-based natural language processing techniques or cutting edge intelligent systems
             - are presently unable to perform this task. Disinformation identification is an intensely culturally-grounded and nuanced activity
             - the facts are that, to find, engage with, and understand it, we depend on people who have a deep working
-            knowledge of the culture. Our most promising approach involves combining their knowledge and efforts with computational methods.
-            We designed this study with this guiding principle in mind.
+            knowledge of the culture. The approach we use here involves combining their knowledge and efforts with computational 
+            methods. We designed this study with this guiding principle in mind. We designed this study with this guiding principle in mind.
         </p>
         <p>
             The remainder of this subsection is focused on explaining the approach we took to gather a dataset of social media data that
@@ -103,7 +103,7 @@
             </li>
 
             <li>
-                Data collection: using the accounts from step #3 and the lexicon from step #4, we collected social media data that
+                Automated data collection: using the accounts from step #3 and the lexicon from step #4, we collected social media data that
                 was enriched for gendered disinformation campaign content.
             </li>
 
@@ -113,7 +113,7 @@
             </li>
         </ol>
         <p>
-            At the end of step #6, we had produced an annotated dataset of social media posts in which specific features had been
+            By the end of step #6, we had produced an annotated dataset of social media posts in which specific features had been
             identified for each post, allowing analysis in phase 3. Before discussing phase 3, we provide below details about
             several of the steps above.
         </p>
@@ -273,7 +273,7 @@
         </p>
 
         <p>
-            <b>Engagement</b>: Disaggregated by social media platforms, we looked at which posts received the most amount of engagement.
+            <b>Engagement</b>: Disaggregated by social media platforms, we looked at which posts received the highest of engagement.
         </p>
 
         <p>
