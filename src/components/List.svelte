@@ -11,7 +11,7 @@
     <ol type="i">
         {#each elements as element}
         <li>
-            {element}
+            {@html element}
         </li>
         {/each}
     </ol>

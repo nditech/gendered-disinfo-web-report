@@ -25,8 +25,7 @@
 
     const html_0 = `
         <p>
-            The objective of this study was to identify and characterize gendered disinformation campaigns on social media that 
-            happened around society-scale shocks. Each investigation was carried out in three phases:
+            The objective of this study was to identify and characterize gendered disinformation campaigns on social media that happened around society-scale shocks. Each investigation was carried out in three phases:
         </p>
 
         <ol>
@@ -63,22 +62,13 @@
     const subtitle_2 = `Phase 2: Collecting social media content`;
     const html_2 = `
         <p>
-            In this phase, we had to solve a challenging data collection problem. Specifically, we needed a way to find the specific social
-            media accounts and posts that had been weaponized within a vast sea of social media content.
+            In this phase, we had to solve a challenging data collection problem. Specifically, we needed a way to find the specific social media accounts and posts that had been weaponized within a vast sea of social media content.
         </p>
         <p>
-            While the rise of AI-powered systems might suggest this a promising avenue for detecting this kind of content at scale, the reality is
-            that automated methods - whether standard keyword-based natural language processing techniques or cutting edge intelligent systems
-            - are presently unable to perform this task. Disinformation identification is an intensely culturally-grounded and nuanced activity
-            - the facts are that, to find, engage with, and understand it, we depend on people who have a deep working
-            knowledge of the culture. The approach we use here involves combining their knowledge and efforts with computational 
-            methods. We designed this study with this guiding principle in mind. We designed this study with this guiding principle in mind.
+            While the rise of AI-powered systems might suggest this a promising avenue for detecting this kind of content at scale, the reality is that automated methods - whether standard keyword-based natural language processing techniques or cutting edge intelligent systems - are presently unable to perform this task. Disinformation identification is an intensely culturally-grounded and nuanced activity: the facts are that, to find, engage with, and understand it, we depend on people who have a deep working knowledge of the culture. The approach we use here involves combining their knowledge and efforts with computational methods. We designed this study with this guiding principle in mind.
         </p>
         <p>
-            The remainder of this subsection is focused on explaining the approach we took to gather a dataset of social media data that
-            provided a representative picture of disinformation campaigns within a particular national-cultural context. At a high-level,
-            this approach involved highly-interactive work with a dedicated group of in-country participants. Data collection consisted of the
-            following steps:
+            The remainder of this subsection is focused on explaining the approach we took to gather a dataset of social media data that provided a representative picture of disinformation campaigns within a particular national-cultural context. At a high-level, this approach involved highly-interactive work with dedicated groups of in-country participants in each of our case-study countries. Data collection consisted of the following steps:
         </p>
 
         <ol>
@@ -113,9 +103,7 @@
             </li>
         </ol>
         <p>
-            By the end of step #6, we had produced an annotated dataset of social media posts in which specific features had been
-            identified for each post, allowing analysis in phase 3. Before discussing phase 3, we provide below details about
-            several of the steps above.
+            By the end of step #6, we had produced an annotated dataset of social media posts in which specific features had been identified for each post, allowing analysis in phase 3. Before discussing phase 3, we provide below details about several of the steps above.
         </p>
     `;
 
@@ -127,10 +115,7 @@
         </h1>
 
         <p>
-            Information comes in different flavours. Participants were asked to go on social media and find examples for each type
-            – <a href="https://firstdraftnews.org/articles/information-disorder-the-techniques-we-saw-in-2016-have-evolved/" target="_blank"><i>ref.</i></a>
-            Throughout the exercise, we provided guidance on how to effectively use the search tool of each social media platform.
-            During this workshop, we collectively identified narratives (both positive and negative) that are established within the culture.
+            Information comes in different flavours. Participants were asked to go on social media and find examples for each type – ref. Throughout the exercise, we provided guidance on how to effectively use the search tool of each social media platform. During this workshop, we collectively identified narratives (both positive and negative) that are established within the culture.
         </p>
     `;
 
@@ -141,9 +126,7 @@
         </h1>
 
         <p>
-            Moments of shocks are transient states following an upsetting event – health pandemic, conflict & violence, natural disaster.
-            They shape or instigate new narratives, some of which are disinformative. Participants were tasked with laying out the arborescence
-            of the shock down to the events known to have triggered a counter media response from political groups.
+            Moments of shocks are transient states following an upsetting event – health pandemic, conflict & violence, natural disaster. They shape or instigate new narratives, some of which are disinformative. Participants were tasked with laying out the arborescence of the shock down to the events known to have triggered a counter media response from political groups.
         </p>
     `;
 
@@ -178,10 +161,7 @@
         </h1>
 
         <p>
-            The lexicon was built with two parts. The first part contained a list of popular idioms, keywords or expressions that
-            characterized the events shortlisted during step #2. The second part contained a list of words strongly associated
-            with each narrative identified during the step #1 of this phase. During the construction of this second component,
-            participants were encouraged to include any and all derogatory language.
+            The lexicon was built with two parts. The first part contained a list of popular idioms, keywords or expressions that characterized the events shortlisted during step #2. The second part contained a list of words strongly associated with each narrative identified during the step #1 of this phase, particularly terms linked to cultural norms about gender. During the construction of this second component, participants were encouraged to include any and all derogatory language.
         </p>
     `;
 

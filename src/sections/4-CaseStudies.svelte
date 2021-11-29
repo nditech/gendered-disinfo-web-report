@@ -19,7 +19,7 @@
         aims to foster academic debate around issues involving law and technology, especially internet policy.
     </p>
     `;
-    const brazil_events_description = 'covid response';
+    const brazil_events_description = "Bolsonaro's government response to the COVID pandemic";
 
 
     const subtitle_2 = "Lebanon";
