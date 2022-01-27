@@ -80867,7 +80867,16 @@ var app = (function () {
     	let section;
     	let h1;
     	let t1;
-    	let html_tag;
+    	let p0;
+    	let t3;
+    	let br0;
+    	let t4;
+    	let p1;
+    	let t6;
+    	let br1;
+    	let br2;
+    	let br3;
+    	let br4;
 
     	const block = {
     		c: function create() {
@@ -80875,11 +80884,28 @@ var app = (function () {
     			h1 = element("h1");
     			h1.textContent = `${title}`;
     			t1 = space();
-    			html_tag = new HtmlTag();
+    			p0 = element("p");
+    			p0.textContent = "The results and our confidence in the methodology leads us to believe there was no state-based gendered disinformation \n        campaign within the studied time frame in both Lebanon and Brazil. Nonetheless, the likely absence of gendered disinformation \n        campaigns in the two contexts considered here doesn’t discount the possibility that there are disinformation campaigns \n        underway around other narratives, or other gendered disinformation campaigns in other societies.";
+    			t3 = space();
+    			br0 = element("br");
+    			t4 = space();
+    			p1 = element("p");
+    			p1.textContent = "The social media research methodology layed out in this report is applicable in other contexts with other themes, \n        account networks, timeframes, languages, and geographies. Its implementation in two dissimilar societies is indicative \n        of its adaptability. We expect our partners in Brazil and Lebanon to build upon it and use it in future work involving \n        the examination of Telegram, Youtube, Facebook and Twitter.";
+    			t6 = space();
+    			br1 = element("br");
+    			br2 = element("br");
+    			br3 = element("br");
+    			br4 = element("br");
     			attr_dev(h1, "class", "subtitle");
-    			add_location(h1, file$3, 30, 4, 1231);
-    			html_tag.a = null;
-    			add_location(section, file$3, 28, 0, 1216);
+    			add_location(h1, file$3, 13, 4, 156);
+    			add_location(p0, file$3, 15, 4, 199);
+    			add_location(br0, file$3, 22, 4, 713);
+    			add_location(p1, file$3, 24, 4, 727);
+    			add_location(br1, file$3, 31, 4, 1193);
+    			add_location(br2, file$3, 31, 8, 1197);
+    			add_location(br3, file$3, 31, 12, 1201);
+    			add_location(br4, file$3, 31, 16, 1205);
+    			add_location(section, file$3, 11, 0, 141);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -80888,7 +80914,16 @@ var app = (function () {
     			insert_dev(target, section, anchor);
     			append_dev(section, h1);
     			append_dev(section, t1);
-    			html_tag.m(/*html*/ ctx[0], section);
+    			append_dev(section, p0);
+    			append_dev(section, t3);
+    			append_dev(section, br0);
+    			append_dev(section, t4);
+    			append_dev(section, p1);
+    			append_dev(section, t6);
+    			append_dev(section, br1);
+    			append_dev(section, br2);
+    			append_dev(section, br3);
+    			append_dev(section, br4);
     		},
     		p: noop$4,
     		i: noop$4,
@@ -80916,25 +80951,6 @@ var app = (function () {
     	validate_slots('_7_Conclusion', slots, []);
     	let { lang } = $$props;
     	const id = "conclusion";
-
-    	const html = `
-        <p>
-            The results and our confidence in the methodology leads us to believe there was no state-based gendered disinformation 
-            campaign within the studied time frame in both Lebanon and Brazil. Nonetheless, the likely absence of gendered disinformation 
-            campaigns in the two contexts considered here doesn’t discount the possibility that there are disinformation campaigns 
-            underway around other narratives, or other gendered disinformation campaigns in other societies.
-        </p>
-
-        <br>
-        
-        <p>
-            The social media research methodology layed out in this report is applicable in other contexts with other themes, 
-            account networks, timeframes, languages, and geographies. Its implementation in two dissimilar societies is indicative 
-            of its adaptability. We expect our partners in Brazil and Lebanon to build upon it and use it in future work involving 
-            the examination of Telegram, Youtube, Facebook and Twitter. 
-        </p>
-    `;
-
     	const writable_props = ['lang'];
 
     	Object.keys($$props).forEach(key => {
@@ -80942,26 +80958,26 @@ var app = (function () {
     	});
 
     	$$self.$$set = $$props => {
-    		if ('lang' in $$props) $$invalidate(1, lang = $$props.lang);
+    		if ('lang' in $$props) $$invalidate(0, lang = $$props.lang);
     	};
 
-    	$$self.$capture_state = () => ({ lang, id, title, html });
+    	$$self.$capture_state = () => ({ lang, id, title });
 
     	$$self.$inject_state = $$props => {
-    		if ('lang' in $$props) $$invalidate(1, lang = $$props.lang);
+    		if ('lang' in $$props) $$invalidate(0, lang = $$props.lang);
     	};
 
     	if ($$props && "$$inject" in $$props) {
     		$$self.$inject_state($$props.$$inject);
     	}
 
-    	return [html, lang, id];
+    	return [lang, id];
     }
 
     class _7_Conclusion extends SvelteComponentDev {
     	constructor(options) {
     		super(options);
-    		init$2(this, options, instance$3, create_fragment$3, safe_not_equal, { lang: 1, id: 2 });
+    		init$2(this, options, instance$3, create_fragment$3, safe_not_equal, { lang: 0, id: 1 });
 
     		dispatch_dev("SvelteRegisterComponent", {
     			component: this,
@@ -80973,7 +80989,7 @@ var app = (function () {
     		const { ctx } = this.$$;
     		const props = options.props || {};
 
-    		if (/*lang*/ ctx[1] === undefined && !('lang' in props)) {
+    		if (/*lang*/ ctx[0] === undefined && !('lang' in props)) {
     			console.warn("<_7_Conclusion> was created without expected prop 'lang'");
     		}
     	}
@@ -80987,7 +81003,7 @@ var app = (function () {
     	}
 
     	get id() {
-    		return this.$$.ctx[2];
+    		return this.$$.ctx[1];
     	}
 
     	set id(value) {
