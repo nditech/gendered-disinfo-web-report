@@ -66,8 +66,9 @@
 <style>
 
     .container {
-        text-align: center;
+        text-align: left;
         overflow: hidden;
+        margin-left: 32px;
     }
 
 </style>
