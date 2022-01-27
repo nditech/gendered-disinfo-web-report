@@ -3,6 +3,7 @@
     // properties
     export let lang;
     export let data;
+    export let sources;
     export let events;
 
     // ids of elements
@@ -27,7 +28,7 @@
         if(!Array.isArray(data)) return;
 
         // convert to matrix
-        const { matrix, source_mapping, time_scale, color_scale } = matrixify(data, NBR_OF_TIME_STEPS);
+        const { matrix, source_mapping, time_scale, color_scales } = matrixify(data, sources, NBR_OF_TIME_STEPS);
 
         // grab main
         const main = document.querySelector('main');
@@ -42,7 +43,7 @@
         const screen_height = window.screen.height;
 
         // draw
-        const { svg } = draw(matrix, source_mapping, time_scale, color_scale, canvas, tooltip, events);
+        const { svg } = draw(matrix, source_mapping, time_scale, color_scales, canvas, tooltip, events);
         let drawn = false;
 
         // animate
@@ -74,6 +75,7 @@
 
     .container {
         overflow: hidden;
+        text-align: center;
     }
 
     #heatmap {

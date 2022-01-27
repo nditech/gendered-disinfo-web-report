@@ -12,6 +12,8 @@ export const block_padding = 3;
 
 
 // --- Color Scale ---
-export const color_a = "#fff";
-export const color_b = "#3d5c94";
-export const color_c = "#293e65";
+export const color_a = "#333";
+export const color_b = "#ccc";
+
+// Text
+export const text_color = '#222';

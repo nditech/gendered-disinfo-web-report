@@ -9,18 +9,18 @@ import { isMobile } from '../../libs/system.js';
 // import env
 import { width, margin,
         block_width, block_padding,
-        color_a, color_b, color_c } from './env.js';
+        color_a, color_b, text_color } from './env.js';
 
 
 function get_tooltip_text(d){
     return `
     <h2>${d['source_name']}</h2>
     <p>Platform: ${d['source_type']}</p>
-    <p>Reactions: ${(+d['reactions']).toLocaleString()}</p>
+    <p>${d['interactions']['name']}: ${(+d['interactions']['count']).toLocaleString()}</p>
     `;
 }
 
-export function init(data, canvas, tooltip, max_reactions, title){
+export function init(data, canvas, tooltip, max_interactions, title){
 
     // compute height
     const height = Math.floor(data.length*block_width/width)*block_width + block_width;
@@ -31,10 +31,10 @@ export function init(data, canvas, tooltip, max_reactions, title){
         .attr('height', height + margin.top + margin.bottom)
 
     // sort posts
-    data.sort((a, b) => b['reactions'] - a['reactions']);
+    data.sort((a, b) => +b['interactions']['count'] - a['interactions']['count']);
 
     // create a d3 color scale
-    const color_scale = d3.scaleLinear().domain([-max_reactions/20.0, max_reactions, Math.round(Math.ceil(max_reactions/1000.0)*1000.0)]).range([color_a, color_b, color_c])
+    const color_scale = d3.scaleLinear().domain([0, Math.round(Math.ceil(max_interactions/1000.0)*1000.0)]).range([color_b, color_a])
 
     // create group in which we will append our objects
     const rect_g = svg.append('g')
@@ -48,7 +48,7 @@ export function init(data, canvas, tooltip, max_reactions, title){
         .attr('x', '0px')
         .attr('y', '20px')
         .attr('text-anchor', 'start')
-        .attr('fill', '#444')
+        .attr('fill', text_color)
         .text(title);
 
 
@@ -61,9 +61,9 @@ export function init(data, canvas, tooltip, max_reactions, title){
         .attr('y', '0px')
         .attr('width', `${block_width-block_padding}px`)
         .attr('height', `${block_width-block_padding}px`)
-        .attr('fill', d => color_scale(d['reactions']))
+        .attr('fill', d => color_scale(d['interactions']['count']))
         .attr('stroke-width', '0px')
-        .attr('stroke', d => color_scale(d['reactions']))
+        .attr('stroke', d => color_scale(d['interactions']['count']))
         .attr('cursor', 'pointer')
         .on('mouseover', function(event, d) {
             if (+d.value === 0) return

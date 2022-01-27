@@ -1,10 +1,23 @@
 {
-    "APP_NAME": "CAI Seshat",
     "SUPPORTED_LANGUAGES": [
         {"key": "eng", "name": "English", "mobile": "en"},
         {"key": "fra", "name": "Français", "mobile": "fr"},
         {"key": "por", "name": "Português", "mobile": "pt"},
         {"key": "ara", "name": "عَرَبي", "mobile": "عَرَ"}
     ],
-    "URL_PREFIX": ""
+    "DOMAIN": "https://gendereddisinfoandshocks.demcloud.org/",
+    "SUBDIRECTORY": "/",
+    "TITLE": "State-Based Disinformation Campaigns During Times of Crises",
+    "DESCRIPTION": "Case Studies : Lebanon & Brazil",
+    "THUMBNAIL_FILEPATH": "thumbnail.jpg",
+    "AUTHOR": "National Democratic Institute",
+    "AUTHOR_DOMAIN": "https://ndi.org/",
+    "OF_INTEREST": [
+        [ 
+            {"key": "contains_disinfo", "value": "yes"},
+            {"key": "harms_women", "value": "yes"}            
+        ]
+    ],
+    "MIN_NBR_OF_PUBLICATION_OF_INTEREST": 1,
+    "EMAIL": "info@charitableanalytics.org"
 }

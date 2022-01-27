@@ -10,7 +10,7 @@
     import { getFormattedDateTime } from '../libs/dt.js';
 
     // import constants
-    import { URL_PREFIX } from '../constants.json';
+    import { SUBDIRECTORY } from '../constants.json';
 
     // ids
     const table_id_values = `${table_id}-values`;
@@ -223,7 +223,7 @@
 
     <!-- Download -->
     <div class="download">
-        <img alt="download" on:click={() => { download() }} src='{URL_PREFIX}/assets/imgs/download.png' width=30 height=30/>
+        <img alt="download" on:click={() => { download() }} src='{SUBDIRECTORY}assets/images/download.png' width=30 height=30/>
     </div>
 {/if}
 

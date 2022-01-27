@@ -11,7 +11,7 @@
     let __value;
 
     // import constants
-    import { URL_PREFIX } from '../constants.json';
+    import { SUBDIRECTORY } from '../constants.json';
 
     // locale lib
     import { clean_str } from '../libs/locale.js';
@@ -89,7 +89,7 @@
 <div id="search-bar" style="margin: auto;">
     <input title="search-input" type="text" placeholder={placeholder} bind:value={_value}>
     <button disabled={disable} title="Search" on:click={_onsubmit}>
-        <img alt="Search" src="{URL_PREFIX}/assets/imgs/search.svg">
+        <img alt="Search" src="{SUBDIRECTORY}assets/images/search.svg">
     </button>
 </div>
 

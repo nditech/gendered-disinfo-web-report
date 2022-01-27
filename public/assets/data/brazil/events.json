@@ -37,11 +37,16 @@
     {
         "description": "President Jair Bolsonaro says he will not take a coronavirus vaccine",
         "date": "2020-11-26",
-        "title": "Jair Bolsonaro announces he won't take the vaccine"
+        "title": "Jair Bolsonaro won't take the vaccine"
     },
     {
         "description": "President Jair Bolsonaro chooses doctor Marcelo Queiroga to replace Eduardo Pazuello as fourth Minister of Health",
         "date": "2021-03-15",
-        "title": "Marcelo Queiroga, Health minister"
+        "title": "Marcelo Queiroga becomes Health minister"
+    },
+    {
+        "description": "Brazil's Senate opens its inquiry into President Jair Bolsonaro's handling of the COVID-19 pandemic.",
+        "date": "2021-04-27",
+        "title": "Senate opens inquiry"
     }
 ]

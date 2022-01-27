@@ -27,3 +27,27 @@ export function url_to_platform_type(url){
         return null;
     }
 }
+
+export function post_to_interactions(post){
+
+    // get source type
+    const source_type = url_to_platform_type(post['url'])
+
+    let interactions = {
+        'name': '',
+        'count': 0
+    };
+
+    if(source_type === 'twitter'){
+        interactions['name'] = 'shares';
+        interactions['count'] = post['engagement']['shares'];
+    }else if (source_type === 'facebook'){
+        interactions['name'] = 'reactions';
+        interactions['count'] = post['engagement']['reactions'];
+    }else if(['youtube', 'telegram'].includes(source_type)){
+        interactions['name'] = 'views';
+        interactions['count'] = post['engagement']['views'];
+    }
+
+    return interactions;
+}

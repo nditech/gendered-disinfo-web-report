@@ -3,6 +3,7 @@
 // import d3
 import * as d3 from 'd3'
 
+import { url_to_platform_type, post_to_interactions } from '../../libs/socialmedia.js';
 
 function get_min_max_dates(data, padding_in_days = 30, key = 'published_at'){
     // get data min and max date (with a N day padding)
@@ -19,7 +20,7 @@ function get_min_max_dates(data, padding_in_days = 30, key = 'published_at'){
  *  col : date
  *  value : nbr of submissions
  */
-export function matrixify (submissions, nbr_time_steps) {
+export function matrixify (submissions, sources, nbr_time_steps) {
     // get submissions' min/max date
     const padding_in_days = 2
     const [min_date, max_date] = get_min_max_dates(submissions, padding_in_days)
@@ -28,7 +29,13 @@ export function matrixify (submissions, nbr_time_steps) {
     const time_scale = d3.scaleTime().rangeRound([0, nbr_time_steps - 1]).domain([min_date, max_date])
 
     // get all the source names
-    const source_names = [...new Set(submissions.map(submission => submission.source_name))]
+    const submission_source_names = [...new Set(submissions.map(submission => submission.source_name))]
+    const source_names = [...new Set(sources.map(source => source.name))].filter(source_name => submission_source_names.includes(source_name))
+
+    // get all the source types
+    let source_types = new Set();
+    sources.map(source => Object.keys(source['endpoint'])).forEach(_source_types => _source_types.forEach(source_type => source_types.add(source_type)));
+    source_types = [...source_types];
 
     // create an object mapping a source name to an index
     const source_mapping = {}
@@ -49,6 +56,7 @@ export function matrixify (submissions, nbr_time_steps) {
 
         // get source name index
         const source_index = source_mapping[source_name]
+        if (source_index === undefined) return;
 
         // get date index
         const date_index = time_scale(date)
@@ -57,53 +65,39 @@ export function matrixify (submissions, nbr_time_steps) {
         matrix[source_index][date_index] = matrix[source_index][date_index].concat([submission])
     })
 
-    // sort in descending order of the most
-    const _arr = []
+    // get max value per source types
+    let source_type_max_value = {}
+    source_types.forEach(source_type => {
+        submissions.filter(submission => url_to_platform_type(submission['url']) === source_type).forEach(_submission => {
+            const interactions = post_to_interactions(_submission);
+            const current_max = source_type_max_value[source_type];
+            if(current_max === undefined || +interactions['count'] > current_max){
+                source_type_max_value[source_type] = +interactions['count'];
+            }
+        })
+    })
+    
+    // get max number of posts per row
     let max_value = 0
     matrix.forEach((row, row_id) => {
-        // get max number of posts in this row
         const _max_value = Math.max(...row.map(el => el.length))
 
         // update max
         if (_max_value > max_value) {
             max_value = _max_value
         }
-
-        // sum the nbr of posts in this row
-        const total = row.map(el => el.length).reduce((a, b) => a + b, 0)
-
-        // push
-        _arr.push({
-            row_id: row_id,
-            total: total
-        })
-    })
-    _arr.sort((a, b) => b.total - a.total)
-
-    // reorder
-    const _matrix = []
-    const _source_mapping = {}
-    _arr.forEach((d, new_row_id) => {
-        // get data
-        const { row_id } = d
-
-        // get source name
-        const source_name = inv_source_mapping[row_id]
-
-        // set source name
-        _source_mapping[source_name] = new_row_id
-
-        // push row
-        _matrix.push(matrix[row_id])
     })
 
     // create a d3 color scale
-    const color_scale = d3.scalePow().domain([-0.3, max_value, Math.round(Math.ceil(max_value/10.0)*10.0)])
+    let color_scales = {}
+    source_types.forEach(source_type => {
+        color_scales[source_type] = d3.scalePow().domain([0, source_type_max_value[source_type]])
+    })
 
     return {
-        matrix: _matrix,
-        source_mapping: _source_mapping,
+        matrix: matrix,
+        source_mapping: source_mapping,
         time_scale: time_scale,
-        color_scale: color_scale
+        color_scales: color_scales
     }
 }

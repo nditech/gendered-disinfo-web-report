@@ -9,10 +9,11 @@ import * as d3 from 'd3';
 // import env
 import {
  canvas_width, canvas_height, words_width, margin, click_disabled,
-    block_half_padding, text_left_padding, color_a, color_b, color_c, text_color
+    block_half_padding, text_left_padding, color_a, color_b, color_c, text_color, text_font_family
 } from './0-env.js'
 
 // import system lib
+import { url_to_platform_type, post_to_interactions } from '../../libs/socialmedia.js';
 import { isMobile } from '../../libs/system.js';
 
 function capitalize (str) {
@@ -35,11 +36,15 @@ function get_tooltip_text (d) {
     return `
         <h2>${d.source_name}</h2>
         <p><b>${d.data.length} ${d.data.length > 1 ? 'posts' : 'post'}</b></p>
-        ${d.data.map(p => `<p>${p.published_at}</p>`).join('')}
+        ${d.data.map(post => {
+            const source_type = url_to_platform_type(post['url'])
+            const interactions = post_to_interactions(post);
+            return `<p>${post.published_at}: ${source_type}, ${interactions['name']}: ${(+interactions['count']).toLocaleString()}</p>`
+        }).join('')}
     `
 }
 
-function convert_data_to_df (matrix, source_mapping, color_scale, block_w, font_size) {
+function convert_data_to_df (matrix, source_mapping, color_scales, block_w, font_size) {
     // convert sources to dataframe
     const sources_df = []
     const inv_source_mapping = {}
@@ -68,6 +73,20 @@ function convert_data_to_df (matrix, source_mapping, color_scale, block_w, font_
             // get source name
             const source_name = inv_source_mapping[i]
 
+            // init var
+            let _color = color_a;
+            let max_count = 0;
+
+            if (element.length > 0){
+                element.forEach(el => {
+                    const count = post_to_interactions(el)['count'];
+                    if(count > max_count){
+                        max_count = count;
+                        _color = color_scales[url_to_platform_type(el['url'])](count);
+                    }
+                })
+            }
+
             matrix_df.push({
                 row_id: i,
                 source_name: source_name,
@@ -75,7 +94,7 @@ function convert_data_to_df (matrix, source_mapping, color_scale, block_w, font_
                 y: i * (block_w + block_half_padding),
                 width: block_w,
                 height: block_w,
-                fill: color_scale(element.length),
+                fill: _color,
                 value: element.length,
                 data: element
             })
@@ -159,8 +178,9 @@ function draw_legend (g, color_scale, block_w, font_size, heatmap_height) {
         .enter()
         .append('text')
         .attr('font-size', `${block_w}px`)
-        .attr('font-family', 'sans-serif')
+        .attr('font-family', 'Roboto-Mono')
         .attr('letter-spacing', '0.3')
+        .style('fill', text_color)
         .attr('x', d => d.x)
         .attr('y', `${margin.top + heatmap_height + 32 + font_size - block_half_padding}px`)
         .text(d => d.text)
@@ -180,10 +200,12 @@ function draw_timeline (g, time_scale, block_w) {
     axis.style("font-size", block_w);
 }
 
-export function draw (matrix, source_mapping, time_scale, color_scale, canvas, tooltip, events) {
+export function draw (matrix, source_mapping, time_scale, color_scales, canvas, tooltip, events) {
 
     // set colors
-    color_scale = color_scale.range([color_a, color_b, color_c]);
+    Object.keys(color_scales).forEach(color_scale_key => {
+        color_scales[color_scale_key] = color_scales[color_scale_key].range([color_a, color_b, color_c]);
+    })
 
     // get number of row and columns
     const nbr_of_cols = 1.0 * matrix[0].length
@@ -202,7 +224,7 @@ export function draw (matrix, source_mapping, time_scale, color_scale, canvas, t
     const font_size = block_w
 
     // reorganize our data into a drawable dataframe
-    const { matrix_df, sources_df } = convert_data_to_df(matrix, source_mapping, color_scale, block_w, font_size)
+    const { matrix_df, sources_df } = convert_data_to_df(matrix, source_mapping, color_scales, block_w, font_size)
 
     // create svg
     const svg = canvas.append('svg')
@@ -284,7 +306,8 @@ export function draw (matrix, source_mapping, time_scale, color_scale, canvas, t
         .enter()
         .append('text')
         .attr('font-size', `${block_w}px`)
-        .attr('font-family', 'sans-serif')
+        .attr('font-family', text_font_family)
+        .style('fill', text_color)
         .attr('x', '0px')
         .attr('y', d => `${d.y}px`)
         .text(d => d.text)
@@ -304,7 +327,7 @@ export function draw (matrix, source_mapping, time_scale, color_scale, canvas, t
         .attr('transform', 'translate(' + (margin.left + actual_dataviz_width/2.0) + ',8)')
 
     // draw legend
-    draw_legend(legend_g, color_scale, block_w, font_size, heatmap_height)
+    // draw_legend(legend_g, color_scale, block_w, font_size, heatmap_height)
 
     // resize the time scale to fit the bottom of the heatmap
     const _time_scale = time_scale.copy()
@@ -343,6 +366,7 @@ export function draw (matrix, source_mapping, time_scale, color_scale, canvas, t
             .attr('font-size', `${block_w}px`)
             .attr('letter-spacing', '0.3')
             .attr('fill', text_color)
+            .attr('font-family', text_font_family)
             .attr('x', '0px')
             .attr('y', `0px`)
             .attr('transform', (d,i) => {

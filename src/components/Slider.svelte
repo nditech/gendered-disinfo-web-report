@@ -9,7 +9,7 @@
     import { onMount } from "svelte";
 
     // import constants
-    import { URL_PREFIX } from '../constants.json';
+    import { SUBDIRECTORY } from '../constants.json';
 
     // displayed
     let pointer = -1;
@@ -59,9 +59,9 @@
 </script>
 
 <div class='buttons'>
-    <img alt="previous" src='{URL_PREFIX}/assets/imgs/previous.png' on:click={() => { previous(); }}>
+    <img alt="previous" src='{SUBDIRECTORY}assets/images/previous.png' on:click={() => { previous(); }}>
     <h1>{title}</h1>
-    <img alt="next" src='{URL_PREFIX}/assets/imgs/next.png' on:click={() => { next(); }}>
+    <img alt="next" src='{SUBDIRECTORY}assets/images/next.png' on:click={() => { next(); }}>
 </div>
 
 <style>

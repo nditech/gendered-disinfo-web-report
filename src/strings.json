@@ -1,28 +1,4 @@
 {
-    "footer": {
-        "eng": "<p>For inquiries contact us at <a>info@charitableanalytics.org</a></p>",
-        "fra": "<p>Pour nous rejoindre, contactez nous au <a>info@charitableanalytics.org</a></p>",
-        "por": "<p>Para mais informações contacte-nos em <a>info@charitableanalytics.org</a></p>",
-        "ara": "<p><a>info@charitableanalytics.org</a>للاستفسارات اتصل بنا على</p>"
-    },
-    "title": {
-        "eng": "Examining State-Based Disinformation Campaigns During Times of Crises",
-        "fra": "Examination des Campagnes de Désinformation Étatique en contexte de Crises",
-        "por": "Examinando campanhas de desinformação baseadas no Estado durante tempos de crise",
-        "ara": "فحص حملات المعلومات المضللة للدولة خلال أوقات الأزمات"
-    },
-    "short_title": {
-        "eng": "State-Based Disinformation Campaigns During Times of Crises",
-        "fra": "Campagnes de Désinformation Étatique en contexte de Crises",
-        "por": "Campanhas de desinformação baseadas no estado durante tempos de crise",
-        "ara": "حملات تضليل الدولة في أوقات الأزمات"
-    },
-    "case_studies": {
-        "eng": "Case Studies : Lebanon & Brazil",
-        "fra": "Études de cas : Liban & Brésil",
-        "por": "Estudos de Caso: Líbano & Brasil",
-        "ara": " دراسة حالة: لبنا نالبرازيل"
-    },
     "title_executive_summary": {
         "eng": "Executive Summary",
         "fra": "Résumé",

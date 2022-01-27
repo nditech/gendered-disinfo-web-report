@@ -1,9 +1,9 @@
 {
     "examples": {
         "lexicon": [
-            "<p>A <b class='red'>Hidroxicloroquina</b> cada vez mais demonstra sua eficácia em portadores do COVID-19. Tenho recebido relatos de todo o Brasil nesse sentido. Preservar vidas e empregos.</p><p>-Jair M. Bolsonaro</p>",
-            "<p>Agradeço a solidariedade, Presidente @JairBolsonaro! Da mesma maneira, me solidarizo em razão de todas as <b class='red'>notícias falsas</b> e ataques vis que sofre diariamente. Mas a VERDADE prevalecerá sobre quaisquer ilações!</p><p>-Carla Zambelli</p>",
-            "<p>Tá engraçado de ver transmissão ao vivo da Globo, os jornalistas iniciam a reportagem já olhando pra trás pensando que pode vir alguém soltando o grito entalado na garganta dos cidadãos e que virou moda no Brasil: <b class='red'>GLOBOLIXO</b>!</p><p>-Carlos Jordy</p>"
+            "<p>A <b class='red'>Hidroxicloroquina</b> cada vez mais demonstra sua eficacia em portadores do COVID-19. Tenho recebido relatos de todo o Brasil nesse sentido. Preservar vidas e empregos.</p><p style='margin-top: 8px;'>-Jair M. Bolsonaro</p>",
+            "<p>Agradeco a solidariedade, Presidente @JairBolsonaro! Da mesma maneira, me solidarizo em razao de todas as <b class='red'>noticias falsas</b> e ataques vis que sofre diariamente. Mas a VERDADE prevalecera sobre quaisquer ilacões!</p><p style='margin-top: 8px;'>-Carla Zambelli</p>",
+            "<p>Ta engracado de ver transmissao ao vivo da Globo, os jornalistas iniciam a reportagem ja olhando pra tras pensando que pode vir alguem soltando o grito entalado na garganta dos cidadaos e que virou moda no Brasil: <b class='red'>GLOBOLIXO</b>!</p><p style='margin-top: 8px;'>-Carlos Jordy</p>"
         ],
         "queries": [
             "jair bolsonaro hidroxicloroquina",

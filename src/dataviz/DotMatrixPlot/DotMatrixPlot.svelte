@@ -4,7 +4,7 @@
     export let lang;
     export let data;
     export let title;
-    export let max_reactions;
+    export let max_interactions;
 
     // import d3
     import * as d3 from 'd3';
@@ -32,7 +32,7 @@
         const screen_height = window.screen.height;
 
         // init
-        const { svg } = init(data, canvas, tooltip, max_reactions, title);
+        const { svg } = init(data, canvas, tooltip, max_interactions, title);
         let drawn = false;
 
         // animate
@@ -66,6 +66,7 @@
 <style>
 
     .container {
+        text-align: center;
         overflow: hidden;
     }
 

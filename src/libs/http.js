@@ -1,10 +1,7 @@
 'use strict'
 
-// cookie lib
-import { getCookie } from './cookie.js'
-
 // locale lib
-import { getString } from './locale.js'
+import { getString } from './translator.js'
 
 // prompt lib
 import swal from 'sweetalert'
@@ -18,6 +15,7 @@ const httpTimeout = 40000
 * @param url           The target url
 */
 export function request_GET (url, responseType = 'json') {
+
     return new Promise(function (resolve, reject) {
         const xhr = new XMLHttpRequest()
 
@@ -33,13 +31,6 @@ export function request_GET (url, responseType = 'json') {
             if (xhr.status >= 200 && xhr.status < 300) {
                 // If successful
                 resolve(xhr.response)
-            } else if (+xhr.status === 401) {
-                // NEED TO REDIRECT TO LOGIN
-                reject({
-                    status: xhr.status,
-                    statusText: xhr.statusText,
-                    message: message
-                })
             } else {
                 // If failed
                 reject({
@@ -77,10 +68,6 @@ export function request_GET (url, responseType = 'json') {
             })
         }
 
-        // Set session id
-        const sid = getCookie('sid')
-        xhr.setRequestHeader('sid', sid)
-
         // Send the request
         xhr.send()
     })
@@ -114,13 +101,6 @@ export function request_POST (url, payload = {}) {
             if (xhr.status >= 200 && xhr.status < 300) {
                 // If successful
                 resolve(xhr.response)
-            } else if (+xhr.status === 401) {
-                // NEED TO REDIRECT TO LOGIN
-                reject({
-                    status: xhr.status,
-                    statusText: xhr.statusText,
-                    message: message
-                })
             } else {
                 // If failed
                 reject({
@@ -161,10 +141,6 @@ export function request_POST (url, payload = {}) {
         // Send the proper header information along with the request
         xhr.setRequestHeader('Content-Type', 'application/json')
 
-        // Set session id
-        const sid = getCookie('sid')
-        xhr.setRequestHeader('sid', sid)
-
         // Send the request
         xhr.send(payload)
     })
@@ -179,11 +155,6 @@ export async function getRequestWrapper (endpoint, lang, type = 'json') {
             // grab info
             const { status, statusText, message } = error
             const swal_text = (typeof message === 'string') ? message : statusText
-
-            // if unauthorized, reload page
-            if (+status === 401) {
-                location.reload()
-            }
 
             // prompt user
             swal({

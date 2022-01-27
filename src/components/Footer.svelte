@@ -3,17 +3,20 @@
     // properties
     export let lang;
 
-    const email = "info@charitableanalytics.org"
+    // load constants
+    import { SUBDIRECTORY, EMAIL } from '../constants.json';
+
+    // load libs
+    import { getString } from '../libs/translator.js';
 
 </script>
 
 
-<div>
+<div class="footer-up">
     <hr>
-    <p class="italic" style="margin-top: 8px;">For any inquiries contact us at <a href="mailto:{email}" target="_blank">{email}</a></p>
-    <p style="margin-bottom: 8px;"><a href="/assets/files/pgp.pub.txt" target="_blank" rel="noopener noreferrer">PGP Public Key</a></p>
+    <p class="italic" style="margin-top: 8px; margin-bottom: 8px;">For inquiries contact us at <a href="mailto:{EMAIL}">{EMAIL}</a></p>
+    <p style="margin-bottom: 8px;"><a href='{SUBDIRECTORY}assets/files/pgp.pub.txt' target='_blank'>PGP Public Key</a></p>
 </div>
-
 
 
 <style>
@@ -24,17 +27,13 @@
         left: 0;
         right: 0;
         width: 100%;
+        height: var(--footer-height);
         text-align: center;
         margin: 0px auto;
         padding: 0px;
-        z-index: 0;
-        background-color: transparent;
-    }
-
-    hr {
-        max-width: var(--max-width-large);
-        margin: 0px auto;
-        padding: 0px;
+        border-top: 1px solid var(--black);
+        background-color: var(--white);
+        z-index: 999;
     }
 
     p {
@@ -42,20 +41,6 @@
         padding: 0px;
         font-size: var(--font-size-very-small);
         font-weight: var(--font-weight-light);
-        color: var(--black);
-    }
-
-    a {
-        margin: 0px;
-        padding: 0px;
-        font-size: var(--font-size-very-small);
-        font-weight: var(--font-weight-light);
-        color: var(--black);        
-    }
-
-    a:hover {
-        text-decoration: underline;
-        color: var(--black-light);
     }
 
 

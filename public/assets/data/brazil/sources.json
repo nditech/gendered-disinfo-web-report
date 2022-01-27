@@ -10,7 +10,7 @@
         }
     },
     {
-        "name": "sérgio moro",
+        "name": "sergio moro",
         "description": "",
         "endpoint": {
             "twitter": {
@@ -21,7 +21,7 @@
     },
     {
         "name": "janaina paschoal",
-        "description": "Brazilian jurist and politician. Member of the Brazilian Social Liberal Party, having been elected state representative of the State of São Paulo in 2018",
+        "description": "Brazilian jurist and politician. Member of the Brazilian Social Liberal Party, having been elected state representative of the State of Sao Paulo in 2018",
         "endpoint": {
             "twitter": {
                 "url": "https://twitter.com/JanainaDoBrasil",
@@ -241,7 +241,7 @@
     },
     {
         "name": "ana caroline campagnolo",
-        "description": "Ana Caroline Campagnolo Galvão is a Brazilian politician, author, lecturer and historian.",
+        "description": "Ana Caroline Campagnolo Galvao is a Brazilian politician, author, lecturer and historian.",
         "endpoint": {
             "facebook": {
                 "url": "https://www.facebook.com/AnaCampagnolo",
@@ -578,7 +578,7 @@
         }
     },
     {
-        "name": "josué neto",
+        "name": "josue neto",
         "description": "",
         "endpoint": {
             "twitter": {
@@ -708,8 +708,8 @@
         }
     },
     {
-        "name": "mamãe falei",
-        "description": "Arthur Moledo do Val, also known by his pseudonym Mamãe Falei, is a Brazilian politician, activist member of Free Brazil Movement, YouTuber and entrepreneur.",
+        "name": "mamae falei",
+        "description": "Arthur Moledo do Val, also known by his pseudonym Mamae Falei, is a Brazilian politician, activist member of Free Brazil Movement, YouTuber and entrepreneur.",
         "endpoint": {
             "twitter": {
                 "url": "https://twitter.com/arthurmoledoval",
@@ -730,7 +730,7 @@
         }
     },
     {
-        "name": "terça livre",
+        "name": "terca livre",
         "description": "",
         "endpoint": {
             "twitter": {
@@ -758,7 +758,7 @@
         }
     },
     {
-        "name": "joão doria",
+        "name": "joao doria",
         "description": "",
         "endpoint": {
             "twitter": {
@@ -776,7 +776,7 @@
         }
     },
     {
-        "name": "ernesto araújo",
+        "name": "ernesto araujo",
         "description": "",
         "endpoint": {
             "twitter": {
@@ -832,7 +832,7 @@
         }
     },
     {
-        "name": "oswaldo eustáquio",
+        "name": "oswaldo eustaquio",
         "description": "Investigative journalist, Pro-Bolsonaro",
         "endpoint": {
             "twitter": {
@@ -939,7 +939,7 @@
     },
     {
         "name": "magno malta",
-        "description": "Magno Malta is a Brazilian politician. He has represented Espírito Santo in the Federal Senate since 2003. Previously he was a deputy from Espirito Santo from 1999 to 2003. He is a member of the Party of the Republic.",
+        "description": "Magno Malta is a Brazilian politician. He has represented Espirito Santo in the Federal Senate since 2003. Previously he was a deputy from Espirito Santo from 1999 to 2003. He is a member of the Party of the Republic.",
         "endpoint": {
             "twitter": {
                 "url": "https://twitter.com/magnomalta",
@@ -982,7 +982,7 @@
         }
     },
     {
-        "name": "vera magalhães",
+        "name": "vera magalhaes",
         "description": "",
         "endpoint": {
             "twitter": {
@@ -1001,7 +1001,7 @@
     },
     {
         "name": "fernando holiday",
-        "description": "Fernando Holiday is a Brazilian politician affiliated to the New Party and councilor of the city of São Paulo. He was elected with 48,055 votes in the 2016 elections, and became the first openly gay councilor.",
+        "description": "Fernando Holiday is a Brazilian politician affiliated to the New Party and councilor of the city of Sao Paulo. He was elected with 48,055 votes in the 2016 elections, and became the first openly gay councilor.",
         "endpoint": {
             "twitter": {
                 "url": "https://twitter.com/fernandoholiday",
@@ -1018,7 +1018,7 @@
         }
     },
     {
-        "name": "luiz bragança",
+        "name": "luiz braganca",
         "description": "",
         "endpoint": {
             "twitter": {
@@ -1092,7 +1092,7 @@
         }
     },
     {
-        "name": "andré mendonça",
+        "name": "andre mendonca",
         "description": "",
         "endpoint": {
             "twitter": {
@@ -1102,7 +1102,7 @@
         }
     },
     {
-        "name": "sikêra júnior",
+        "name": "sikera junior",
         "description": "",
         "endpoint": {
             "twitter": {
@@ -1158,7 +1158,7 @@
         }
     },
     {
-        "name": "andré porciuncula",
+        "name": "andre porciuncula",
         "description": "National Secretary of Promotion and Incentive to Culture of the Special Secretariat of Culture",
         "endpoint": {
             "twitter": {

@@ -53,6 +53,7 @@
 
     .container {
         overflow: hidden;
+        text-align: center;
     }
 
     #network {

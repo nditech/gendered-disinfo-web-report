@@ -3,11 +3,55 @@
     // properties
     export let data;
 
+    // import constants
+    import { SUBDIRECTORY } from '../constants.json';
+
+    function nFormatter(num){
+        if (num >= 1000000000) {
+            return (num / 1000000000).toFixed(1).replace(/\.0$/, '') + 'G';
+        }
+        if (num >= 1000000) {
+            return (num / 1000000).toFixed(1).replace(/\.0$/, '') + 'M';
+        }
+        if (num >= 1000) {
+            return (num / 1000).toFixed(1).replace(/\.0$/, '') + 'K';
+        }
+        return num;
+    }
+
+    // process
+    const portraits = data.map(source => {
+
+        // get all the endpoints key as an array & sorted in increasing alphabetical order (e.g ['facebook', 'telegram'])
+        const endpoints = Object.keys(source['endpoint']).sort();
+
+        // map the endpoints to an HTML block 
+        const elements = endpoints.map(key => {
+            return `
+                <a target="_blank" href="${source['endpoint'][key]['url']}"" style="margin: 8px; width: 25%">
+                    <img src="${SUBDIRECTORY}assets/images/${key}.png" width=16 height=16>
+                    <p style="font-size:12px;margin:0px;padding:0px">
+                        ${nFormatter(source['endpoint'][key]['followers'])}
+                    </p>
+                </a>
+            `
+        })
+
+        const html = `<div style="display: flex; justify-content: center;">${elements.join('')}</div>`
+
+        return {
+            'name': source['name'],
+            'description': source['description'],
+            'endpoint': source['endpoint'],
+            'src': `${SUBDIRECTORY}assets/portraits/${source['name'].replaceAll(' ', '_')}.jpg`,
+            'html': html
+        }
+    })
 
 </script>
 
-<div id="portraits-container" class="container">
-    {#each data as datum}
+<div class="container">
+    {#each portraits as datum}
         <div class='portraits'>
             <img alt={datum['name']} src={datum['src']}>
             <h1>{datum['name']}</h1>
@@ -17,8 +61,8 @@
     {/each}
 </div>
 
-<style>
 
+<style>
 
     .container {
         text-align: center;
@@ -28,6 +72,9 @@
         justify-content: center;
         max-width: var(--max-width-large);
         padding: 0px;
+        max-height: 400px;
+        overflow-y: scroll;
+        border: 0.5px solid var(--white-dark);
     }
 
     .portraits{
@@ -59,8 +106,6 @@
         margin: 0px;
         padding: 0px;
         line-height: var(--line-height-small);
-        background-color: rgba(255, 255, 255, 0.7);
-        box-shadow: 0px 0px 12px 4px rgba(255, 255, 255, 0.7);
     }
 
     img {
@@ -71,9 +116,8 @@
         opacity: 0.75;
         filter: grayscale(100%);
         border-radius: 50%;
-        border: 1px solid #000;
+        border: 1px solid var(--black);
     }
-
 
 </style>
 
