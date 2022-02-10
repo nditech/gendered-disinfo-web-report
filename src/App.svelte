@@ -209,7 +209,8 @@
 
     :global(.subsubtitle) {
         text-align: left;
-        margin: 1.0em auto 0.5em;
+        margin: 0px;
+        margin-top: 1em;
         font-weight: var(--font-weight-bold);
         font-size: var(--font-size-normal);
         max-width: var(--max-width);
