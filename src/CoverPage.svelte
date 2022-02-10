@@ -22,17 +22,17 @@
 
     <!-- Title Box -->
     <div class="top-title-container">
-        <div class="vert-cell"></div>
-        <div class="vert-cell">
+        <br>
+        <div>
             <p class="top-title">{title[lang]}</p>
             <p class="top-subtitle">{subtitle[lang]}</p>
         </div>
-        <div class="vert-cell"></div>
-        <div class="vert-cell">
+        <br>
+        <div>
             <p style="margin-bottom: 0px;">by</p>
             <p class="authors"><a href={AUTHOR_DOMAIN} target="_blank">{AUTHOR}</a></p>
         </div>
-        <div class="vert-cell"></div>
+        <br>
     </div>
     
 </div>
@@ -85,11 +85,8 @@
     /* Title */
     .top-title-container {
         position: relative;
-        height: 33vh;
+        right: -50vw;
         bottom: 40vh;
-        right: 5vw;
-        display: flex;
-        float: right;
         flex-direction: column;
         overflow: hidden;
         padding: 8px 32px;
@@ -99,15 +96,10 @@
         opacity: 1;
         border: 1px solid var(--black);
         align-items: center;
-        justify-content: space-between;
     }
 
     .authors {
         font-size: var(--font-size-small);
-    }
-    
-    .vert-cell{
-        height: 100%;
     }
     
     .top-title {
