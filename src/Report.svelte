@@ -21,8 +21,8 @@
     import Introduction from './report/1-Introduction.svelte';
     import GenderedDisinfo from './report/2-GenderedDisinfo.svelte';
     import Methods from './report/3-Methods.svelte';
-    import Discussion from './report/5-Discussion.svelte';
-    import Conclusion from './report/7-Conclusion.svelte';
+    import Discussion from './report/4-Discussion.svelte';
+    import Conclusion from './report/5-Conclusion.svelte';
 
     // import case studies
     import Brazil from './report/case_studies/Brazil.svelte';

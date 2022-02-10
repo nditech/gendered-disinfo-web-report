@@ -1,7 +1,13 @@
 <script>
 
+    // properties
+    export let lang;
+
     // load constants
-    import { TITLE, DESCRIPTION, SUBDIRECTORY, AUTHOR, AUTHOR_DOMAIN } from './constants.json';
+    import { SUBDIRECTORY, AUTHOR, AUTHOR_DOMAIN } from './constants.json';
+
+    // import strings
+    import { title, subtitle } from './strings.json';
 
 </script>
 
@@ -18,8 +24,8 @@
     <div class="top-title-container">
         <div class="vert-cell"></div>
         <div class="vert-cell">
-            <p class="top-title">{TITLE}</p>
-            <p class="top-subtitle">{DESCRIPTION}</p>
+            <p class="top-title">{title[lang]}</p>
+            <p class="top-subtitle">{subtitle[lang]}</p>
         </div>
         <div class="vert-cell"></div>
         <div class="vert-cell">
@@ -109,7 +115,7 @@
         padding: 0px;
         margin-bottom: 8px;
         font-weight: var(--font-weight-normal);
-        font-size: var(--font-size-very-large);
+        font-size: var(--font-size-large);
     }
 
     .top-subtitle {

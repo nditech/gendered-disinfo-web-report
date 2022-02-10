@@ -1,63 +1,95 @@
 {
-    "title_executive_summary": {
-        "eng": "Executive Summary",
-        "fra": "Résumé",
-        "por": "Sumário executivo",
-        "ara": "ملخص تنفيذي"
+    "title": {
+        "eng": "Examining State-Based Disinformation Campaigns During Times of Crises",
+        "por": "Examinando Campanhas de Desinformação Associadas ao Estado em Tempos de Crise",
+        "ara": "دراسة حملات التضليل القائمة على الدولة في أوقات الأزمات"
     },
-    "title_introduction": {
-        "eng": "Introduction",
-        "fra": "Introduction",
-        "por": "Introdução",
-        "ara": "مقدمة"
+    "subtitle": {
+        "eng": "Case Studies : Lebanon & Brazil",
+        "por": "Estudos de Caso: Líbano e Brasil",
+        "ara": ""
     },
-    "title_methodology": {
-        "eng": "Methodology",
-        "fra": "Méthodologie",
-        "por": "Metodologia",
-        "ara": "المنهجية"
+    "introduction": {
+        "title": {
+            "eng": "Introduction",
+            "por": "Introdução",
+            "ara": "مقدّمة"
+        },
+        "paragraphs": {
+            "1": {
+                "eng": "In the wake of shocks, people want answers but facts have yet to emerge. As a result, deliberate and spontaneous falsehoods can proliferate with incredible velocity. Forums, digital and non-digital, are plagued with opportunistic and perverse ideologies. In charge of managing the response to the shock, the State and institutions can take steps to inform and guide a concerned public. Opportunistic leaders can leverage their position for power consolidation. They overlook, condone, or amplify false information to undermine the integrity of the information space for their own political advantage. In effect, they employ propaganda to manipulate public opinion. To achieve their goal, they must somehow disguise the deceit in an appealing, disarming veneer that will encourage its intended audience to accept it uncritically. Familiar ideas and widely-held beliefs, including established cultural norms, can provide such “packaging”.",
+                "por": "Diante de eventos perturbadores, as pessoas exigem respostas, mesmo que os fatos ainda estejam por vir. O resultado é a rápida proliferação de mentiras, deliberadas e espontâneas. Fóruns, digitais ou não, estão impregnados de ideologias perversas que surfam na onda do momento. Responsáveis pela resposta ao choque, o Estado e as instituições podem agir para informar e orientar um público alarmado. Mas líderes oportunistas podem se utilizar do cargo para tentar se consolidar no poder, negligenciando, tolerando e ecoando informações falsas com o objetivo de minar a integridade do espaço informacional para o próprio proveito político. Em circunstâncias extremas, promovem campanhas para manipular a opinião pública. Para obterem sucesso, buscam maneiras de encobrir a farsa com uma roupagem cativante e sedutora para que ela seja aceita acriticamente pelo público que desejam atingir. Ideias batidas e crenças disseminadas, incluindo normas culturais estabelecidas, podem servir como “verniz”.",
+                "ara": "في أعقاب الصدمات، يبحث الناس عادةً عن إجابات لكنّ الحقائق لا تكون قد ظهرت بعد. لذا، يمكن أن تنتشر الأكاذيب الملفّقة عمداً أو عن غير عمد بسرعة الضوء. فلا يخفى على أحد أنّ المنتديات، الرقمية منها وغير الرقمية، مرتع للأيديولوجيات الانتهازية والمنحرفة. في هذا الإطار، تتّخذ الدولة والمؤسسات، المسؤولة عن إدارة آلية الاستجابة للصدمة، خطوات غرضها تزويد الجمهور القلق بالمعلومات وتوجيهه نحوها. لكنّ القادة الانتهازيين قد يستغلون مناصبهم لتكريس سلطتهم. فيتجاهلون المعلومات الخاطئة، أو يتغاضون عنها، أو يضخّمونها بغية تقويض سلامة فضاء المعلومات، واستغلاله لمكاسبهم السياسية الخاصة. فتراهم يستخدمون أساليب البروباغاندا للتلاعب بالرأي العام. لكن سعياً إلى تحقيق هدفهم هذا، يجدون أنفسهم مضطرين إلى إخفاء خداعهم وراء هالةٍ جذابة، ومربكة، لتشجيع جمهورهم المنشود على قبولهم بلا تردد. ويمكن للأفكار المألوفة والمعتقدات الواسعة الانتشار، بما فيها المعايير الثقافية الراسخة، أن تؤمّن لهم مثل هذه “الرزمة المتكاملة“."
+            },
+            "2": {
+                "eng": "In societies in which there are entrenched perceptions and stereotypes around gender, claims around gender can be used as the delivery mechanism for disinformation. This is the focus of this current study. While much work has been done on disinformation, very little is known about the ways in which gendered norms, perceptions, and stereotypes are deliberately leveraged to enhance the uptake of disinformation, particularly during society-scale shocks during which populations can be the most vulnerable to the spread of such falsehoods. We term this particular brand of deception “gendered disinformation” - and when it is employed intentionally by a particular group (e.g., a political party or civil society organization), we refer to it as “gendered disinformation campaigns.”",
+                "por": "Em sociedades imersas em concepções e estereótipos enraizados sobre gênero, declarações com viés de gênero podem ser utilizadas como meio para a desinformação. Esse é o foco deste trabalho. Por mais que a “desinformação” seja um tema recorrente, se sabe muito pouco sobre as formas como normas, concepções e estereótipos relativos a gênero são deliberadamente utilizados para ampliar o consumo de desinformação, particularmente durante choques de dimensão coletiva, que tendem a deixar determinadas populações mais vulneráveis à proliferação de mentiras. Chamamos essa forma particular de farsa de “desinformação de gênero” – e, quando empregada intencionalmente por algum grupo (por exemplo, por um partido político ou uma organização da sociedade civil), caracterizamos como “campanhas de desinformação de gênero”.",
+                "ara": "في المجتمعات التي تنتشر فيها التصورات الراسخة والأفكار النمطية المتعلقة بالجندر، يمكن استغلال المزاعم ذات الصلة بالجندر لنشر معلومات مضللة. هذا هو المحور الذي تركّز عليه هذه الدراسة. فرغم إجراء الكثير من الأبحاث حول المعلومات المضللة، لا يُعرف الكثير عن طرق استغلال المعايير والتصورات والأفكار النمطية الجندرية، عمداً، لغرض تعزيز نشر المعلومات المضللة، خاصةً خلال الصدمات التي تنتشر على نطاق المجتمع بأكمله، أي عندما يكون السكان أكثر عرضةً لانتشار هذه الأكاذيب. نطلق على هذا النوع المحدد من الخداع اسم “التضليل الجندري“. وعندما تلجأ إليه مجموعة معيّنة عمداً (مثلاً حزب سياسي أو منظمة مجتمع مدني)، يُعرف باسم “حملات التضليل الجندري“. "
+            },
+            "3": {
+                "eng": "In this study, undertaken in partnership with the National Democratic Institute (NDI), we seek to establish the prevalence and nature of gendered disinformation campaigns during periods of society-scale shock. To do this, we conduct parallel investigations in two different countries: Brazil and Lebanon. The studies are methodologically identical - which enables us to make comparisons between the two country contexts. Further, our choice of Brazil and Lebanon provides the opportunity to examine disinformation in quite different societies - permitting this first study to provide a broad characterization of disinformation campaigns as they may exist.",
+                "por": "Neste estudo, realizado em parceria com o National Democratic Institute (NDI), examinamos a prevalência e a natureza de campanhas de desinformação de gênero durante choques de dimensão coletiva. Para tal, foram realizadas pesquisas paralelas em dois países distintos: Brasil e Líbano. As pesquisas são metodologicamente idênticas, tornando possível comparações entre os dois contextos nacionais. A opção por Brasil e Líbano também se deve à possibilidade de se analisar o fenômeno da desinformação em sociedades bem díspares, permitindo, neste primeiro estudo, uma caracterização abrangente das campanhas de desinformação na prática.",
+                "ara": "في هذه الدراسة المنفّذة بالشراكة مع المعهد الديمقراطي الوطني، نسعى إلى تبيّن مدى انتشار حملات التضليل الجندري وطبيعتها، في فترات الصدمات على نطاق المجتمع بأسره. للقيام بذلك، قمنا بإجراء تحقيقين متوازيين في بلدين مختلفين، هما البرازيل ولبنان. تُعتبر الدراستان متطابقتين من حيث المنهجية المعتمدة، مما مكّننا من المقارنة بين بيئتي البلدين. فضلاً عن ذلك، من خلال اختيارنا للبرازيل ولبنان، تمكّنا من تحليل المعلومات المضللة في مجتمعين مختلفين كل الاختلاف- مما أتاح لهذه الدراسة الأولى أن تحدّد المواصفات العامة لحملات التضليل الموجودة."
+            },
+            "4": {
+                "eng": "The purpose of this focus is to enhance the understanding of what measures are needed to ensure that women are empowered to participate in leadership and decision making in the response to and recovery from shocks, such as pandemics, natural disasters, and conflict/violence. Our hope is that these findings will inform democratic governance program guidance and interventions aimed at countering the impact of these tactics.",
+                "por": "O propósito desta análise é contribuir para a formulação das medidas necessárias destinadas a garantir o empoderamento das mulheres para que estas ocupem posições de liderança e comando no enfrentamento e na superação de choques, como pandemias, desastres naturais e situações de conflito/violência. Nossa esperança é que os resultados da pesquisa sejam um alicerce para diretrizes e intervenções de programas de governança democrática dedicados a combater os impactos dessas táticas.",
+                "ara": "يهدف محور التركيز هذه الدراسة إلى تحسين فهم الإجراءات المطلوبة لتمكين المرأة وحملها على المشاركة في المناصب القيادية وعمليات صنع القرار في سياق الاستجابة للصدمات والتعافي منها، على غرار الأوبئة، والكوارث الطبيعية، والنزاعات/ العنف. وأملنا أن تساهم هذه النتائج في تحسين برامج الحوكمة الديمقراطية وتدخلاتها، الهادفة إلى مكافحة تأثير هذه التكتيكات. "
+            },
+            "5": {
+                "eng": "We looked for disinformation campaigns in the places where they are often most widespread and easiest to find: social media. More specifically, we looked at 4 social media platforms – Telegram, Youtube, Facebook and Twitter. In both country contexts, we expected substantial evidence of gendered disinformation. Surprisingly, we discovered that, within the studied time frame, virtually no evidence of gendered disinformation campaigns appeared. Although harmful gendered narratives published by political insiders were discovered, prevalence, and characteristic display of coordination was not. Moreover the use of gendered frames to propagate disinformation was rare.",
+                "por": "As campanhas de desinformação foram pesquisadas no local onde são mais disseminadas e fáceis de encontrar: nas redes sociais, particularmente em quatro plataformas - Telegram, Youtube, Facebook e Twitter. A expectativa, em ambos os contextos nacionais, era encontrar diversas evidências de práticas de desinformação de gênero. Surpreendentemente, durante o período de realização da pesquisa, não foi detectada praticamente nenhuma evidência de campanhas de desinformação de gênero. Apesar da identificação de narrativas pejorativas sobre gênero publicadas por integrantes do círculo político, não houve prevalência nem padrões característicos de coesão. Além disso, se mostrou rara a utilização de enquadramentos de gênero na propagação de desinformação.",
+                "ara": "بحثنا عن حملات التضليل في الأماكن حيث يكثر انتشارها ويسهل إيجادها بشكل غالب، أي: وسائل التواصل الاجتماعي. على وجه التحديد، درسنا 4 منصات لوسائل التواصل الاجتماعي هي: تيليغرام، يوتيوب، فايسبوك وتويتر. في كلتا بيئتي البلدين، توقّعنا إيجاد أدلة كثيرة جداً على التضليل الجندري. لكننا اكتشفنا، وهنا العجب، أنه خلال فترة الدراسة، لم نعثر على أي دليل البتة على مثل هذه الحملات. ورغم اكتشافنا خطابات مؤذية جندرياً نشرتها دوائر سياسية مطلعة، إلا أننا لم نلحظ أي تفشٍ أو تنسيق مميّز لهذه المنشورات. فضلاً عن ذلك، كان استخدام الأطر الجندرية لنشر المعلومات المضللة نادراً. "
+            },
+            "6": {
+                "eng": "In the following sections, we provide a detailed account and assessment of this study. First we will discuss the methods we used to conduct the investigation in each study. Then we will discuss results from each country. Finally, we will discuss our findings around gendered disinformation campaigns in each country - as well as what we can learn about these campaigns by comparing and contrasting our observations and findings between the two cultural contexts.",
+                "por": "Nas próximas seções, apresentamos, em detalhes, o desenho e o balanço da pesquisa, começando pelos métodos utilizados na realização de cada um dos trabalhos investigativos. Em seguida, discutimos os resultados encontrados em cada estudo de caso. Por fim, analisamos as evidências das campanhas de desinformação de gênero verificadas em cada país, além de extrairmos lições sobre campanhas dessa natureza ao comparar e contrastar as observações e as evidências referentes aos dois contextos culturais.",
+                "ara": "في الأقسام التالية، نقدّم سرداً مفصّلاً وتقييماً لهذه الدراسة. سنناقش أولاً الطرق التي استخدمناها لإدارة التحقيق في كلّ دراسة. بعد ذلك، سنناقش النتائج من كل دولة. أخيراً، سنتمعن في النتائج التي توصّلنا إليها بالنسبة إلى حملات التضليل الجندري في كل دولة، فضلاً عن الدروس المستخلصة من هذه الحملات، من خلال إيجاد أوجه الشبه والاختلاف في ملاحظاتنا ونتائجنا بين كلتا البيئتين الثقافيتين."
+            }
+        }
     },
-    "title_key_findings": {
-        "eng": "Key Findings",
-        "fra": "Principales conclusions",
-        "por": "Principais conclusões",
-        "ara": "النتائج الرئيسية"
+    "gendereddisinfo": {
+
     },
-    "title_lessons_learned": {
-        "eng": "Lessons Learned",
-        "fra": "Leçons apprises",
-        "por": "Lições aprendidas",
-        "ara": "الدروس المستفادة"
+    "methods": {
+
     },
-    "title_conclusion": {
-        "eng": "Conclusion",
-        "fra": "Conclusion",
-        "por": "Conclusão",
-        "ara": "استنتاج"
+    "discussion": {
+
     },
-    "title_results": {
-        "eng": "Results",
-        "fra": "Résultats",
-        "por": "Resultados",
-        "ara": "نتائج"
-    },
-    "title_limitations": {
-        "eng": "Limitations",
-        "fra": "Limites",
-        "por": "Limitações",
-        "ara": "محددات"
+    "conclusion": {
+
     },
     "template": {
         "eng": "",
-        "fra": "",
         "por": "",
         "ara": ""
     },
     "error": {
         "eng": "Error",
-        "fra": "Erreur",
         "por": "Error",
         "ara": "Error"
+    },
+    "paragraphs": {
+        "1": {
+            "eng": "",
+            "por": "",
+            "ara": ""
+        },
+        "2": {
+            "eng": "",
+            "por": "",
+            "ara": ""
+        },
+        "3": {
+            "eng": "",
+            "por": "",
+            "ara": ""
+        },
+        "4": {
+            "eng": "",
+            "por": "",
+            "ara": ""
+        }
     }
 }
-
