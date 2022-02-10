@@ -119,50 +119,105 @@
         }
     },
     "discussion": {
-        "paragraphs": {
+        "title": {
+            "eng": "Discussion",
+            "por": "Debate",
+            "ara": "مناقشة"
+        },
+        "paragraphs_1": {
             "1": {
-                "eng": "",
-                "por": "",
-                "ara": ""
+                "eng": "In this study, we investigated the presence of state-based gendered disinformation during periods of societal shock. Lebanon and Brazil were selected as our two case studies. We partnered with in-country civil society organizations and provided training on how to identify disinformation and gendered narratives. Hundreds of thousands of posts were collected from the social media pages of political insiders. Textual, temporal and engagement filtering broached some thousands of posts to be further analyzed. These were distributed to in-country participants for final review. Ultimately, only a few dozen posts were found to support our thesis.",
+                "por": "O mote desta pesquisa foi examinar a presença de práticas de desinformação de gênero associadas ao Estado durante choques de dimensão coletiva. O Líbano e o Brasil foram os dois países escolhidos como estudos de caso. Firmamos parcerias com organizações da sociedade civil locais e orientamos como identificar narrativas relativas a gênero e desinformação. Centenas de milhares de postagens de integrantes do círculo político foram coletadas nas redes sociais, e milhares de postagens foram selecionadas com base em linguagem, data de publicação e nível de engajamento e posteriormente distribuídas aos participantes locais para análise. Ao fim, somente algumas poucas dezenas de postagens confirmaram nossas expectativas.",
+                "ara": "تحقّقنا في إطار هذه الدراسة في مدى انتشار المعلومات المضللة جندرياً التي تنشرها جهات تابعة للدولة في فترات الصدمات المجتمعية. وقد اخترنا لبنان والبرازيل كدراستي حالة. نسجنا شراكةً مع منظمات مجتمع مدني محلية، ودرّبناها على كيفية تحديد المعلومات المضللة والسرديات الجندرية. تمّ جمع مئات الآلاف من التدوينات من صفحات مواقع التواصل الاجتماعي لدوائر سياسية مطّلعة، ثم تطبيق أدوات نصية، زمنية، وأخرى لقياس مستوى التفاعل بغية غربلة آلاف التدوينات فإخضاعها لمزيد من التحليل. بعد ذلك، تمّ توزيع المجموعة النهائية من التدوينات على المشاركين المحليين لمراجعتها بشكل نهائي. في نهاية الأمر، تبيّن أنّ بضع عشرات من التدوينات فقط تدعم فرضيتنا."
             },
             "2": {
-                "eng": "",
-                "por": "",
-                "ara": ""
+                "eng": "At the highest level, there are two possible explanations for our findings. One explanation is that active state-based gendered disinformation did occur and the methodology or its implementation failed to detect it. The alternative explanation is that, given the definitions and parameters of the study, the phenomenon did not occur.",
+                "por": "No geral, existem duas possíveis explicações para os resultados obtidos. Uma é que a disseminação sistemática de desinformação de gênero associada ao Estado, embora tenha de fato ocorrido, não foi detectada por razões metodológicas ou de implementação. A outra explicação é que, tendo em vista os conceitos e os parâmetros utilizados na pesquisa, o fenômeno não ocorreu.",
+                "ara": "على مستوى أعلى، يمكن إيجاد تفسيرين محتملين للنتائج التي توصّلنا إليها. أحدهما هو أنّ الجهات التابعة للدولة أطلقت فعلاً معلومات مضللة جندرياً، لكنّ المنهجية أو طريقة تطبيقها فشلت في كشفها. أما التفسير الآخر، فهي أنه استناداً إلى التعريفات والأنماط التي اعتمدتها الدراسة، فإنّ هذه الظاهرة لم تقع فعلاً."
             },
             "3": {
-                "eng": "",
-                "por": "",
-                "ara": ""
+                "eng": "Our analysis and experience suggests that of the two options, the second is the most plausible. To substantiate our proposition, here are some precautions that were taken.",
+                "por": "Com base na nossa análise e experiência, das duas opções, a mais plausível é a segunda. Para sustentar nossa premissa, seguem algumas precauções que foram tomadas:",
+                "ara": "تفترض تحاليلنا وخبراتنا أنّ الخيار الثاني هو الأكثر منطقية. للتثبت من اقتراحنا، اتّخذنا عدة إجراءات وقائية. "
+            }
+            
+        },
+        "enumerations": {
+            "1": {
+                "eng": "Implementation was designed to require the involvement of the in-situ team at each step",
+                "por": "A fase de implementação da pesquisa foi concebida visando o envolvimento das equipes locais em cada uma das etapas.",
+                "ara": "قصدنا أن يشارك الفريق المحلي في عملية التطبيق عند كل خطوة."
+            },
+            "2": {
+                "eng": "All tools were designed to be exploratory (high false positive rate) and be narrowed later. The lexicon initially included generic invectives, the shock timeline incorporated minor events, and the political network was expensively mapped.",
+                "por": "Todas as ferramentas foram concebidas em caráter exploratório (alta taxa de falso positivo) e posteriormente refinadas. Originalmente, foram incluídos insultos genéricos no léxico, eventos de menor importância foram incorporados à cronologia dos choques e o mapeamento da rede política foi realizado de forma incremental.",
+                "ara": "صُمّمت كل الأدوات لتكون استكشافية (أي تسفر عن معدّلات إيجابية خاطئة عالية)، على أن يتمّ تضييق نطاق النتائج لاحقاً. في بادئ الأمر، تضمّن المعجم شتائم عامة، والتسلسل الزمني للصدمة شمل أحداثاً بسيطة، كما أنّ الشبكة السياسية التي رُسمت كانت واسعة جداً."
+            },
+            "3": {
+                "eng": "We collected and assessed all content generated by the accounts identified in the political mapping exercise during the time period of interest. Recall that these were identified by in-country participants as the most likely public accounts to produce gendered disinformation.",
+                "por": "Na fase de mapeamento da rede política, os participantes locais foram instruídos a focar nas contas públicas mais propensas à disseminação de desinformação de gênero.",
+                "ara": "قمنا بجمع وتقييم كل المحتويات المنشورة عبر الحسابات التي تمّ تحديدها في تمرين المسح السياسي خلال الفترة ذات الاهتمام. نذكّر بأنّ هذه الحسابات حدّدها المشاركون المحليون باعتبارها الحسابات العامة الأكثر ميلاً إلى نشر معلومات مضللة جندرياً."
             },
             "4": {
-                "eng": "",
-                "por": "",
-                "ara": ""
+                "eng": "Annotation of the social media posts was sliced into many small increments. Results would be reviewed and tools would be tuned after each completed chunk. Keywords would be added to the lexicon, events to the timeline, and political insiders to the network map.",
+                "por": "As observações sobre as postagens das redes sociais foram segmentadas em diversos pequenos adendos. Os resultados foram revisados e as ferramentas otimizadas após a conclusão de cada bloco. O léxico era alimentado com palavras-chave, a cronologia com eventos e o mapa da rede política com integrantes do círculo político.",
+                "ara": "عند إضافة التعليقات التوضيحية إلى تدوينات وسائل التواصل الاجتماعي، تمّ تجزيئها إلى عدة أجزاء صغيرة. بعد الانتهاء من كل جزء، تمّت مراجعة النتائج وتعديل الأدوات. كما أضيفت كلمات رئيسية إلى المعجم، وأحداث إلى التسلسل الزمني، ودوائر سياسية مطلعة إلى خريطة الشبكات."
+            },
+            "5": {
+                "eng": "Flagging a social media post as containing disinformation is a judgement call. To curb subjectivity, a fraction of the posts were sent to multiple independent participants. If they returned different answers, the post would be reviewed by the in-country project managers.",
+                "por": "Sinalizar postagens de redes sociais contendo desinformação é uma tarefa interpretativa. Para limitar o aspecto subjetivo, uma fração das postagens era enviada a vários participantes independentes. Se as respostas se mostrassem divergentes, as postagens eram revisadas pelos supervisores de cada equipe local.",
+                "ara": "لا يخفى على أحد أنّ إضافة علامة على تدوينة منشورة عبر وسائل التواصل الاجتماعي أمر يعود إلى تقدير المراجع الشخصي. لذا، بهدف التخفيف من التحيّز الذاتي، أُرسلت بضع تدوينات إلى عدة مشاركين مستقلين. فإذا اختلفت إجاباتهم، يتولى مراجعة التدوينة مدراء المشاريع المحليون."
+            },
+            "6": {
+                "eng": "Posts flagged as containing gendered disinformation were meticulously reviewed by all project stakeholders to distill overarching themes.",
+                "por": "As postagens sinalizadas por conterem desinformação de gênero eram meticulosamente revisadas por todos os envolvidos no projeto para que temas genéricos fossem depurados.",
+                "ara": "بالنسبة إلى التدوينات التي وُضعت علامة عليها، كونها تتضمّن معلومات مضللة جندرياً، فقد تمّت مراجعتها بدقة من قبل جميع أصحاب المصلحة في المشروع لغربلة المواضيع المحورية. "
+            },
+            "7": {
+                "eng": "Findings were examined through a qualitative and quantitative lens.",
+                "por": "As evidências foram analisadas de uma perspectiva qualitativa e quantitativa.",
+                "ara": "تمّ فحص النتائج من زاوية نوعية وكمية."
+            }
+        },
+        "paragraphs_2": {
+            "4": {
+                "eng": "Of equal importance, there are  factors that can explain the absence of gendered disinformation campaigns. Workshops with in-country participants and the data collected surfaced a number of important insights around the information ecosystems of Brazil and Lebanon.",
+                "por": "Igualmente importante, alguns fatores podem explicar a inexistência de campanhas de desinformação de gênero. Os workshops realizados com os participantes locais e os dados coletados trouxeram à tona inúmeros insights importantes sobre o ecossistema informacional no Brasil e no Líbano.",
+                "ara": "على نفس الدرجة من الأهمية، هناك عوامل أخرى يمكن أن تفسّر عدم وجود حملات للتضليل الجندري. فقد كشفت ورش العمل التي نُظّمت مع المشاركين المحليين، والبيانات التي تمّ جمعها، عن عدد من الأفكار النيّرة المهمة المتعلقة ببيئة المعلومات في البرازيل ولبنان. "
+            },
+            "5": {
+                "eng": "Strong gendered beliefs are mainstream and are regularly part of the public discourse. However, political elites are careful with the content they post to avoid a public record of overtly gendered attacks.",
+                "por": "Crenças enraizadas sobre gênero são hegemônicas e fazem parte constante do debate público. Apesar disso, elites políticas tomam cuidado com o que postam para evitar que tenham o nome manchado por ataques de gênero explícitos.",
+                "ara": "لا يخفى على أحد أنّ المعتقدات الجندرية الراسخة معمّمة، وأنها تشكّل جزءاً منتظماً من الخطاب العام. لكنّ النخب السياسية تتعامل بحذر مع المحتوى الذي تنشره لتجنب سجل عام من الهجمات الجندرية الفاضحة."
+            },
+            "6": {
+                "eng": "Posts had to be disinformative, gendered, from political insiders, generated high engagement, and published no later than a few weeks following each upsetting event. The intersection of all these constraints leads to a narrow research window. The lack of findings can be attributed, in part, to this design.",
+                "por": "O conteúdo das postagens precisava ser desinformativo e com viés de gênero, partir do círculo político e gerar engajamento, tudo isso dentro de um intervalo de poucas semanas a partir de cada evento decisivo. A conjunção de todas essas condicionantes limitou o raio da pesquisa, o que pode ter contribuído, em partes, para explicar a falta de evidências.",
+                "ara": "كان على التدوينات المأخوذة في الاعتبار أن تتضمّن معلومات مضللة، وأن تكون مرتكزة على الجندر، وصادرة عن جهات سياسية مطّلعة، وأن تحظى بتفاعل عال، وتكون منشورة بعد بضعة أسابيع لا أكثر من كل حدث مزعج. يؤدي تقاطع كل هذه القيود إلى تضييق هامش البحث. في هذا الإطار، يمكن عزو انعدام النتائج، جزئياً، إلى هذا النوع من التصميم."
+            },
+            "7": {
+                "eng": "Negative gender tropes could also be so deep-seated that they are implied without being textualized. The annotation process could have missed posts due to the lack of explicit gendered language. However, selecting annotators from the studied community should have mitigated this issue.",
+                "por": "No Brasil de Bolsonaro e numa sociedade sectária como a libanesa, informações publicadas pela rede política são concebidas como instrumentos de guerra. A população já está habituada e anestesiada. Atores maliciosos podem não escolher qual tipo de farsa utilizar para transmitir a mensagem, quando já não serão mais contidos pelo emprego de propaganda ou mentiras descaradas.",
+                "ara": "بالإضافة إلى ذلك، تُعتبر الاستعارات الجندرية السلبية راسخةً جداً لدرجة أنها تكون متضمّنة دونما حاجة بالضرورة إلى ورودها في نصّ. لذا، من المحتمل أن تكون عملية إضافة التعليقات التوضيحية قد أغفلت عن بعض التدوينات بسبب عدم احتوائها على مصطلحات جندرية واضحة. مع ذلك، قد يكون بعض المشاركين الذين شاركوا في هذا التمرين التوضيحي قد خفّفوا من أهمية هذه التدوينات أيضاً. "
             }
         }
     },
     "conclusion": {
+        "title": {
+            "eng": "Conclusion",
+            "por": "Conclusão",
+            "ara": "الخاتمة"
+        },
         "paragraphs": {
             "1": {
-                "eng": "",
-                "por": "",
-                "ara": ""
+                "eng": "The results and our confidence in the methodology leads us to conclude that it is unlikely that state-based gendered disinformation campaigns occurred within the studied time frame in both Lebanon and Brazil. Nonetheless, the absence of gendered disinformation campaigns in the two contexts considered here doesn’t discount the possibility that there are disinformation campaigns underway around other narratives, or other gendered disinformation campaigns in other societies.",
+                "por": "Os resultados e a nossa confiança na metodologia nos levam a crer que não ocorreram campanhas de desinformação de gênero associadas ao Estado dentro do período considerado tanto no Líbano quanto no Brasil. Apesar da falta de evidências de campanhas de desinformação de gênero em ambos os estudos de caso, não se pode desconsiderar a possibilidade de que campanhas de desinformação envolvendo outras narrativas ou campanhas de desinformação de gênero em outras sociedades estejam em curso.",
+                "ara": "أفضت بنا النتائج، وثقتنا بالمنهجية المعتمدة، إلى الاستنتاج أنه من غير المرجح أن تكون حملات التضليل الجندري التي تطلقها جهات تابعة للدولة قد حدثت خلال وقت الدراسة في كل من لبنان والبرازيل. مع ذلك، إنّ غياب هذه الحملات في كلتا البيئتين، ضمن إطار هذه الدراسة، لا ينفي إمكانية شنّ حملات تضليل حول سرديات أخرى، أو حملات تضليل جندري في مجتمعات أخرى."
             },
             "2": {
-                "eng": "",
-                "por": "",
-                "ara": ""
-            },
-            "3": {
-                "eng": "",
-                "por": "",
-                "ara": ""
-            },
-            "4": {
-                "eng": "",
-                "por": "",
-                "ara": ""
+                "eng": "We believe the methodology layed out in this report is applicable in other contexts with other themes, account networks, timeframes, languages, and geographies. Its implementation in two dissimilar societies is indicative of its adaptability. We expect our partners in Brazil and Lebanon to build upon it and use it in future work involving the examination of social media.",
+                "por": "A metodologia baseada em pesquisa nas redes sociais delineada neste relatório é aplicável a diferentes contextos com outros temas, redes de afinidade, intervalos de tempo, linguagens e geografias. O fato de ter sido implementada em duas sociedades discrepantes é um indicativo de adaptabilidade. Esperamos que ela sirva de base para futuros trabalhos dos nossos parceiros no Brasil e no Líbano envolvendo a análise das plataformas Telegram, Youtube, Facebook e Twitter.",
+                "ara": "نعتقد أنه يمكن تطبيق المنهجية المعتمدة في هذا التقرير في بيئات أخرى، وعلى أنواع مختلفة من المواضيع، وشبكات الحسابات، والمهل الزمنية، واللغات، والأماكن الجغرافية. فتطبيقها في مجتمعين مختلفين لدليل على إمكانية تكييفها بحسب السياق. في هذا الإطار، نتوقع من شركائنا في البرازيل ولبنان أن يرتكزوا على هذه المنهجية ويستخدموها في أنشطتهم المقبلة التي تتطلّب دراسة صفحات وسائل التواصل الاجتماعي."
             }
         }
     },
