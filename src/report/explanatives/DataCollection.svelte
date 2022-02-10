@@ -1,7 +1,7 @@
 <script>
 
     // load constants
-    import { SUBDIRECTORY } from '../../../constants.json';
+    import { SUBDIRECTORY } from '../../constants.json';
 
 </script>
 

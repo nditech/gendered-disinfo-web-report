@@ -1,29 +1,32 @@
 <script>
 
-    // import sections
-    import Introduction from './sections/1-Introduction.svelte';
-    import GenderedDisinfo from './sections/2-GenderedDisinfo.svelte';
-    import Methods from './sections/3-Methods.svelte';
-    import CaseStudies from './sections/case_studies/Brazil.svelte';
-    import Discussion from './sections/5-Discussion.svelte';
-    import Interventions from './sections/6-Interventions.svelte';
-    import Conclusion from './sections/7-Conclusion.svelte';
-
-    import Brazil from './sections/case_studies/Brazil.svelte';
-    import Lebanon from './sections/case_studies/Lebanon.svelte';
-
     // properties
     export let lang;
+    export let isMobile;
 
-    // load constants
-    import { SUBDIRECTORY, AUTHOR, AUTHOR_DOMAIN, TITLE, DESCRIPTION, OF_INTEREST, MIN_NBR_OF_PUBLICATION_OF_INTEREST } from '../constants.json';
+    // import constants
+    import { OF_INTEREST, MIN_NBR_OF_PUBLICATION_OF_INTEREST } from './constants.json';
 
-    // load libs
+    // import libs
     import { onMount } from 'svelte';
-    import { getString } from '../libs/translator.js';
+    import { getString } from './libs/translator.js';
     
-    // load helper functions
-    import { interleave, load_params, load_tools, load_findings, load_posts_zip } from './helper.js';
+    // import helper functions
+    import { interleave, load_params, load_tools, load_findings, load_posts_zip } from './report/scripts/helper.js';
+
+    // import cover page
+    import CoverPage from './CoverPage.svelte';
+
+    // import sections
+    import Introduction from './report/1-Introduction.svelte';
+    import GenderedDisinfo from './report/2-GenderedDisinfo.svelte';
+    import Methods from './report/3-Methods.svelte';
+    import Discussion from './report/5-Discussion.svelte';
+    import Conclusion from './report/7-Conclusion.svelte';
+
+    // import case studies
+    import Brazil from './report/case_studies/Brazil.svelte';
+    import Lebanon from './report/case_studies/Lebanon.svelte';
 
     // init variables
     let phase_1_params_done = false;
@@ -118,9 +121,14 @@
 
     })
 
+
 </script>
 
+
 <main>
+
+    <!-- Cover page -->
+    <CoverPage lang={lang}/>
 
     <!-- Sections -->
     <div class="separator"></div>
@@ -172,7 +180,6 @@
         width: 100%;
         margin: 0px auto;
         padding: 0px;
-        padding-top: 100vh;
         text-align: center;
         overflow-y: scroll;
         overflow-x: hidden;

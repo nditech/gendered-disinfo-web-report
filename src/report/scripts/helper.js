@@ -1,10 +1,10 @@
 'use strict';
 
 // load constants
-import { SUBDIRECTORY } from '../constants.json';
+import { SUBDIRECTORY } from '../../constants.json';
 
 // load libs
-import { request_GET, getRequestWrapper } from '../libs/http.js';
+import { request_GET, getRequestWrapper } from '../../libs/http.js';
 
 
 export async function load_tools(project_select){

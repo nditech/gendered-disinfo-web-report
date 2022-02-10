@@ -10,7 +10,7 @@
     const opacity_line = 0.15;
     const opacity_sphere = 0.15;
     const position_spread = 70;
-    const nbr_nodes = 200;
+    const nbr_nodes = 500;
 
     const z_rotation_speed = 0.0005;
     const z_zoom_out_speed = 0.002;

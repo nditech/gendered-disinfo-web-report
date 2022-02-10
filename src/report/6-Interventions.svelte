@@ -5,10 +5,10 @@
     export const id = "interventions";
 
     // import constants
-    import { SUBDIRECTORY } from '../../constants.json'
+    import { SUBDIRECTORY } from '../constants.json'
 
     // locale lib
-    import { getString } from '../../libs/locale.js';
+    import { getString } from '../libs/locale.js';
 
     // --- text ---
     const title = 'Interventions';

@@ -4,7 +4,7 @@
     export let posts, dictionary, params;
 
     // import components
-    import SearchTable from '../../../components/SearchTable.svelte';
+    import SearchTable from '../../components/SearchTable.svelte';
 
 </script>
 

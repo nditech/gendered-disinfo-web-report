@@ -1,7 +1,7 @@
 'use strict'
 
 // import locale lib
-import { post_to_interactions } from '../libs/socialmedia.js';
+import { post_to_interactions } from '../../libs/socialmedia.js';
 
 
 function url_to_platform_type(url){

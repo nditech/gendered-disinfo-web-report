@@ -4,7 +4,7 @@
     import { onMount } from "svelte";
 
     // import constants
-    import { SUBDIRECTORY } from '../../../constants.json';
+    import { SUBDIRECTORY } from '../../constants.json';
 
     // constants size
     const canvas_w = 400;

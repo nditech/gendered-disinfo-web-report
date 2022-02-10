@@ -1,33 +1,33 @@
 <script>
 
-    // constants
-    import { TITLE, DESCRIPTION } from './constants.json';
+    // import constants
+    import { TITLE } from './constants.json';
 
-    // load libs
+    // import libs
     import { getUrlParams } from './libs/url.js';
-    import { getString } from './libs/translator.js';
     import { isMobile } from './libs/system.js';
     import { onMount } from 'svelte';
 
     // grab params from url
     const params = getUrlParams();
-    let { lang } = params;
 
-    // set values
-    lang = lang || 'eng';
+    // set language from url
+    const lang = params['lang'] || 'eng';
+
+    // check if we are on mobile
+    const _isMobile = isMobile();
 
     // import components
     import Header from './components/Header.svelte';
     import Footer from './components/Footer.svelte';
 
     // import background
-    import Background from './report/Background.svelte';
+    import Background from './Background.svelte';
 
     // import report
-    import CoverPage from './report/CoverPage.svelte';
-    import Report from './report/Report.svelte';
+    import Report from './Report.svelte';
 
-    // init variables
+    // y position listener
     let _scrollTop = 0;
     let _screenHeight = 0;
     let hide_cover = false
@@ -58,25 +58,22 @@
 <!-- Set app name -->
 <title>{TITLE}</title>
 
+
 <!-- Header -->
-<Header bind:lang={lang}/>
+<Header isMobile={_isMobile} lang={lang}/>
 
 
 <!-- Background (not on mobile) -->
 <Background/>
 
 
-<!-- Cover page -->
-<CoverPage bind:scrollTop={_scrollTop} bind:lang={lang}/>
-
-
 <!-- Report -->
-<Report bind:lang={lang}/>
+<Report isMobile={_isMobile} lang={lang}/>
 
 
 <!-- Footer -->
 {#if hide_cover}
-    <Footer bind:lang={lang}/>
+    <Footer lang={lang}/>
 {/if}
 
 
@@ -94,19 +91,18 @@
         --red: #e44e4e;
         --green: #009900;
         --black-box-shadow: 0px 0px 12px 4px var(--black-transparent);
+        --black-box-shadow-light: 0px 2px 5px rgba(0, 0, 0, .5);
         --white-transparent: rgba(255, 255, 255, 0.7);
         --white-box-shadow: 0px 0px 12px 4px rgba(255, 255, 255, 0.7);
         --main-color: var(--black);
         --main-color-dark: var(--black-dark);
         --main-color-light: var(--black-light);
-        --header-height: 64px;
-        --footer-height: 64px;
         --max-width-small: 40vw;
         --max-width: 60vw;
         --max-width-large: 75vw;
         --max-width-very-large: 85vw;
-        --section-padding: 32px;
-        --section-padding-small: 16px;
+        --section-padding: 16px 32px;
+        --section-padding-small: 8px 16px;
         --font-size-very-very-very-small: 0.65em;
         --font-size-very-very-small: 0.8em;
         --font-size-very-small: 0.9em;
@@ -132,7 +128,6 @@
     :global(body) {
         background-color: var(--white);
         font-family: 'Roboto-Mono';
-        padding-top: var(--header-height);
         /* position: relative; */
         width: 100%;
         height: 100%;
@@ -206,7 +201,7 @@
 
     :global(.subtitle) {
         text-align: left;
-        margin: 1.0em auto 0.5em;
+        margin: 0em auto 0.5em;
         font-weight: var(--font-weight-bold);
         font-size: var(--font-size-large);
         max-width: var(--max-width);
@@ -221,16 +216,14 @@
     }
 
     :global(section) {
-        margin: 32px auto 0px;
+        margin: 64px auto 0px;
         padding: var(--section-padding);
         font-weight: var(--font-weight-normal);
         max-width: var(--max-width);
         color: var(--black);
-        background-color: var(--white-transparent);
-        box-shadow: var(--white-box-shadow);
+        background-color: var(--white);
+        border: 1px solid var(--black);
         font-size: var(--font-size-small);
-        border-width: 0px;
-        border: 1px solid var(--white);
         text-align: justify;
     }
 
@@ -259,13 +252,6 @@
     
 
     /* --- Fonts --- */
-    @font-face {
-        font-family: 'Abel';
-        font-style: normal;
-        font-weight: 400;
-        src: url('/assets/fonts/Abel/Abel-Regular.ttf') format('truetype');
-    }
-
     @font-face {
         font-family: 'Roboto-Mono';
         src: url('/assets/fonts/Roboto_Mono/RobotoMono-VariableFont_wght.ttf') format('truetype');

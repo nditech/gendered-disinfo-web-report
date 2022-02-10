@@ -29,8 +29,6 @@
         the examination of Telegram, Youtube, Facebook and Twitter. 
     </p>
 
-    <br><br><br><br>
-
 </section>
 
 <style>

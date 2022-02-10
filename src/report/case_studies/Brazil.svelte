@@ -1,5 +1,5 @@
 <script>
-
+    
     // properties
     export let lang;
     export let dataset;
@@ -25,20 +25,20 @@
     } = dataset;
 
     // import components
-    import SearchTable from '../../../components/SearchTable.svelte';
-    import Table from '../../../components/Table.svelte';
-    import Portraits from '../../../components/Portraits.svelte';
-    import List from '../../../components/List.svelte';
-    import Slider from '../../../components/Slider.svelte';
+    import SearchTable from '../../components/SearchTable.svelte';
+    import Table from '../../components/Table.svelte';
+    import Portraits from '../../components/Portraits.svelte';
+    import List from '../../components/List.svelte';
+    import Slider from '../../components/Slider.svelte';
 
     // import dataviz
-    import Heatmap from '../../../dataviz/Heatmap/Heatmap.svelte';
-    import DotMatrixPlot from '../../../dataviz/DotMatrixPlot/DotMatrixPlot.svelte';
-    import Network from '../../../dataviz/Network/Network.svelte';
+    import Heatmap from '../../dataviz/Heatmap/Heatmap.svelte';
+    import DotMatrixPlot from '../../dataviz/DotMatrixPlot/DotMatrixPlot.svelte';
+    import Network from '../../dataviz/Network/Network.svelte';
 
     // import libs
-    import { romanize } from '../../../libs/locale.js';
-    import { posts_to_dotmatrix, posts_to_graph } from '../../preproc.js';
+    import { romanize } from '../../libs/locale.js';
+    import { posts_to_dotmatrix, posts_to_graph } from '../scripts/preproc.js';
     const dotmatrix = posts_to_dotmatrix(submissions_of_interest);
 
 
@@ -64,21 +64,20 @@
         }
     })
 
-
 </script>
-
 
 <section>
 
-    <p class="title">Lebanon</p>
-    
+    <p class="title">Brazil</p>
+        
     <p>
-        For this case study, we partnered with the 
-        <a target="_blank" href="https://www.skeyesmedia.org/en/Home">Skeyes Center for Media and Cultural Freedom</a> and 
-        <a target="_blank" href="https://www.abaadmena.org/">ABAAD - Resource Centre for Gender Equality</a>. We seek to 
-        establish the prevalence and nature of disinformation campaigns throughout the economic and political crisis. 
+        For this case study, we partnered with the <a target="_blank" href="https://www.internetlab.org.br/en/">InternetLab</a>. 
+        We seek to establish the prevalence and nature of disinformation campaigns throughout the COVID pandemic.
     </p>
 
+    <br>
+    <br>
+    
     <p class="subtitle">Political Network</p>
     <p>
         In-country participants identified <b>{nbr_of_accounts}</b> Telegram, Facebook, Twitter and Youtube accounts as being part of 
@@ -127,10 +126,10 @@
     </p>
     <Table data={[
         ["Type", "Minimum Value"],
-        ["Views", "500"],
-        ["Reactions", "200"],
-        ["Comments", "200"],
-        ["Shares", "100"]
+        ["Views", "30000"],
+        ["Reactions", "800"],
+        ["Comments", "150"],
+        ["Shares", "50"]
     ]}/>
 
     <p class="subtitle">Results</p>
@@ -142,7 +141,7 @@
     <br>
 
     <Heatmap data={submissions_of_interest} sources={belligerents} events={events}/>
-    
+
     <p class="subsubtitle">Belligerents</p>
     <p>
         Here is a short description of the <b>{belligerents.length.toLocaleString()} state-affiliated accounts</b> that published 
@@ -170,7 +169,6 @@
         <DotMatrixPlot data={dotmatrix.filter(d => d['categories'].includes(category['key']))} title={`${romanize(i+1)}. ${category['name_count']}`} max_interactions={Math.max(...dotmatrix.map(d => d['interactions']['count']))}/>
     {/each}
 
-
     <br>
     
     <h1 class="subsubtitle">Coordination</h1>
@@ -185,8 +183,8 @@
     <Network bind:nodes={nodes} bind:vertices={vertices}/>
 
 
-</section>
 
+</section>
 
 <style>
 

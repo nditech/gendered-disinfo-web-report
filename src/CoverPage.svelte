@@ -1,20 +1,17 @@
 <script>
 
-    // properties
-    export let scrollTop = 0;
-
     // load constants
-    import { TITLE, DESCRIPTION, SUBDIRECTORY, AUTHOR, AUTHOR_DOMAIN } from '../constants.json';
+    import { TITLE, DESCRIPTION, SUBDIRECTORY, AUTHOR, AUTHOR_DOMAIN } from './constants.json';
 
 </script>
 
 <!-- Cover Page -->
-<div id="cover" style="top: {-scrollTop}px">
+<div id="cover">
 
     <!-- Image -->
     <div id="top-img-container">
         <img alt="cover photo" src="{SUBDIRECTORY}assets/images/cover.jpg" />
-        <!-- <p></p> -->
+        <p>by Cara Zwibel & Evan Balgord</p>
     </div>
 
     <!-- Title Box -->
@@ -38,21 +35,16 @@
 <style>
 
     #cover {
-        position: absolute;
-        top: 0px;
-        left: 0px;
-        right: 0px;
-        bottom: 0px;
+        width: 100vw;
+        height: 100vh;
         margin: 0px;
         padding: 0px;
-        z-index: -1; 
         text-align: center;
-        padding-top: var(--header-height);
     }
     
     /* Image */
     #top-img-container {
-        height: 92vh; /* 100vh - header height */
+        height: 100vh;
     }
 
     #top-img-container img {
@@ -67,7 +59,7 @@
     #top-img-container p {
         bottom: 0vh;
         margin: 0px 8px;
-        color: var(--white);
+        color: var(--black);
         font-size: var(--font-size-very-very-small);
     }
 

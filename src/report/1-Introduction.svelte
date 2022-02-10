@@ -5,7 +5,7 @@
     export const id = "introduction";
 
     // locale lib
-    import { getString } from '../../libs/locale.js';
+    import { getString } from '../libs/locale.js';
 
     // ---
     const title = 'Introduction';

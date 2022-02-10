@@ -5,7 +5,7 @@
     export const id = "gendered-disinfo";
 
     // import constants
-    import { SUBDIRECTORY } from '../../constants.json'
+    import { SUBDIRECTORY } from '../constants.json'
 
     // ---
     const title = 'Gender';

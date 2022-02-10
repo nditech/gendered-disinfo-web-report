@@ -6,16 +6,16 @@
     export let sources, submissions, categories, dictionary, lexicon;
 
     // import dataviz
-    import Network from '../../../dataviz/Network/Network.svelte';
-    import DotMatrixPlot from '../../../dataviz/DotMatrixPlot/DotMatrixPlot.svelte';
+    import Network from '../../dataviz/Network/Network.svelte';
+    import DotMatrixPlot from '../../dataviz/DotMatrixPlot/DotMatrixPlot.svelte';
 
     // import components
-    import List from '../../../components/List.svelte';
-    import Slider from '../../../components/Slider.svelte';
+    import List from '../../components/List.svelte';
+    import Slider from '../../components/Slider.svelte';
 
     // import lib
-    import { posts_to_graph, posts_to_dotmatrix, get_max_followers } from '../../preproc.js';
-    import { romanize } from '../../../libs/locale.js';
+    import { posts_to_graph, posts_to_dotmatrix, get_max_followers } from '../scripts/preproc.js';
+    import { romanize } from '../../libs/locale.js';
 
     // constants
     const COORDINATION_MAX_NUMBER_OF_DAYS = 15;
