@@ -55,7 +55,6 @@
         padding: 0px;
         margin: 0px;
         height: auto;
-        filter: brightness(0) invert(1);
         opacity: 0.9;
     }
 
