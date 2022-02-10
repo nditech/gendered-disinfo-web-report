@@ -49,16 +49,122 @@
         }
     },
     "gendereddisinfo": {
-
+        "title": {
+            "eng": "Gendered Disinformation",
+            "por": "Gênero",
+            "ara": "المعلومات المضللة جندرياً"
+        },
+        "subtitle": {
+            "eng": "State-Based Gendered Disinformation",
+            "por": "Desinformação de Gênero Associada ao Estado",
+            "ara": "التضليل الجندري القائم على الدولة"
+        },
+        "paragraphs_1": {
+            "1": {
+                "eng": "The online space is increasingly crucial for politics. It encourages digital citizenship and democratizes voices, giving women and other marginalized communities a platform. It is cheaper to mount an online campaign, and it maintains physical safety. Unfortunately, that democratization of voices also results in new types of threats against political women. These attacks fall under the umbrella of online violence against women in politics (VAW-P), which <a target='_blank' href='https://ndi.org/publications/addressing-online-misogyny-and-gendered-disinformation-how-guide'>encompasses the wide variety of attacks women experience when participating in democratic discourse on the internet.</a>",
+                "por": "O espaço virtual é cada vez mais importante na política. Ele incentiva a cidadania digital e democratiza vozes, oferecendo uma plataforma a mulheres e outras comunidades marginalizadas. Promover uma campanha na internet é mais barato, e garante a segurança física. Infelizmente, a democratização de vozes também resulta em novos tipos de ameaça contra mulheres politicamente ativas. Esses ataques estão no âmbito dos atos considerados de violência virtual contra mulheres na política (VAW-P, na sigla em inglês), que <a target='_blank' href='https://ndi.org/publications/addressing-online-misogyny-and-gendered-disinformation-how-guide'>engloba a ampla variedade de agressões sofridas por mulheres que participam do debate democrático na internet</a>.",
+                "ara": "لا يخفى على أحد أنّ الفضاء الإلكتروني يكتسي أهميةً بالغةً ومتزايدةً في عالم السياسة. فهو يشجع على المواطنة الرقمية وديمقراطية الأصوات، ويمنح النساء وبقية الجماعات المهمّشة منصّةً للتعبير عن أنفسهم. زد على ذلك أنّ تنظيم حملة إلكترونية أرخص ثمناً ويحافظ على السلامة الجسدية. لكنّ دمقرطة الأصوات تؤدي أيضاً، للأسف، إلى ظهور أنواع جديدة من التهديدات ضد النساء العاملات في السياسة. تندرج هذه الهجمات ضمن إطار العنف الإلكتروني الممارس ضد النساء في السياسة، وهو يشمل المجموعة المتنوعة من الهجمات التي تتعرض لها المرأة لدى المشاركة في الخطاب الديمقراطي على الإنترنت."
+            },
+            "2": {
+                "eng": "The focus of this report is gendered disinformation. Gendered disinformation is a form of online violence against women in politics (VAW-P) that aims to sway political outcomes by discrediting and demeaning women in politics. Gendered disinformation tends to fall into three categories: to scare women into withdrawing from politics; to pull popular support away from politically active women, and to leverage gender norms to modify political outcomes.",
+                "por": "Este relatório tem como foco a desinformação de gênero, um tipo de violência virtual contra mulheres na política cujo objetivo é influenciar a cena política por meio da difamação e da depreciação de mulheres na política. A desinformação de gênero tende a se manifestar por meio de três formas: intimidação com o objetivo de forçar a deserção de mulheres da política; cerceamento ao apoio popular de mulheres politicamente ativas; e alavancagem de normas de gênero com a intenção de influenciar o cenário político.",
+                "ara": "يركّز هذا التقرير على التضليل الجندري. التضليل الجندري هو شكل من أشكال العنف على الإنترنت ضد المرأة في السياسة، هدفه التأثير على النتائج السياسية من خلال تشويه سمعة النساء في السياسة وتحقيرهن. تندرج هذه المعلومات المضللة إجمالاً ضمن ثلاث فئات: تخويف المرأة لحملها على الانسحاب من السياسة؛ سحب الدعم الشعبي بعيداً عن النساء الناشطات سياسياً، واستغلال المعايير الجندرية لتغيير النتائج السياسية."
+            },
+            "3": {
+                "eng": "When using scare tactics, online attackers use fake images and stories, often with sexualized components, to demean politically active women and manipulate or stop their political participation. An attack on one woman can often have a ripple effect: when other women, especially young women, see how they are treated online, they may self-censor in case they receive the same treatment. According to a recent report by Plan International, misinformation and disinformation negatively <a target='_blank' href='https://plan-international.org/publications/truth-gap'>affect girl’s online political participation</a>.",
+                "por": "Nas táticas de intimidação, os agressores se utilizam de imagens e histórias falsas, geralmente providas de conteúdo sexual, para depreciar mulheres politicamente ativas e manipular ou impedir sua participação política. As ofensas a uma mulher tendem a se propagar em onda: quando outra mulher, geralmente jovem, se depara com esse tipo de tratamento na internet, é possível que ela se autocensure para não sofrer o mesmo tratamento. Segundo um relatório recente da Plan International, informações infundadas e práticas de desinformação <a target='_blank' href='https://plan-international.org/publications/truth-gap'>afetam negativamente a participação política de mulheres na internet</a>.",
+                "ara": "عند اختيار تكتيكات التخويف، يستخدم المهاجمون الإلكترونيون صوراً وأخباراً كاذبة، تتضمّن عناصر جنسية في الغالب، بغية تحقير النساء الناشطات سياسياً والتلاعب بمشاركتهنّ السياسية أو إيقافها. فلا يخفى على أحد أنّ التهجم على امرأة واحدة يمكن أن يخلّف تداعيات مضاعفة: فعندما ترى نساء أخريات، خاصة الشابات منهن، كيف تتمّ معاملتهنّ على الشبكة الإلكترونية، قد يلجأن إلى ممارسة الرقابة الذاتية خوفاً من تلقي المعاملة نفسها. وفقاً لتقرير حديث صادر عن منظمة “الخطة الدولية“، تؤثّر المعلومات الخاطئة والمضللة سلباً على مشاركة الفتيات السياسية على الإنترنت."
+            },
+            "4": {
+                "eng": "Online attackers also use entrenched gender norms to shift support away from political women or the issues they are promoting. These campaigns often focus on a country’s traditional definition of ‘femininity’ and gender roles, sometimes including a religious component, to discredit and undermine women in politics.",
+                "por": "Os agressores também fazem uso de normas de gênero enraizadas para tolher o apoio a mulheres politicamente ativas ou às causas defendidas por elas. Essas campanhas geralmente focam no que cada país define tradicionalmente como “feminilidade” e “papéis de gênero”, às vezes com um complemento religioso, para difamar e prejudicar mulheres do campo político.",
+                "ara": "بالإضافة إلى ذلك، يستخدم المهاجمون الإلكترونيون المعايير الجندرية الراسخة لسجب الدعم الشعبي بعيداً عن النساء السياسيات أو القضايا التي يروّجن لها. تركّز هذه الحملات غالباً على التعريف التقليدي “للأنوثة“ في بلد ما، والأدوار الجندرية، مضيفةً عنصراً دينياً في بعض الأحيان، بغية تشويه سمعة النساء في السياسة والاستخفاف بهنّ."
+            },
+            "5": {
+                "eng": "Finally, attackers use gendered disinformation to change political outcomes. This type of campaign targets both women and men, weakening the information space and creating a significantly less democratic space for all participants. The attacks leverage gender norms to influence the public's perceptions of issues and policies that would negatively impact the power of the political elites without this intervention.",
+                "por": "Por fim, os agressores utilizam a desinformação de gênero para alterar o cenário político. Esse tipo de campanha é direcionado tanto a mulheres quanto homens, debilitando o espaço informacional e criando um ambiente consideravelmente menos democrático para todos os participantes. Os ataques se apoiam em normas de gênero com o objetivo de influenciar a percepção do público sobre assuntos e políticas que afetariam negativamente o poder das elites políticas.",
+                "ara": "أخيراً، يستخدم المهاجمون التضليل الجندري لتغيير النتائج السياسية. يستهدف هذا النوع من الحملات كلاً من النساء والرجال، فيضعف حيّز المعلومات، ويضيّق بدرجة كبيرة جداً المساحة الديمقراطية المتوفرة لجميع المشاركين. تستغل الهجمات المعايير الجندرية للتأثير على تصوّرات الجمهور تجاه القضايا والسياسات التي يمكن أن تؤثّر سلباً على سلطة النخب السياسية إن لم يكن من هذا التدخل."
+            }
+        },
+        "paragraphs_2": {
+            "6": {
+                "eng": "Though gendered disinformation is rampant across all corners of the online space, it reaches a much larger audience when it comes from a state-based source. These include political institutions and organizations, networks of connected organizations, and individual influencers in the political environment. Their attacks are amplified because of their position and they make online spaces much more dangerous for women by combining personal attacks and political motivations. These attacks allow state-based actors to undermine the freedom of the political information space. This ultimately threatens the democratic space and gets amplified beyond the political world. According to NDI’s report on addressing gender and disinformation, “reflecting the permeability of our media environments, this gendered disinformation can, in turn, be used either by non-state-based actors to pursue Online VAW-P to their own ends or be unintentionally amplified by media professionals and citizens who are not able to discern its lack of integrity.” It is also crucial to highlight that state-based gendered disinformation campaigns are not limited to authoritarian states. Countries with strong women’s rights policies and a history of democracy are also susceptible to these types of attacks.",
+                "por": "Embora a desinformação de gênero esteja invadindo todos os rincões da internet, a audiência é muito maior quando é uma fonte ligada ao Estado, o que inclui instituições e organizações políticas, redes de organizações interconectadas e influenciadores individuais que participam da cena política. As agressões são amplificadas por causa da posição que esses atores exercem, tornando a redoma digital muito mais perigosa para mulheres ao combinar ofensas pessoais e motivações políticas. Por meio dessas agressões, atores ligados ao Estado acabam comprometendo a liberdade do espaço político informacional, o que, em última instância, ameaça o espaço democrático e reverbera para além do mundo político. De acordo com o relatório do NDI sobre gênero e desinformação, “refletindo a permeabilidade da esfera midiática, a desinformação de gênero pode, por sua vez, ser utilizada para fins particulares por agentes de fora do Estado que queiram praticar atos de violência virtual contra mulheres na política, ou pode ser ecoada involuntariamente por profissionais da mídia e cidadãos incapazes de discernir sobre a falta de integridade do conteúdo”. Também é importante salientar que campanhas de desinformação de gênero associadas ao Estado não se restringem a nações autoritárias. Países com políticas incisivas de defesa da mulher e com um histórico democrático também estão sujeitos a esse tipo de agressão.",
+                "ara": "رغم استشراء التضليل الجندري في مختلف أنحاء الفضاء الإلكتروني، إلا أنه يبلغ مسامع جمهور أوسع بكثير عندما يكون صادراً عن جهات تابعة للدولة. ومن جملتها المؤسسات والمنظمات السياسية، وشبكات المنظمات المترابطة، والمؤثّرون الأفراد في البيئة السياسية. وتكون هجماتهم مضخّمة بفضل مراكزهم، فيجعلون المساحات الإلكترونية مكاناً أكثر خطورة بالنسبة إلى النساء، من خلال الجمع بين الهجمات الشخصية والدوافع السياسية. تتيح هذه الهجمات للجهات التابعة للدولة تقويض حرية فضاء المعلومات السياسية. فيهدّد هذا الأمر في نهاية المطاف المساحة الديمقراطية، لا بل يتوسّع حتى يتخطى حدود العالم السياسي. في الواقع، وفقاً لتقرير المعهد الديمقراطي الوطني الذي يعالج مسألة الجندر والمعلومات المضللة، “قد يُستخدم التضليل الجندري، شأنه شأن بيئاتنا الإعلامية الهشة، إما من قبل جهات غير تابعة للدولة لممارسة العنف على الإنترنت ضد المرأة في السياسة، سعياً إلى تحقيق مآربها الخاصة، أو غير غير قصد، من قبل عاملين في المجال الإعلامي ومواطنين غير قادرين على تمييز نقص هذه المعلومات، فيتضخّم أثر التضليل نتيجة لذلك.“ من بالغ الأهمية أيضاً تسليط الضوء على أنّ حملات التضليل الجندري التي تقوم بها الدول لا تقتصر فقط على الدول الاستبدادية. فحتى تلك التي تعتمد سياسات متينة لحقوق المرأة وتاريخاً عريقاً في الديمقراطية معرّضة أيضاً لهذه الأنواع من الهجمات.  "
+            }
+        }
     },
     "methods": {
-
+        "paragraphs": {
+            "1": {
+                "eng": "",
+                "por": "",
+                "ara": ""
+            },
+            "2": {
+                "eng": "",
+                "por": "",
+                "ara": ""
+            },
+            "3": {
+                "eng": "",
+                "por": "",
+                "ara": ""
+            },
+            "4": {
+                "eng": "",
+                "por": "",
+                "ara": ""
+            }
+        }
     },
     "discussion": {
-
+        "paragraphs": {
+            "1": {
+                "eng": "",
+                "por": "",
+                "ara": ""
+            },
+            "2": {
+                "eng": "",
+                "por": "",
+                "ara": ""
+            },
+            "3": {
+                "eng": "",
+                "por": "",
+                "ara": ""
+            },
+            "4": {
+                "eng": "",
+                "por": "",
+                "ara": ""
+            }
+        }
     },
     "conclusion": {
-
+        "paragraphs": {
+            "1": {
+                "eng": "",
+                "por": "",
+                "ara": ""
+            },
+            "2": {
+                "eng": "",
+                "por": "",
+                "ara": ""
+            },
+            "3": {
+                "eng": "",
+                "por": "",
+                "ara": ""
+            },
+            "4": {
+                "eng": "",
+                "por": "",
+                "ara": ""
+            }
+        }
     },
     "template": {
         "eng": "",

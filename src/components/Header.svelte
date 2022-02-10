@@ -92,7 +92,7 @@
         cursor: pointer;
         padding: 0px;
         margin: 0px;
-        padding-right: 12px;
+        padding-right: 24px;
     }
 
     #logo {
