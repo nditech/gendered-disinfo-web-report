@@ -69,19 +69,6 @@
         font-size: var(--font-size-very-very-small);
     }
 
-    /* styles for browsers smaller than 600px; */
-    @media (max-width : 599px) {
-        #top-img-container {
-            right: 0px;
-            text-align: right;
-        }
-    }
-    @media (min-width : 599px) {
-        #top-img-container {
-            left: 0px;
-            text-align: left;
-        }
-    }
     /* Title */
     .top-title-container {
         position: relative;
@@ -98,6 +85,20 @@
         align-items: center;
     }
 
+    /* styles for browsers smaller than 600px; */
+    @media (max-width : 599px) {
+        #top-img-container {
+            right: 0px;
+            text-align: right;
+        }
+    }
+    @media (min-width : 599px) {
+        #top-img-container {
+            left: 0px;
+            text-align: left;
+        }
+    }
+    
     .authors {
         font-size: var(--font-size-small);
     }
@@ -120,14 +121,13 @@
     /* styles for browsers smaller than 600px; */
     @media (max-width : 599px) {
         .top-title-container {
-            height: 66vh;
-            top: 17vh;
+            top: -80vh;
             left: 0px;
             right: 0px;
             margin: 0px auto;
         }
         .top-title {
-            font-size: var(--font-size-large);
+            font-size: var(--font-size-normal);
         }
     }
 </style>
