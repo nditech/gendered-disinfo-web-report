@@ -69,7 +69,8 @@
             'categories': brazil_categories, 
             'dictionary': brazil_dictionary,
             'OF_INTEREST': OF_INTEREST,
-            'MIN_NBR_OF_PUBLICATION_OF_INTEREST': MIN_NBR_OF_PUBLICATION_OF_INTEREST
+            'MIN_NBR_OF_PUBLICATION_OF_INTEREST': MIN_NBR_OF_PUBLICATION_OF_INTEREST,
+            'lang': lang
         };
 
         // init worker
@@ -104,7 +105,8 @@
             'categories': lebanon_categories, 
             'dictionary': lebanon_dictionary,
             'OF_INTEREST': OF_INTEREST,
-            'MIN_NBR_OF_PUBLICATION_OF_INTEREST': MIN_NBR_OF_PUBLICATION_OF_INTEREST
+            'MIN_NBR_OF_PUBLICATION_OF_INTEREST': MIN_NBR_OF_PUBLICATION_OF_INTEREST,
+            'lang': lang
         };
 
         // init worker

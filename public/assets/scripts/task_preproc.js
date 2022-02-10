@@ -231,7 +231,7 @@ function preproc_lexicon(raw_lexicon, dictionary, submissions){
 }
 
 
-function preproc_categories(raw_categories, submissions){
+function preproc_categories(raw_categories, submissions, lang = 'eng'){
 
     // filter
     const submissions_of_interest = submissions.filter(submission => submission['of_interest']);
@@ -244,9 +244,9 @@ function preproc_categories(raw_categories, submissions){
 
         return {
             'key': category['key'],
-            'name': category['title'],
-            'name_count': `${category['title']}, (${nbr_of_posts} ${nbr_of_posts > 1 ? 'posts' : 'post'})`,
-            'description': category['description'],
+            'name': category[lang]['title'],
+            'name_count': `${category[lang]['title']}, (${nbr_of_posts} ${nbr_of_posts > 1 ? 'posts' : 'post'})`,
+            'description': category[lang]['description'],
             'value': nbr_of_posts
         }
     })
@@ -291,13 +291,20 @@ function preproc_belligerents(sources, submissions, MIN_NBR_OF_PUBLICATION_OF_IN
 
 
 
-function preprocess(sources, raw_posts, raw_submissions, events, raw_lexicon, dictionary, raw_categories, OF_INTEREST, MIN_NBR_OF_PUBLICATION_OF_INTEREST){
+function preprocess(sources, raw_posts, raw_submissions, events, raw_lexicon, dictionary, raw_categories, OF_INTEREST, MIN_NBR_OF_PUBLICATION_OF_INTEREST, lang = 'eng'){
 
     // ---------------------------------------------------------------------------------------------------------
     // ---------------------------------------- Basic Processing -----------------------------------------------
     // ---------------------------------------------------------------------------------------------------------
 
-    // sources: sort in descending order using their number of followers
+    // sources: keep the selected translation and sort in descending order using their number of followers
+    sources = sources.map(source => {
+        return {
+            'endpoint': source['endpoint'],
+            'name': source['eng']['name'],
+            'description': source[lang]['description']
+        }
+    })
     sources.sort((a, b) => get_max_followers(b) - get_max_followers(a));
 
     // posts: unnest them from their low-size representation
@@ -307,14 +314,23 @@ function preprocess(sources, raw_posts, raw_submissions, events, raw_lexicon, di
     // also add the lexicon match
     const submissions = preproc_submissions(raw_submissions, posts, raw_lexicon, dictionary, OF_INTEREST);
 
-    // events: sort in ascending chronological order
-    events.sort((a, b) => new Date(a['date']) - new Date(b['date']));
+    // events: keep the selected translation and sort in ascending chronological order
+    events = events.map(event => { 
+        return {
+            'id': event['id'],
+            'date': event['date'],
+            'title': event[lang]['title'],
+            'description': event[lang]['description']
+        }
+    })
+    events.sort((a, b) => new Date(a['date']) - new Date(b['date']));    
+
 
     // lexicon: add the performance of each lexcon based on the submissions
     const lexicon = preproc_lexicon(raw_lexicon, dictionary, submissions);
 
     // categories: add descriptive title and description based on the submissions
-    const categories = preproc_categories(raw_categories, submissions);
+    const categories = preproc_categories(raw_categories, submissions, lang);
 
 
     // ---------------------------------------------------------------------------------------------------------
@@ -333,7 +349,7 @@ function preprocess(sources, raw_posts, raw_submissions, events, raw_lexicon, di
     let political_network_table = [];
     sources.forEach(source => {
         // grab data
-        const { name, endpoint } = source;
+        const { endpoint, name } = source;
         Object.keys(endpoint).forEach(platform_name => {
             const { url } = endpoint[platform_name];
             political_network_table.push([name, platform_name, url])
@@ -362,7 +378,6 @@ function preprocess(sources, raw_posts, raw_submissions, events, raw_lexicon, di
     // belligerents
     const [belligerents, submissions_of_interest] = preproc_belligerents(sources, submissions, MIN_NBR_OF_PUBLICATION_OF_INTEREST)
 
-
     return [
         sources, posts, submissions, events, lexicon, categories,
         lexicon_table, events_table, political_network_table, 
@@ -385,7 +400,8 @@ addEventListener('message', async function(e) {
         dictionary, 
         posts_zipped,
         OF_INTEREST,
-        MIN_NBR_OF_PUBLICATION_OF_INTEREST
+        MIN_NBR_OF_PUBLICATION_OF_INTEREST,
+        lang
     } = e.data;
 
     // unzip posts
@@ -397,7 +413,7 @@ addEventListener('message', async function(e) {
         lexicon_table, events_table, political_network_table, 
         nbr_of_accounts, min_date, max_date, 
         belligerents, submissions_of_interest
-    ] = preprocess(sources, posts, submissions, events, lexicon, dictionary, categories, OF_INTEREST, MIN_NBR_OF_PUBLICATION_OF_INTEREST);
+    ] = preprocess(sources, posts, submissions, events, lexicon, dictionary, categories, OF_INTEREST, MIN_NBR_OF_PUBLICATION_OF_INTEREST, lang);
     
     // bundle into a payload
     const payload = {
