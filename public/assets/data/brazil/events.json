@@ -1,52 +1,162 @@
 [
     {
-        "description": "The first cases of internal transmission of the novel coronavirus is recorded",
+        "id": 1,
         "date": "2020-03-05",
-        "title": "First case of COVID19"
+        "eng": {
+            "description": "The first cases of internal transmission of the novel coronavirus is recorded",
+            "title": "First case of COVID19"
+        },
+        "ara": {
+            "description": "تسجيل أول حالات انتقال داخلي لعدوى فيروس كورونا المستجد",
+            "title": "أول حالة كوفيد–19"
+        },
+        "por": {
+            "description": "Primeiros casos de transmissão interna do novo coronavírus são registrados",
+            "title": "Primeiro caso de Covid-19"
+        }
     },
     {
-        "description": "The first death caused by COVID19 in Brazil is recorded by the Ministry of Health",
+        "id": 2,
         "date": "2020-03-12",
-        "title": "First death due to COVID19"
+        "eng": {
+            "description": "The first death caused by COVID19 in Brazil is recorded by the Ministry of Health",
+            "title": "First death due to COVID19"
+        },
+        "ara": {
+            "description": "سجّلت وزارة الصحة أول حالة وفاة بسبب كوفيد-19 في البرازيل",
+            "title": "أول حالة وفاة نتيجة كوفيد-19"
+        },
+        "por": {
+            "description": "A primeira morte de Covid-19 no Brasil é registrada pelo Ministério da Saúde",
+            "title": "Primeira morte de Covid-19"
+        }
     },
     {
-        "description": "President Jair Bolsonaro defends the use of chloroquine and hydroxychloroquine",
+        "id": 3,
         "date": "2020-04-09",
-        "title": "Jair Bolsonaro praises Hydroxychloroquine"
+        "eng": {
+            "description": "President Jair Bolsonaro defends the use of chloroquine and hydroxychloroquine",
+            "title": "Jair Bolsonaro praises Hydroxychloroquine"
+        },
+        "ara": {
+            "description": "الرئيس جايير بولسونارو يدافع عن استخدام الكلوروكين والهيدروكسي كلوروكين",
+            "title": "جايير بولسونارو يشيد بالهيدروكسي كلوروكين"
+        },
+        "por": {
+            "description": "O presidente Jair Bolsonaro defende o uso de cloroquina e hidroxicloroquina",
+            "title": "Jair Bolsonaro exalta a hidroxicloroquina"
+        }
     },
     {
-        "description": "President Jair Bolsonaro fires his health minister Luiz Henrique Mandetta",
+        "id": 4,
         "date": "2020-04-16",
-        "title": "Health Minister is fired"
+        "eng": {
+            "description": "President Jair Bolsonaro fires his health minister Luiz Henrique Mandetta",
+            "title": "Health Minister is fired"
+        },
+        "ara": {
+            "description": "الرئيس جايير بولسونارو يطرد وزير الصحة لويس هنريكي مانديتا",
+            "title": "طرد وزير الصحة"
+        },
+        "por": {
+            "description": "O presidente Jair Bolsonaro demite o ministro da Saúde Luiz Henrique Mandetta",
+            "title": "O ministro da Saúde é demitido"
+        }
     },
     {
-        "description": "Brazil's Federal Supreme Court orders the Ministry of Health to resume the disclosure of the accumulated data from the official website",
+        "id": 5,
         "date": "2020-06-08",
-        "title": "Supreme court forces the disclosure of data"
+        "eng": {
+            "description": "Brazil's Federal Supreme Court orders the Ministry of Health to resume the disclosure of the accumulated data from the official website",
+            "title": "Supreme court forces the disclosure of data"
+        },
+        "ara": {
+            "description": "المحكمة الفيدرالية العليا في البرازيل تأمر وزارة الصحة باستئناف كشف البيانات المتراكمة من الموقع الإلكتروني الرسمي",
+            "title": "المحكمة العليا تفرض كشف البيانات"
+        },
+        "por": {
+            "description": "O Supremo Tribunal Federal ordena a retomada da divulgação dos dados acumulados nos sites oficiais",
+            "title": "O STF torna obrigatória a divulgação de dados"
+        }
     },
     {
-        "description": "President Jair Bolsonaro says in an interview broadcast by TV Brasil that he tested positive for COVID19",
+        "id": 6,
         "date": "2020-07-07",
-        "title": "Jair Bolsonaro tests positive for COVID19"
+        "eng": {
+            "description": "President Jair Bolsonaro says in an interview broadcast by TV Brasil that he tested positive for COVID19",
+            "title": "Jair Bolsonaro tests positive for COVID19"
+        },
+        "ara": {
+            "description": "الرئيس جايير بولسونارو يصرّح في إحدى المقابلات على تلفزيون البرازيل أنه أصيب بفيروس كوفيد-19",
+            "title": "جايير بولسونارو مصاب بكوفيد-19"
+        },
+        "por": {
+            "description": "Em entrevista transmitida pela TV Brasil, o presidente Jair Bolsonaro afirma que testou positivo para Covid-19",
+            "title": "Jair Bolsonaro testa positivo para Covid-19"
+        }
     },
     {
-        "description": "First Lady Michelle Bolsonaro tests positive for COVID19",
+        "id": 7,
         "date": "2020-07-30",
-        "title": "Michelle Bolsonaro tests positive for COVID19"
+        "eng": {
+            "description": "First Lady Michelle Bolsonaro tests positive for COVID19",
+            "title": "Michelle Bolsonaro tests positive for COVID19"
+        },
+        "ara": {
+            "description": "السيدة الأولى ميشيل بولسونارو أصيبت بكوفيد-19",
+            "title": "ميشيل بولسونارو مصابة بكوفيد-19"
+        },
+        "por": {
+            "description": "A primeira-dama Michelle Bolsonaro testa positivo para Covid-19",
+            "title": "Michelle Bolsonaro testa positivo para Covid-19"
+        }
     },
     {
-        "description": "President Jair Bolsonaro says he will not take a coronavirus vaccine",
+        "id": 8,
         "date": "2020-11-26",
-        "title": "Jair Bolsonaro won't take the vaccine"
+        "eng": {
+            "description": "President Jair Bolsonaro says he will not take a coronavirus vaccine",
+            "title": "Jair Bolsonaro won't take the vaccine"
+        },
+        "ara": {
+            "description": "الرئيس جايير بولسونارو يقول إنه لن يتلقى لقاح فيروس كورونا",
+            "title": "جايير بولسونارو لن يأخذ اللقاح"
+        },
+        "por": {
+            "description": "O presidente Jair Bolsonaro afirma que não vai se vacinar contra o coronavírus",
+            "title": "Jair Bolsonaro anuncia que não vai se vacinar"
+        }
     },
     {
-        "description": "President Jair Bolsonaro chooses doctor Marcelo Queiroga to replace Eduardo Pazuello as fourth Minister of Health",
+        "id": 9,
         "date": "2021-03-15",
-        "title": "Marcelo Queiroga becomes Health minister"
+        "eng": {
+            "description": "President Jair Bolsonaro chooses doctor Marcelo Queiroga to replace Eduardo Pazuello as fourth Minister of Health",
+            "title": "Marcelo Queiroga becomes Health minister"
+        },
+        "ara": {
+            "description": "الرئيس جايير بولسونارو يختار الطبيب مارسيلو كيروغا لاستبدال إدواردو بازويلو كرابع وزير الصحة",
+            "title": "مارسيلو كيروغا وزيراً للصحة" 
+        },
+        "por": {
+            "description": "O presidente Jair Bolsonaro escolhe o médico Marcelo Queiroga para o lugar de Eduardo Pazuello como quarto ministro da Saúde",
+            "title": "Marcelo Queiroga, ministro da Saúde"
+        }
     },
     {
-        "description": "Brazil's Senate opens its inquiry into President Jair Bolsonaro's handling of the COVID-19 pandemic.",
+        "id": 10,
         "date": "2021-04-27",
-        "title": "Senate opens inquiry"
+        "eng": {
+            "description": "Brazil's Senate opens its inquiry into President Jair Bolsonaro's handling of the COVID-19 pandemic.",
+            "title": "Senate opens inquiry"
+        },
+        "ara": {
+            "description": "مجلس الشيوخ البرازيلي يفتح تحقيقاً بشأن طريقة تعاطي الرئيس جايير بولسونارو مع جائحة كوفيد-19.",
+            "title": "مجلس الشيوخ يفتح تحقيقاً"
+        },
+        "por": {
+            "description": "Senado do Brasil abre inquérito sobre como o presidente Jair Bolsonaro lidou com a pandemia de COVID-19.",
+            "title": "Senado abre inquérito"
+        }
     }
 ]

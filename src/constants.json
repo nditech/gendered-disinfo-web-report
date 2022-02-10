@@ -1,7 +1,6 @@
 {
     "SUPPORTED_LANGUAGES": [
         {"key": "eng", "name": "English", "mobile": "en"},
-        {"key": "fra", "name": "Français", "mobile": "fr"},
         {"key": "por", "name": "Português", "mobile": "pt"},
         {"key": "ara", "name": "عَرَبي", "mobile": "عَرَ"}
     ],

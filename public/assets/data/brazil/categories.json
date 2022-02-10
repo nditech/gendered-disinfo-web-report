@@ -1,37 +1,107 @@
 [
     {
         "key": 2,
-        "description": "Claims that teaching kids gender studies leads to homosexuality, being debauched, etc",
-        "title": "Gender studies"
+        "eng": {
+            "description": "Claims that teaching kids gender studies leads to homosexuality, being debauched, etc",
+            "title": "Gender studies"
+        },
+        "ara": {
+            "description": "ادعاءات بأنّ تعليم الأطفال الدراسات الجندرية سيؤدي إلى المثلية والفسوق إلخ.",
+            "title": "الدراسات الجندرية"
+        },
+        "por": {
+            "description": "Alegações de que o ensino a crianças de questões ligadas a gênero leva à homossexualidade, a comportamentos imorais etc.",
+            "title": "Estudos de Gênero"
+        }
     },
     {
         "key": 3,
-        "description": "Blurring the line between LGBT and pedophilia",
-        "title": "LGBT & Pedophilia"
+        "eng": {
+            "description": "Blurring the line between LGBT and pedophilia",
+            "title": "LGBT & Pedophilia"
+        },
+        "ara": {
+            "description": "تمويه الحدود الفاصلة بين مجتمع الميم والاعتداء الجنسي على الأطفال",
+            "title": "مجتمع الميم والاعتداء الجنسي على الأطفال"
+        },
+        "por": {
+            "description": "Equiparação entre LGBT e pedofilia.",
+            "title": "LGBT e Pedofilia"
+        }
     },
     {
         "key": 4,
-        "description": "Smear campaign against Joice Hassellmann",
-        "title": "Joice Hassellmann"
+        "eng": {
+            "description": "Smear campaign against Joice Hassellmann",
+            "title": "Joice Hassellmann"
+        },
+        "ara": {
+            "description": "حملة لتشويه سمعة جويس هاسلمان",
+            "title": "جويس هاسلمان"
+        },
+        "por": {
+            "description": "Campanha difamatória contra Joice Hassellmann – jornalista, escritora, ativista e comentarista política filiada ao PSDB (Partido da Social Democracia Brasileira).",
+            "title": "Joice Hassellmann"
+        }
     },
     {
         "key": 5,
-        "description": "Shutting down criticism of the COVID19 response voiced by women by using gendered attacks",
-        "title": "Gender & COVID19"
+        "eng": {
+            "description": "Shutting down criticism of the COVID19 response voiced by women by using gendered attacks",
+            "title": "Gender & COVID19"
+        },
+        "ara": {
+            "description": "إسكات أصوات النساء اللواتي انتقدن آلية الاستجابة لكوفيد-19 من خلال اللجوء إلى هجمات جندرية",
+            "title": "الجندر وكوفيد-19"
+        },
+        "por": {
+            "description": "Sabotagem de críticas feitas por mulheres ao enfrentamento da pandemia por meio de ataques com viés de gênero.",
+            "title": "Gênero e Covid-19"
+        }
     },
     {
         "key": 6,
-        "description": "Straight sexist attacks",
-        "title": "Attacks"
+        "eng": {
+            "description": "Straight sexist attacks",
+            "title": "Attacks"
+        },
+        "ara": {
+            "description": "الهجمات المباشرة المتحيّزة جنسياً",
+            "title": "الهجمات"
+        },
+        "por": {
+            "description": "Emprego de ofensas manifestamente sexistas.",
+            "title": "Ataques"
+        }
     },
     {
         "key": 7,
-        "description": "Discrediting a feminist cause, by impugning that one of its champion is a leftist",
-        "title": "Feminism"
+        "eng": {
+            "description": "Discrediting a feminist cause, by impugning that one of its champion is a leftist",
+            "title": "Feminism"
+        },
+        "ara": {
+            "description": "تشويه سمعة قضية نسوية، من خلال اتهام إحدى مناصراتها بأنها يسارية",
+            "title": "النسوية"
+        },
+        "por": {
+            "description": "Descredibilização de uma causa feminista ao associá-la a uma militante de esquerda.",
+            "title": "Feminismo"
+        }
     },
     {
         "key": 8,
-        "description": "Using the abortion issue as a way to demonize the progressives",
-        "title": "Abortion"
+        "eng": {
+            "description": "Using the abortion issue as a way to demonize the progressives",
+            "title": "Abortion"
+        },
+        "ara": {
+            "description": "استغلال قضية الإجهاض كطريقة لتشويه صورة التقدميين",
+            "title": "الإجهاض"
+        },
+        "por": {
+            "description": "Utilização da temática do aborto como forma de demonizar os progressistas.",
+            "title": "Aborto"
+        }
     }
 ]

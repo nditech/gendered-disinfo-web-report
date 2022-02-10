@@ -1,37 +1,107 @@
 [
     {
-        "description": "A series of civil protests that took place in Lebanon",
         "date": "2019-10-17",
-        "title": "October Revolution"
+        "eng": {
+            "description": "A series of civil protests that took place in Lebanon",
+            "title": "October Revolution"
+        },
+        "ara": {
+            "description": "مجموعة من التظاهرات المدنية التي اجتاحت لبنان",
+            "title": "ثورة 17 تشرين الأول"
+        },
+        "por": {
+            "description": "Uma série de manifestações sociais ocorridas no Líbano",
+            "title": "Revolução de outubro"
+        }
     },
     {
-        "description": "Saad Hariri resigns in response to protests against the government",
         "date": "2019-10-29",
-        "title": "PM Saad Hariri resigns"
+        "eng": {
+            "description": "Saad Hariri resigns in response to protests against the government",
+            "title": "PM Saad Hariri resigns"
+        },
+        "ara": {
+            "description": " سعد الحريري يستقيل ردّاً على التظاهرات ضد الحكومة",
+            "title": "استقالة رئيس الوزراء سعد الحريري"
+        },
+        "por": {
+            "description": "Saad Hariri renuncia em resposta às manifestações contra o governo",
+            "title": "Renúncia do primeiro-ministro Saad Hariri"
+        }
     },
     {
-        "description": "Protests are part of the revolution initiated in October 2019",
         "date": "2020-01-14",
-        "title": "Protests Resume"
+        "eng": {
+            "description": "Protests are part of the revolution initiated in October 2019",
+            "title": "Protests Resume"
+        },
+        "ara": {
+            "description": "تشكّل التظاهرات جزءاً من الثورة التي انطلقت في تشرين الأول 2019",
+            "title": "استئناف التظاهرات"
+        },
+        "por": {
+            "description": "As manifestações fazem parte da revolução iniciada em outubro de 2019",
+            "title": "Retomada dos protestos"
+        }
     },
     {
-        "description": "The 1st case of COVID19 in Lebanon is confirmed in Beirut",
         "date": "2020-02-21",
-        "title": "First case of COVID19"
+        "eng": {
+            "description": "The 1st case of COVID19 in Lebanon is confirmed in Beirut",
+            "title": "First case of COVID19"
+        },
+        "ara": {
+            "description": "أول حالة كوفيد-19 في لبنان تؤكَّد في بيروت",
+            "title": "أول حالة كوفيد-19"
+        },
+        "por": {
+            "description": "O primeiro caso de Covid-19 no Líbano é confirmado em Beirute",
+            "title": "Primeiro caso de Covid-19"
+        }
     },
     {
-        "description": "The first COVID19 death is recorded",
         "date": "2020-03-10",
-        "title": "First death due to COVID19"
+        "eng": {
+            "description": "The first COVID19 death is recorded",
+            "title": "First death due to COVID19"
+        },
+        "ara": {
+            "description": "تسجيل أول وفاة جراء كوفيد-19",
+            "title": "أول حالة وفاة بسبب كوفيد-19"
+        },
+        "por": {
+            "description": "A primeira morte de Covid-19 é registrada",
+            "title": "Primeira morte de Covid-19"
+        }
     },
     {
-        "description": "A large amount of ammonium nitrate stored at the Port of Beirut explodes",
         "date": "2020-06-04",
-        "title": "Beirut Port Explosion"
+        "eng": {
+            "description": "A large amount of ammonium nitrate stored at the Port of Beirut explodes",
+            "title": "Beirut Port Explosion"
+        },
+        "ara": {
+            "description": "انفجرت كمية كبيرة من نيترات الأمونيوم المخزنة في مرفأ بيروت",
+            "title": "انفجار مرفأ بيروت"
+        },
+        "por": {
+            "description": "Uma grande quantidade de nitrato de amônio armazenada no porto de Beirute explode",
+            "title": "Explosão no porto de Beirute"
+        }
     },
     {
-        "description": "Prime Minister Hassan Diab announced that he and his entire cabinet had resigned following anger over the Beirut explosions",
         "date": "2020-06-20",
-        "title": "PM and his cabinet resign"
+        "eng": {
+            "description": "Prime Minister Hassan Diab announced that he and his entire cabinet had resigned following anger over the Beirut explosions",
+            "title": "PM and his cabinet resign"
+        },
+        "ara": {
+            "description": "أعلن رئيس الوزراء حسان دياب استقالته وحكومته كاملةً بعد موجة الغضب التي تلت انفجار بيروت",
+            "title": "استقالة رئيس الوزراء وحكومته"
+        },
+        "por": {
+            "description": "O primeiro-ministro Hassan Diab anuncia a própria renúncia e de todo seu gabinete após a revolta provocada pelas explosões em Beirute",
+            "title": "Renúncia do primeiro-ministro e de seu gabinete"
+        }
     }
 ]

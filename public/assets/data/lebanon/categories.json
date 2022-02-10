@@ -1,37 +1,107 @@
 [
     {
         "key": 1,
-        "description": "During the 2019 October protests a video of a belly dancer in the middle of the protest went viral. Since then, critics of the revolution will use the expression “رقاصة الرينغ” (ring dancer) to demean women’s voices.",
-        "title": "Belly Dancer"
+        "eng": {
+            "description": "During the 2019 October protests a video of a belly dancer in the middle of the protest went viral. Since then, critics of the revolution will use the expression “رقاصة الرينغ” (ring dancer) to demean women’s voices.",
+            "title": "Belly Dancer"
+        },
+        "ara": {
+            "description": "خلال تظاهرات تشرين الأول/ أكتوبر 2019، انتشر فيديو عن راقصة شرقية في وسط التظاهرة. منذ ذلك الحين، يستخدم منتقدو الثورة عبارة "رقاصة الرينغ" للانتقاص من آراء النساء",
+            "title": "راقصة شرقية"
+        },
+        "por": {
+            "description": "Durante os protestos de outubro de 2019, um vídeo de uma dançarina do ventre no meio do protesto viralizou. Desde então, os críticos da revolução passaram a usar a expressão “رقاصة الرينغ” (dançarina do ringue) para ridicularizar a voz das mulheres.",
+            "title": "Dançarina do Ventre"
+        }
     },
     {
         "key": 2,
-        "description": "Prime Minister Saad Hariri reportedly gave a 16M$ gift to South African model Candice van der Merwe.",
-        "title": "The Gift"
+        "eng": {
+            "description": "Prime Minister Saad Hariri reportedly gave a 16M$ gift to South African model Candice van der Merwe.",
+            "title": "The Gift"
+        },
+        "ara": {
+            "description": "أفيد أنّ رئيس الوزراء سعد الحريري قدّم هدية بقيمة 16 مليون دولار إلى عارضة جنوب أفريقية تُدعى كانديس فان در ميروي.",
+            "title": "الهدية"
+        },
+        "por": {
+            "description": "O primeiro-ministro Saad Hariri foi acusado de ter doado US$ 16M para a modelo sul-africana Candice van der Merwe.",
+            "title": "O presente"
+        }
     },
     {
         "key": 3,
-        "description": "In the spirit of “revolution stole by thugs”, women who participated are labeled as prostitutes, sadistic masochist, and other derogatory labels",
-        "title": "The Gift"
+        "eng": {
+            "description": "In the spirit of “revolution stole by thugs”, women who participated are labeled as prostitutes, sadistic masochist, and other derogatory labels",
+            "title": "Revolution stole by thugs"
+        },
+        "ara": {
+            "description": "في إطار شعار "ثورة سرقها الزعران"، وُصفت النساء اللواتي شاركن بالعاهرات، والساديات المازوشيات، وغيرها من الأوصاف التحقيرية",
+            "title": "ثورة سرقها الزعران"
+        },
+        "por": {
+            "description": "Na onda da “revolução usurpada por marginais”, as mulheres que foram às ruas passaram a ser rotuladas como “prostitutas”, “sadomasoquistas” e outros termos pejorativos.",
+            "title": "Revolução usurpada por marginais"
+        }
     },
     {
         "key": 4,
-        "description": "Claiming that a woman has a relationship with X",
-        "title": "Claims of having an affair"
+        "eng": {
+            "description": "Claiming that a woman has a relationship with X",
+            "title": "Claims of having an affair"
+        },
+        "ara": {
+            "description": "مزاعم بأنّ امرأة هي على علاقة مع إكس",
+            "title": "مزاعم بإقامة علاقة غرامية"
+        },
+        "por": {
+            "description": "Alegações de que determinada mulher tem um caso com “X”.",
+            "title": "Acusações de ter tido um caso"
+        }
     },
     {
         "key": 5,
+        "eng": {
         "description": "Attacks, or spreading rumors about <a href='https://twitter.com/dimasadek' target='_blank'>Dima Sadek</a> – a journalist and TV presenter who worked at OTV, LBC and MTV",
         "title": "Smear campaign against Dima Sadek"
+        },
+        "ara": {
+            "description": "شنّ الهجمات أو نشر الشائعات عن <a href='https://twitter.com/dimasadek' target='_blank'>ديما صادق</a> وهي صحافية ومذيعة تلفزيونية عملت في محطات الأو تي في، والمؤسسة اللبنانية للإرسال (إل بي سي)، وتلفزيون المرّ (إم تي في).",
+            "title": "حملة تشهير ضد ديما صادق"
+        },
+        "por": {
+            "description": "Ataques a ou disseminação de boatos sobre Dima Sadek – jornalista e apresentadora de TV que trabalhou nas redes OTV, LBC e MTV.",
+            "title": "Campanha difamatória contra Dima Sadek"
+        }
     },
     {
         "key": 6,
-        "description": "Attacks on <a href='https://en.wikipedia.org/wiki/Ghada_Aoun' target='_blank'>Judge Ghada Aoun</a> – a judge and Mount Lebanon's state prosecutor",
-        "title": "Smear campaign against Judge Ghada Aoun"
+        "eng": {
+            "description": "Attacks on <a href='https://en.wikipedia.org/wiki/Ghada_Aoun' target='_blank'>Judge Ghada Aoun</a> – a judge and Mount Lebanon's state prosecutor",
+            "title": "Smear campaign against Judge Ghada Aoun"
+        },
+        "ara": {
+            "description": "شنّ الهجمات على <a href='https://en.wikipedia.org/wiki/Ghada_Aoun' target='_blank'>القاضية غادة عون</a> – وهي قاضية ومدعية عامة في محافظة جبل لبنان",
+            "title": "حملة تشهير ضد القاضية غادة عون"
+        },
+        "por": {
+            "description": "Ataques à juíza Ghada Aoun – juíza e promotora pública da província do Monte Líbano.",
+            "title": "Campanha difamatória contra a juíza Ghada Aoun"
+        }
     },
     {
         "key": 7,
-        "description": "A former lebanese porn star, who supported the revolution, is used by critics of the revolution to tarnish the image of the women's voices.",
-        "title": "Pornstar"
+        "eng": {
+            "description": "A former lebanese porn star, who supported the revolution, is used by critics of the revolution to tarnish the image of the women's voices.",
+            "title": "Pornstar"
+        },
+        "ara": {
+            "description": "استغلال منتقدي الثورة أنّ نجمة أفلام إباحية لبنانية سابقة تدعم الثورة، بهدف تشويه صورة النساء وآرائهنّ",
+            "title": "نجمة أفلام إباحية"
+        },
+        "por": {
+            "description": "Uma ex-atriz pornô libanesa, apoiadora da revolução, é usada por críticos da revolução para desprestigiar a voz das mulheres.",
+            "title": "Atriz pornô"
+        }
     }
 ]

@@ -1,772 +1,1502 @@
 [
     {
+    "eng": {
         "name": "the daily star",
-        "description": "",
-        "endpoint": {
-            "facebook": {
-                "url": "https://facebook.com/dailystarleb",
-                "followers": null
-            }
+        "description": ""
+    },
+    "ara": {
+        "name": "",
+        "description": ""
+    },
+    "por": {
+        "name": "",
+        "description": ""
+    },
+    "endpoint": {
+        "facebook": {
+        "url": "https://facebook.com/dailystarleb",
+        "followers": null
         }
+    }
     },
     {
+    "eng": {
         "name": "salman andary",
-        "description": "News Reporter/Producer for Sky News Arabia Bureau Beirut",
-        "endpoint": {
-            "twitter": {
-                "url": "https://twitter.com/salmanonline",
-                "followers": 53700
-            }
+        "description": "News Reporter/Producer for Sky News Arabia Bureau Beirut"
+    },
+    "ara": {
+        "name": "",
+        "description": ""
+    },
+    "por": {
+        "name": "",
+        "description": ""
+    },
+    "endpoint": {
+        "twitter": {
+        "url": "https://twitter.com/salmanonline",
+        "followers": 53700
         }
+    }
     },
     {
+    "eng": {
         "name": "sawt el-mada",
-        "description": "",
-        "endpoint": {
-            "facebook": {
-                "url": "https://facebook.com/sawtelmada",
-                "followers": null
-            }
+        "description": ""
+    },
+    "ara": {
+        "name": "",
+        "description": ""
+    },
+    "por": {
+        "name": "",
+        "description": ""
+    },
+    "endpoint": {
+        "facebook": {
+        "url": "https://facebook.com/sawtelmada",
+        "followers": null
         }
+    }
     },
     {
+    "eng": {
         "name": "ali mortada",
-        "description": "Journalist for Al Mayadeen News",
-        "endpoint": {
-            "twitter": {
-                "url": "https://twitter.com/aliimortada",
-                "followers": 258200
-            }
+        "description": "Journalist for Al Mayadeen News"
+    },
+    "ara": {
+        "name": "",
+        "description": ""
+    },
+    "por": {
+        "name": "",
+        "description": ""
+    },
+    "endpoint": {
+        "twitter": {
+        "url": "https://twitter.com/aliimortada",
+        "followers": 258200
         }
+    }
     },
     {
+    "eng": {
         "name": "al mustaqba",
-        "description": "",
-        "endpoint": {
-            "facebook": {
-                "url": "https://facebook.com/almustaqbal.org",
-                "followers": null
-            }
+        "description": ""
+    },
+    "ara": {
+        "name": "",
+        "description": ""
+    },
+    "por": {
+        "name": "",
+        "description": ""
+    },
+    "endpoint": {
+        "facebook": {
+        "url": "https://facebook.com/almustaqbal.org",
+        "followers": null
         }
+    }
     },
     {
+    "eng": {
         "name": "l’orient-le jour",
-        "description": "",
-        "endpoint": {
-            "twitter": {
-                "url": "https://twitter.com/lorientlejour",
-                "followers": null
-            }
+        "description": ""
+    },
+    "ara": {
+        "name": "",
+        "description": ""
+    },
+    "por": {
+        "name": "",
+        "description": ""
+    },
+    "endpoint": {
+        "twitter": {
+        "url": "https://twitter.com/lorientlejour",
+        "followers": null
         }
+    }
     },
     {
+    "eng": {
         "name": "lbci",
-        "description": "",
-        "endpoint": {
-            "facebook": {
-                "url": "https://facebook.com/lbcilebanon",
-                "followers": null
-            }
+        "description": ""
+    },
+    "ara": {
+        "name": "",
+        "description": ""
+    },
+    "por": {
+        "name": "",
+        "description": ""
+    },
+    "endpoint": {
+        "facebook": {
+        "url": "https://facebook.com/lbcilebanon",
+        "followers": null
         }
+    }
     },
     {
+    "eng": {
         "name": "yasser audi",
-        "description": "",
-        "endpoint": {
-            "facebook": {
-                "url": "https://facebook.com/sheikhyasserawde",
-                "followers": null
-            }
+        "description": ""
+    },
+    "ara": {
+        "name": "",
+        "description": ""
+    },
+    "por": {
+        "name": "",
+        "description": ""
+    },
+    "endpoint": {
+        "facebook": {
+        "url": "https://facebook.com/sheikhyasserawde",
+        "followers": null
         }
+    }
     },
     {
+    "eng": {
         "name": "alanbaa",
-        "description": "",
-        "endpoint": {
-            "facebook": {
-                "url": "https://facebook.com/alanbaaonline",
-                "followers": null
-            }
+        "description": ""
+    },
+    "ara": {
+        "name": "",
+        "description": ""
+    },
+    "por": {
+        "name": "",
+        "description": ""
+    },
+    "endpoint": {
+        "facebook": {
+        "url": "https://facebook.com/alanbaaonline",
+        "followers": null
         }
+    }
     },
     {
+    "eng": {
         "name": "janoubia",
-        "description": "",
-        "endpoint": {
-            "facebook": {
-                "url": "https://facebook.com/janoubiamedia",
-                "followers": null
-            }
+        "description": ""
+    },
+    "ara": {
+        "name": "",
+        "description": ""
+    },
+    "por": {
+        "name": "",
+        "description": ""
+    },
+    "endpoint": {
+        "facebook": {
+        "url": "https://facebook.com/janoubiamedia",
+        "followers": null
         }
+    }
     },
     {
+    "eng": {
         "name": "wiam wahhab",
-        "description": "Founder of the Arab Unification Party and Lebanese Minister of Environment",
-        "endpoint": {
-            "twitter": {
-                "url": "https://twitter.com/wiamwahhab",
-                "followers": 958800
-            }
+        "description": "Founder of the Arab Unification Party and Lebanese Minister of Environment"
+    },
+    "ara": {
+        "name": "",
+        "description": ""
+    },
+    "por": {
+        "name": "",
+        "description": ""
+    },
+    "endpoint": {
+        "twitter": {
+        "url": "https://twitter.com/wiamwahhab",
+        "followers": 958800
         }
+    }
     },
     {
+    "eng": {
         "name": "al joumhouria",
-        "description": "",
-        "endpoint": {
-            "twitter": {
-                "url": "https://twitter.com/aljoumhouria",
-                "followers": null
-            }
+        "description": ""
+    },
+    "ara": {
+        "name": "",
+        "description": ""
+    },
+    "por": {
+        "name": "",
+        "description": ""
+    },
+    "endpoint": {
+        "twitter": {
+        "url": "https://twitter.com/aljoumhouria",
+        "followers": null
         }
+    }
     },
     {
+    "eng": {
         "name": "al akhbar",
-        "description": "",
-        "endpoint": {
-            "facebook": {
-                "url": "https://facebook.com/alakhbarnews",
-                "followers": null
-            }
+        "description": ""
+    },
+    "ara": {
+        "name": "",
+        "description": ""
+    },
+    "por": {
+        "name": "",
+        "description": ""
+    },
+    "endpoint": {
+        "facebook": {
+        "url": "https://facebook.com/alakhbarnews",
+        "followers": null
         }
+    }
     },
     {
+    "eng": {
         "name": "elissa",
-        "description": "",
-        "endpoint": {
-            "twitter": {
-                "url": "https://twitter.com/elissakh",
-                "followers": null
-            }
+        "description": ""
+    },
+    "ara": {
+        "name": "",
+        "description": ""
+    },
+    "por": {
+        "name": "",
+        "description": ""
+    },
+    "endpoint": {
+        "twitter": {
+        "url": "https://twitter.com/elissakh",
+        "followers": null
         }
+    }
     },
     {
+    "eng": {
         "name": "ghadi francis",
-        "description": "",
-        "endpoint": {
-            "facebook": {
-                "url": "https://facebook.com/francisghadi",
-                "followers": null
-            }
+        "description": ""
+    },
+    "ara": {
+        "name": "",
+        "description": ""
+    },
+    "por": {
+        "name": "",
+        "description": ""
+    },
+    "endpoint": {
+        "facebook": {
+        "url": "https://facebook.com/francisghadi",
+        "followers": null
         }
+    }
     },
     {
+    "eng": {
         "name": "radio orient",
-        "description": "",
-        "endpoint": {
-            "facebook": {
-                "url": "https://facebook.com/RadioOrientLb",
-                "followers": null
-            }
+        "description": ""
+    },
+    "ara": {
+        "name": "",
+        "description": ""
+    },
+    "por": {
+        "name": "",
+        "description": ""
+    },
+    "endpoint": {
+        "facebook": {
+        "url": "https://facebook.com/RadioOrientLb",
+        "followers": null
         }
+    }
     },
     {
+    "eng": {
         "name": "radio liban libre",
-        "description": "",
-        "endpoint": {
-            "facebook": {
-                "url": "https://facebook.com/radiolibanlibre",
-                "followers": null
-            }
+        "description": ""
+    },
+    "ara": {
+        "name": "",
+        "description": ""
+    },
+    "por": {
+        "name": "",
+        "description": ""
+    },
+    "endpoint": {
+        "facebook": {
+        "url": "https://facebook.com/radiolibanlibre",
+        "followers": null
         }
+    }
     },
     {
+    "eng": {
         "name": "gino reidy",
-        "description": "",
-        "endpoint": {
-            "twitter": {
-                "url": "https://twitter.com/ginoraidy",
-                "followers": null
-            }
+        "description": ""
+    },
+    "ara": {
+        "name": "",
+        "description": ""
+    },
+    "por": {
+        "name": "",
+        "description": ""
+    },
+    "endpoint": {
+        "twitter": {
+        "url": "https://twitter.com/ginoraidy",
+        "followers": null
         }
+    }
     },
     {
+    "eng": {
         "name": "bint jbeil",
-        "description": "Lebanese and International news network",
-        "endpoint": {
-            "facebook": {
-                "url": "https://facebook.com/bintjbeil.org",
-                "followers": 5448735
-            }
+        "description": "Lebanese and International news network"
+    },
+    "ara": {
+        "name": "",
+        "description": ""
+    },
+    "por": {
+        "name": "",
+        "description": ""
+    },
+    "endpoint": {
+        "facebook": {
+        "url": "https://facebook.com/bintjbeil.org",
+        "followers": 5448735
         }
+    }
     },
     {
+    "eng": {
         "name": "annahar",
-        "description": "",
-        "endpoint": {
-            "facebook": {
-                "url": "https://facebook.com/annaharlb",
-                "followers": null
-            }
+        "description": ""
+    },
+    "ara": {
+        "name": "",
+        "description": ""
+    },
+    "por": {
+        "name": "",
+        "description": ""
+    },
+    "endpoint": {
+        "facebook": {
+        "url": "https://facebook.com/annaharlb",
+        "followers": null
         }
+    }
     },
     {
+    "eng": {
         "name": "lebanese-forces",
-        "description": "",
-        "endpoint": {
-            "facebook": {
-                "url": "https://facebook.com/lebanese.forces.official.page",
-                "followers": null
-            }
+        "description": ""
+    },
+    "ara": {
+        "name": "",
+        "description": ""
+    },
+    "por": {
+        "name": "",
+        "description": ""
+    },
+    "endpoint": {
+        "facebook": {
+        "url": "https://facebook.com/lebanese.forces.official.page",
+        "followers": null
         }
+    }
     },
     {
+    "eng": {
         "name": "hekmat dib",
-        "description": "",
-        "endpoint": {
-            "twitter": {
-                "url": "https://twitter.com/dibhikmat",
-                "followers": null
-            }
+        "description": ""
+    },
+    "ara": {
+        "name": "",
+        "description": ""
+    },
+    "por": {
+        "name": "",
+        "description": ""
+    },
+    "endpoint": {
+        "twitter": {
+        "url": "https://twitter.com/dibhikmat",
+        "followers": null
         }
+    }
     },
     {
+    "eng": {
         "name": "ghada aoun",
-        "description": "",
-        "endpoint": {
-            "twitter": {
-                "url": "https://twitter.com/ghadaaoun4",
-                "followers": null
-            }
+        "description": ""
+    },
+    "ara": {
+        "name": "",
+        "description": ""
+    },
+    "por": {
+        "name": "",
+        "description": ""
+    },
+    "endpoint": {
+        "twitter": {
+        "url": "https://twitter.com/ghadaaoun4",
+        "followers": null
         }
+    }
     },
     {
+    "eng": {
         "name": "mtv",
-        "description": "Lebanese and international news network",
-        "endpoint": {
-            "facebook": {
-                "url": "https://facebook.com/mtvlebanon",
-                "followers": 14115737
-            },
-            "twitter": {
-                "url": "https://twitter.com/mtvlebanon",
-                "followers": 1600000
-            }
+        "description": "Lebanese and international news network"
+    },
+    "ara": {
+        "name": "",
+        "description": ""
+    },
+    "por": {
+        "name": "",
+        "description": ""
+    },
+    "endpoint": {
+        "facebook": {
+        "url": "https://facebook.com/mtvlebanon",
+        "followers": 14115737
+        },
+        "twitter": {
+        "url": "https://twitter.com/mtvlebanon",
+        "followers": 1600000
         }
+    }
     },
     {
+    "eng": {
         "name": "sadeq nabolsi",
-        "description": "Professor of Political Science at the Lebanese University",
-        "endpoint": {
-            "twitter": {
-                "url": "https://twitter.com/sadeqnabolsi",
-                "followers": 38500
-            }
+        "description": "Professor of Political Science at the Lebanese University"
+    },
+    "ara": {
+        "name": "",
+        "description": ""
+    },
+    "por": {
+        "name": "",
+        "description": ""
+    },
+    "endpoint": {
+        "twitter": {
+        "url": "https://twitter.com/sadeqnabolsi",
+        "followers": 38500
         }
+    }
     },
     {
+    "eng": {
         "name": "nbn",
-        "description": "",
-        "endpoint": {
-            "twitter": {
-                "url": "https://twitter.com/nbntweets",
-                "followers": null
-            }
+        "description": ""
+    },
+    "ara": {
+        "name": "",
+        "description": ""
+    },
+    "por": {
+        "name": "",
+        "description": ""
+    },
+    "endpoint": {
+        "twitter": {
+        "url": "https://twitter.com/nbntweets",
+        "followers": null
         }
+    }
     },
     {
+    "eng": {
         "name": "nadim kouteish",
-        "description": "",
-        "endpoint": {
-            "facebook": {
-                "url": "https://facebook.com/nadim.koteich",
-                "followers": null
-            }
+        "description": ""
+    },
+    "ara": {
+        "name": "",
+        "description": ""
+    },
+    "por": {
+        "name": "",
+        "description": ""
+    },
+    "endpoint": {
+        "facebook": {
+        "url": "https://facebook.com/nadim.koteich",
+        "followers": null
         }
+    }
     },
     {
+    "eng": {
         "name": "al binaa",
-        "description": "",
-        "endpoint": {
-            "facebook": {
-                "url": "https://facebook.com/AlbinaaNews",
-                "followers": null
-            }
+        "description": ""
+    },
+    "ara": {
+        "name": "",
+        "description": ""
+    },
+    "por": {
+        "name": "",
+        "description": ""
+    },
+    "endpoint": {
+        "facebook": {
+        "url": "https://facebook.com/AlbinaaNews",
+        "followers": null
         }
+    }
     },
     {
+    "eng": {
         "name": "otv",
-        "description": "OTV is a publicly traded television station in Lebanon, connected to the Free Patriotic Movement political party.",
-        "endpoint": {
-            "facebook": {
-                "url": "https://facebook.com/otvlebanon",
-                "followers": 2478977
-            },
-            "twitter": {
-                "url": "https://twitter.com/otvlebanon",
-                "followers": 349300
-            }
+        "description": "OTV is a publicly traded television station in Lebanon, connected to the Free Patriotic Movement political party."
+    },
+    "ara": {
+        "name": "",
+        "description": ""
+    },
+    "por": {
+        "name": "",
+        "description": ""
+    },
+    "endpoint": {
+        "facebook": {
+        "url": "https://facebook.com/otvlebanon",
+        "followers": 2478977
+        },
+        "twitter": {
+        "url": "https://twitter.com/otvlebanon",
+        "followers": 349300
         }
+    }
     },
     {
+    "eng": {
         "name": "maharat foundation",
-        "description": "",
-        "endpoint": {
-            "facebook": {
-                "url": "https://facebook.com/maharatfoundation",
-                "followers": null
-            }
+        "description": ""
+    },
+    "ara": {
+        "name": "",
+        "description": ""
+    },
+    "por": {
+        "name": "",
+        "description": ""
+    },
+    "endpoint": {
+        "facebook": {
+        "url": "https://facebook.com/maharatfoundation",
+        "followers": null
         }
+    }
     },
     {
+    "eng": {
         "name": "sethrida geagea",
-        "description": "",
-        "endpoint": {
-            "facebook": {
-                "url": "https://facebook.com/sethridageagea.officialpage",
-                "followers": null
-            }
+        "description": ""
+    },
+    "ara": {
+        "name": "",
+        "description": ""
+    },
+    "por": {
+        "name": "",
+        "description": ""
+    },
+    "endpoint": {
+        "facebook": {
+        "url": "https://facebook.com/sethridageagea.officialpage",
+        "followers": null
         }
+    }
     },
     {
+    "eng": {
         "name": "télé liban",
-        "description": "",
-        "endpoint": {
-            "facebook": {
-                "url": "https://facebook.com/teleliban",
-                "followers": null
-            }
+        "description": ""
+    },
+    "ara": {
+        "name": "",
+        "description": ""
+    },
+    "por": {
+        "name": "",
+        "description": ""
+    },
+    "endpoint": {
+        "facebook": {
+        "url": "https://facebook.com/teleliban",
+        "followers": null
         }
+    }
     },
     {
+    "eng": {
         "name": "riad salameh",
-        "description": "",
-        "endpoint": {
-            "twitter": {
-                "url": "https://twitter.com/riadsalemeh",
-                "followers": null
-            }
+        "description": ""
+    },
+    "ara": {
+        "name": "",
+        "description": ""
+    },
+    "por": {
+        "name": "",
+        "description": ""
+    },
+    "endpoint": {
+        "twitter": {
+        "url": "https://twitter.com/riadsalemeh",
+        "followers": null
         }
+    }
     },
     {
+    "eng": {
         "name": "tayyar.org",
-        "description": "",
-        "endpoint": {
-            "facebook": {
-                "url": "https://facebook.com/tayyar.org",
-                "followers": null
-            }
+        "description": ""
+    },
+    "ara": {
+        "name": "",
+        "description": ""
+    },
+    "por": {
+        "name": "",
+        "description": ""
+    },
+    "endpoint": {
+        "facebook": {
+        "url": "https://facebook.com/tayyar.org",
+        "followers": null
         }
+    }
     },
     {
+    "eng": {
         "name": "charbel daher",
-        "description": "",
-        "endpoint": {
-            "twitter": {
-                "url": "https://twitter.com/charbel73640136",
-                "followers": null
-            }
+        "description": ""
+    },
+    "ara": {
+        "name": "",
+        "description": ""
+    },
+    "por": {
+        "name": "",
+        "description": ""
+    },
+    "endpoint": {
+        "twitter": {
+        "url": "https://twitter.com/charbel73640136",
+        "followers": null
         }
+    }
     },
     {
+    "eng": {
         "name": "houssam matar",
-        "description": "Researcher in International Relations",
-        "endpoint": {
-            "twitter": {
-                "url": "https://twitter.com/hosmatar",
-                "followers": 107900
-            }
+        "description": "Researcher in International Relations"
+    },
+    "ara": {
+        "name": "",
+        "description": ""
+    },
+    "por": {
+        "name": "",
+        "description": ""
+    },
+    "endpoint": {
+        "twitter": {
+        "url": "https://twitter.com/hosmatar",
+        "followers": 107900
         }
+    }
     },
     {
+    "eng": {
         "name": "addiyar",
-        "description": "",
-        "endpoint": {
-            "facebook": {
-                "url": "https://facebook.com/addiyaronline",
-                "followers": null
-            }
+        "description": ""
+    },
+    "ara": {
+        "name": "",
+        "description": ""
+    },
+    "por": {
+        "name": "",
+        "description": ""
+    },
+    "endpoint": {
+        "facebook": {
+        "url": "https://facebook.com/addiyaronline",
+        "followers": null
         }
+    }
     },
     {
+    "eng": {
         "name": "dima sadek",
-        "description": "",
-        "endpoint": {
-            "twitter": {
-                "url": "https://twitter.com/dimasadek",
-                "followers": null
-            }
+        "description": ""
+    },
+    "ara": {
+        "name": "",
+        "description": ""
+    },
+    "por": {
+        "name": "",
+        "description": ""
+    },
+    "endpoint": {
+        "twitter": {
+        "url": "https://twitter.com/dimasadek",
+        "followers": null
         }
+    }
     },
     {
+    "eng": {
         "name": "télé  lumière",
-        "description": "",
-        "endpoint": {
-            "facebook": {
-                "url": "https://facebook.com/TELE-Lumiere-and-Noursat-News-369410223253503",
-                "followers": null
-            }
+        "description": ""
+    },
+    "ara": {
+        "name": "",
+        "description": ""
+    },
+    "por": {
+        "name": "",
+        "description": ""
+    },
+    "endpoint": {
+        "facebook": {
+        "url": "https://facebook.com/TELE-Lumiere-and-Noursat-News-369410223253503",
+        "followers": null
         }
+    }
     },
     {
+    "eng": {
         "name": "future tv",
-        "description": "",
-        "endpoint": {
-            "facebook": {
-                "url": "https://facebook.com/futuretvlebanon",
-                "followers": null
-            }
+        "description": ""
+    },
+    "ara": {
+        "name": "",
+        "description": ""
+    },
+    "por": {
+        "name": "",
+        "description": ""
+    },
+    "endpoint": {
+        "facebook": {
+        "url": "https://facebook.com/futuretvlebanon",
+        "followers": null
         }
+    }
     },
     {
+    "eng": {
         "name": "ali al amine",
-        "description": "",
-        "endpoint": {
-            "facebook": {
-                "url": "https://facebook.com/alyalamine",
-                "followers": null
-            }
+        "description": ""
+    },
+    "ara": {
+        "name": "",
+        "description": ""
+    },
+    "por": {
+        "name": "",
+        "description": ""
+    },
+    "endpoint": {
+        "facebook": {
+        "url": "https://facebook.com/alyalamine",
+        "followers": null
         }
+    }
     },
     {
+    "eng": {
         "name": "جواد نصرالله",
-        "description": "",
-        "endpoint": {
-            "twitter": {
-                "url": "https://twitter.com/_mjn__",
-                "followers": 151800
-            }
+        "description": ""
+    },
+    "ara": {
+        "name": "",
+        "description": ""
+    },
+    "por": {
+        "name": "",
+        "description": ""
+    },
+    "endpoint": {
+        "twitter": {
+        "url": "https://twitter.com/_mjn__",
+        "followers": 151800
         }
+    }
     },
     {
+    "eng": {
         "name": "joumana haddad",
-        "description": "",
-        "endpoint": {
-            "twitter": {
-                "url": "https://twitter.com/jhaddadofficial",
-                "followers": null
-            }
+        "description": ""
+    },
+    "ara": {
+        "name": "",
+        "description": ""
+    },
+    "por": {
+        "name": "",
+        "description": ""
+    },
+    "endpoint": {
+        "twitter": {
+        "url": "https://twitter.com/jhaddadofficial",
+        "followers": null
         }
+    }
     },
     {
+    "eng": {
         "name": "imad bazzi",
-        "description": "Blogger and cyber-activist",
-        "endpoint": {
-            "facebook": {
-                "url": "https://facebook.com/imad.bazzi",
-                "followers": 30721
-            },
-            "twitter": {
-                "url": "https://twitter.com/trellalb",
-                "followers": 90300
-            }
+        "description": "Blogger and cyber-activist"
+    },
+    "ara": {
+        "name": "",
+        "description": ""
+    },
+    "por": {
+        "name": "",
+        "description": ""
+    },
+    "endpoint": {
+        "facebook": {
+        "url": "https://facebook.com/imad.bazzi",
+        "followers": 30721
+        },
+        "twitter": {
+        "url": "https://twitter.com/trellalb",
+        "followers": 90300
         }
+    }
     },
     {
+    "eng": {
         "name": "jad ghosen",
-        "description": "",
-        "endpoint": {
-            "youtube": {
-                "url": "ucemiz62jdvya8lsuklm_a-w",
-                "followers": null
-            }
+        "description": ""
+    },
+    "ara": {
+        "name": "",
+        "description": ""
+    },
+    "por": {
+        "name": "",
+        "description": ""
+    },
+    "endpoint": {
+        "youtube": {
+        "url": "ucemiz62jdvya8lsuklm_a-w",
+        "followers": null
         }
+    }
     },
     {
+    "eng": {
         "name": "sandrine atallah",
-        "description": "",
-        "endpoint": {
-            "twitter": {
-                "url": "https://twitter.com/drsatallah",
-                "followers": null
-            }
+        "description": ""
+    },
+    "ara": {
+        "name": "",
+        "description": ""
+    },
+    "por": {
+        "name": "",
+        "description": ""
+    },
+    "endpoint": {
+        "twitter": {
+        "url": "https://twitter.com/drsatallah",
+        "followers": null
         }
+    }
     },
     {
+    "eng": {
         "name": "joseph abu fadel",
-        "description": "",
-        "endpoint": {
-            "twitter": {
-                "url": "https://twitter.com/josephaboufadel",
-                "followers": null
-            }
+        "description": ""
+    },
+    "ara": {
+        "name": "",
+        "description": ""
+    },
+    "por": {
+        "name": "",
+        "description": ""
+    },
+    "endpoint": {
+        "twitter": {
+        "url": "https://twitter.com/josephaboufadel",
+        "followers": null
         }
+    }
     },
     {
+    "eng": {
         "name": "elie ferzli",
-        "description": "",
-        "endpoint": {
-            "twitter": {
-                "url": "https://twitter.com/eferzli",
-                "followers": null
-            }
+        "description": ""
+    },
+    "ara": {
+        "name": "",
+        "description": ""
+    },
+    "por": {
+        "name": "",
+        "description": ""
+    },
+    "endpoint": {
+        "twitter": {
+        "url": "https://twitter.com/eferzli",
+        "followers": null
         }
+    }
     },
     {
+    "eng": {
         "name": "samy gemayel",
-        "description": "",
-        "endpoint": {
-            "twitter": {
-                "url": "https://twitter.com/samygemayel",
-                "followers": null
-            }
+        "description": ""
+    },
+    "ara": {
+        "name": "",
+        "description": ""
+    },
+    "por": {
+        "name": "",
+        "description": ""
+    },
+    "endpoint": {
+        "twitter": {
+        "url": "https://twitter.com/samygemayel",
+        "followers": null
         }
+    }
     },
     {
+    "eng": {
         "name": "marcel ghanem",
-        "description": "",
-        "endpoint": {
-            "facebook": {
-                "url": "https://facebook.com/sarelwa2et",
-                "followers": null
-            }
+        "description": ""
+    },
+    "ara": {
+        "name": "",
+        "description": ""
+    },
+    "por": {
+        "name": "",
+        "description": ""
+    },
+    "endpoint": {
+        "facebook": {
+        "url": "https://facebook.com/sarelwa2et",
+        "followers": null
         }
+    }
     },
     {
+    "eng": {
         "name": "jaafar fadlallah",
-        "description": "",
-        "endpoint": {
-            "facebook": {
-                "url": "https://facebook.com/sayyed.jaafar",
-                "followers": null
-            }
+        "description": ""
+    },
+    "ara": {
+        "name": "",
+        "description": ""
+    },
+    "por": {
+        "name": "",
+        "description": ""
+    },
+    "endpoint": {
+        "facebook": {
+        "url": "https://facebook.com/sayyed.jaafar",
+        "followers": null
         }
+    }
     },
     {
+    "eng": {
         "name": "najib mikati",
-        "description": "",
-        "endpoint": {
-            "twitter": {
-                "url": "https://twitter.com/najib_mikati",
-                "followers": null
-            }
+        "description": ""
+    },
+    "ara": {
+        "name": "",
+        "description": ""
+    },
+    "por": {
+        "name": "",
+        "description": ""
+    },
+    "endpoint": {
+        "twitter": {
+        "url": "https://twitter.com/najib_mikati",
+        "followers": null
         }
+    }
     },
     {
+    "eng": {
         "name": "pierre rabbat",
-        "description": "",
-        "endpoint": {
-            "facebook": {
-                "url": "https://facebook.com/pierrerabbath",
-                "followers": null
-            }
+        "description": ""
+    },
+    "ara": {
+        "name": "",
+        "description": ""
+    },
+    "por": {
+        "name": "",
+        "description": ""
+    },
+    "endpoint": {
+        "facebook": {
+        "url": "https://facebook.com/pierrerabbath",
+        "followers": null
         }
+    }
     },
     {
+    "eng": {
         "name": "al mayadeen",
-        "description": "",
-        "endpoint": {
-            "facebook": {
-                "url": "https://facebook.com/almayadeen",
-                "followers": null
-            }
+        "description": ""
+    },
+    "ara": {
+        "name": "",
+        "description": ""
+    },
+    "por": {
+        "name": "",
+        "description": ""
+    },
+    "endpoint": {
+        "facebook": {
+        "url": "https://facebook.com/almayadeen",
+        "followers": null
         }
+    }
     },
     {
+    "eng": {
         "name": "radio liban",
-        "description": "",
-        "endpoint": {
-            "facebook": {
-                "url": "https://facebook.com/Radio-Liban-962-FM-107317089328047",
-                "followers": null
-            }
+        "description": ""
+    },
+    "ara": {
+        "name": "",
+        "description": ""
+    },
+    "por": {
+        "name": "",
+        "description": ""
+    },
+    "endpoint": {
+        "facebook": {
+        "url": "https://facebook.com/Radio-Liban-962-FM-107317089328047",
+        "followers": null
         }
+    }
     },
     {
+    "eng": {
         "name": "al jadeed",
-        "description": "Lebanese, Arab and International news network",
-        "endpoint": {
-            "facebook": {
-                "url": "https://facebook.com/aljadeedtv",
-                "followers": 4605179
-            },
-            "twitter":{
-                "url": "https://twitter.com/aljadeednews",
-                "followers": 1800000
-            },
-            "youtube": {
-                "url": "https://www.youtube.com/user/aljadeedonline",
-                "followers": 1500000
-            }
+        "description": "Lebanese, Arab and International news network"
+    },
+    "ara": {
+        "name": "",
+        "description": ""
+    },
+    "por": {
+        "name": "",
+        "description": ""
+    },
+    "endpoint": {
+        "facebook": {
+        "url": "https://facebook.com/aljadeedtv",
+        "followers": 4605179
+        },
+        "twitter": {
+        "url": "https://twitter.com/aljadeednews",
+        "followers": 1800000
+        },
+        "youtube": {
+        "url": "https://www.youtube.com/user/aljadeedonline",
+        "followers": 1500000
         }
+    }
     },
     {
+    "eng": {
         "name": "paula yacoubian",
-        "description": "Lebanese journalist and former politician",
-        "endpoint": {
-            "twitter": {
-                "url": "https://twitter.com/paulayacoubian",
-                "followers": 594800
-            },
-            "facebook": {
-                "url": "https://www.facebook.com/PaulaYacoubian",
-                "followers": 289084
-            }
+        "description": "Lebanese journalist and former politician"
+    },
+    "ara": {
+        "name": "",
+        "description": ""
+    },
+    "por": {
+        "name": "",
+        "description": ""
+    },
+    "endpoint": {
+        "twitter": {
+        "url": "https://twitter.com/paulayacoubian",
+        "followers": 594800
+        },
+        "facebook": {
+        "url": "https://www.facebook.com/PaulaYacoubian",
+        "followers": 289084
         }
+    }
     },
     {
+    "eng": {
         "name": "gebran bassil",
-        "description": "Former Minister of Foreign Affairs of Lebanon. Member of the Lebanese Parliament. President of the Free Patriotic Movement.",
-        "endpoint": {
-            "twitter": {
-                "url": "https://twitter.com/gebran_bassil",
-                "followers": 624800
-            }
+        "description": "Former Minister of Foreign Affairs of Lebanon. Member of the Lebanese Parliament. President of the Free Patriotic Movement."
+    },
+    "ara": {
+        "name": "",
+        "description": ""
+    },
+    "por": {
+        "name": "",
+        "description": ""
+    },
+    "endpoint": {
+        "twitter": {
+        "url": "https://twitter.com/gebran_bassil",
+        "followers": 624800
         }
+    }
     },
     {
+    "eng": {
         "name": "jamil katrib",
-        "description": "",
-        "endpoint": {
-            "twitter": {
-                "url": "https://twitter.com/jkatrib",
-                "followers": null
-            }
+        "description": ""
+    },
+    "ara": {
+        "name": "",
+        "description": ""
+    },
+    "por": {
+        "name": "",
+        "description": ""
+    },
+    "endpoint": {
+        "twitter": {
+        "url": "https://twitter.com/jkatrib",
+        "followers": null
         }
+    }
     },
     {
+    "eng": {
         "name": "diana moukalled",
-        "description": "",
-        "endpoint": {
-            "facebook": {
-                "url": "https://facebook.com/diana.moukalled",
-                "followers": null
-            }
+        "description": ""
+    },
+    "ara": {
+        "name": "",
+        "description": ""
+    },
+    "por": {
+        "name": "",
+        "description": ""
+    },
+    "endpoint": {
+        "facebook": {
+        "url": "https://facebook.com/diana.moukalled",
+        "followers": null
         }
+    }
     },
     {
+    "eng": {
         "name": "charbel khalil",
-        "description": "Lebanese satirist",
-        "endpoint": {
-            "facebook": {
-                "url": "https://facebook.com/charbel.g.khalil.9",
-                "followers": 16899
-            },
-            "twitter": {
-                "url": "https://twitter.com/khalil_charbel",
-                "followers": 238500
-            }
+        "description": "Lebanese satirist"
+    },
+    "ara": {
+        "name": "",
+        "description": ""
+    },
+    "por": {
+        "name": "",
+        "description": ""
+    },
+    "endpoint": {
+        "facebook": {
+        "url": "https://facebook.com/charbel.g.khalil.9",
+        "followers": 16899
+        },
+        "twitter": {
+        "url": "https://twitter.com/khalil_charbel",
+        "followers": 238500
         }
+    }
     },
     {
+    "eng": {
         "name": "mario aoun",
-        "description": "",
-        "endpoint": {
-            "twitter": {
-                "url": "https://twitter.com/drmarioaoun1",
-                "followers": 230900
-            }
+        "description": ""
+    },
+    "ara": {
+        "name": "",
+        "description": ""
+    },
+    "por": {
+        "name": "",
+        "description": ""
+    },
+    "endpoint": {
+        "twitter": {
+        "url": "https://twitter.com/drmarioaoun1",
+        "followers": 230900
         }
+    }
     },
     {
+    "eng": {
         "name": "hicham haddad",
-        "description": "",
-        "endpoint": {
-            "facebook": {
-                "url": "https://facebook.com/hichamofficialpage",
-                "followers": null
-            }
+        "description": ""
+    },
+    "ara": {
+        "name": "",
+        "description": ""
+    },
+    "por": {
+        "name": "",
+        "description": ""
+    },
+    "endpoint": {
+        "facebook": {
+        "url": "https://facebook.com/hichamofficialpage",
+        "followers": null
         }
+    }
     },
     {
+    "eng": {
         "name": "ziad assouad",
-        "description": "MP, Free Patriotic Movement",
-        "endpoint": {
-            "twitter": {
-                "url": "https://twitter.com/ZiadAssouad",
-                "followers": 105300
-            },
-            "facebook": {
-                "url": "https://www.facebook.com/ZiadAssouad/",
-                "followers": 37962
-            }
+        "description": "MP, Free Patriotic Movement"
+    },
+    "ara": {
+        "name": "",
+        "description": ""
+    },
+    "por": {
+        "name": "",
+        "description": ""
+    },
+    "endpoint": {
+        "twitter": {
+        "url": "https://twitter.com/ZiadAssouad",
+        "followers": 105300
+        },
+        "facebook": {
+        "url": "https://www.facebook.com/ZiadAssouad/",
+        "followers": 37962
         }
+    }
     },
     {
+    "eng": {
         "name": "dr. bahamas",
-        "description": "",
-        "endpoint": {
-            "twitter": {
-                "url": "https://twitter.com/dr_bahamas",
-                "followers": null
-            }
+        "description": ""
+    },
+    "ara": {
+        "name": "",
+        "description": ""
+    },
+    "por": {
+        "name": "",
+        "description": ""
+    },
+    "endpoint": {
+        "twitter": {
+        "url": "https://twitter.com/dr_bahamas",
+        "followers": null
         }
+    }
     },
     {
+    "eng": {
         "name": "salem zahran",
-        "description": "Lebanese journalist, media figure and political analyst, director of the Media Focus Center",
-        "endpoint": {
-            "twitter": {
-                "url": "https://twitter.com/salemzahran05",
-                "followers": 718800
-            },
-            "youtube": {
-                "url": "https://www.youtube.com/salemzahran",
-                "followers": 63500
-            },
-            "facebook": {
-                "url": "https://www.facebook.com/salemalizahran/",
-                "followers": 526000
-            }
+        "description": "Lebanese journalist, media figure and political analyst, director of the Media Focus Center"
+    },
+    "ara": {
+        "name": "",
+        "description": ""
+    },
+    "por": {
+        "name": "",
+        "description": ""
+    },
+    "endpoint": {
+        "twitter": {
+        "url": "https://twitter.com/salemzahran05",
+        "followers": 718800
+        },
+        "youtube": {
+        "url": "https://www.youtube.com/salemzahran",
+        "followers": 63500
+        },
+        "facebook": {
+        "url": "https://www.facebook.com/salemalizahran/",
+        "followers": 526000
         }
+    }
     },
     {
+    "eng": {
         "name": "walid joumblatt",
-        "description": "President of the Progressive Socialist Party of Lebanon",
-        "endpoint": {
-            "twitter": {
-                "url": "https://twitter.com/walidjoumblatt",
-                "followers": 1000000
-            }
+        "description": "President of the Progressive Socialist Party of Lebanon"
+    },
+    "ara": {
+        "name": "",
+        "description": ""
+    },
+    "por": {
+        "name": "",
+        "description": ""
+    },
+    "endpoint": {
+        "twitter": {
+        "url": "https://twitter.com/walidjoumblatt",
+        "followers": 1000000
         }
+    }
     },
     {
+    "eng": {
         "name": "sawt el-shaab",
-        "description": "",
-        "endpoint": {
-            "facebook": {
-                "url": "https://facebook.com/sawtak",
-                "followers": null
-            }
+        "description": ""
+    },
+    "ara": {
+        "name": "",
+        "description": ""
+    },
+    "por": {
+        "name": "",
+        "description": ""
+    },
+    "endpoint": {
+        "facebook": {
+        "url": "https://facebook.com/sawtak",
+        "followers": null
         }
+    }
     },
     {
+    "eng": {
         "name": "markouz",
-        "description": "",
-        "endpoint": {
-            "twitter": {
-                "url": "https://twitter.com/markouz1",
-                "followers": null
-            }
+        "description": ""
+    },
+    "ara": {
+        "name": "",
+        "description": ""
+    },
+    "por": {
+        "name": "",
+        "description": ""
+    },
+    "endpoint": {
+        "twitter": {
+        "url": "https://twitter.com/markouz1",
+        "followers": null
         }
+    }
     },
     {
+    "eng": {
         "name": "al liwaa",
-        "description": "",
-        "endpoint": {
-            "facebook": {
-                "url": "https://facebook.com/aliwaanewspaper",
-                "followers": null
-            }
+        "description": ""
+    },
+    "ara": {
+        "name": "",
+        "description": ""
+    },
+    "por": {
+        "name": "",
+        "description": ""
+    },
+    "endpoint": {
+        "facebook": {
+        "url": "https://facebook.com/aliwaanewspaper",
+        "followers": null
         }
+    }
     },
     {
+    "eng": {
         "name": "maronite patriarchate",
-        "description": "",
-        "endpoint": {
-            "twitter": {
-                "url": "https://twitter.com/bkerki",
-                "followers": null
-            }
+        "description": ""
+    },
+    "ara": {
+        "name": "",
+        "description": ""
+    },
+    "por": {
+        "name": "",
+        "description": ""
+    },
+    "endpoint": {
+        "twitter": {
+        "url": "https://twitter.com/bkerki",
+        "followers": null
         }
+    }
     },
     {
+    "eng": {
         "name": "nemr abou nassar",
-        "description": "",
-        "endpoint": {
-            "twitter": {
-                "url": "https://twitter.com/nemrcomedy",
-                "followers": null
-            }
+        "description": ""
+    },
+    "ara": {
+        "name": "",
+        "description": ""
+    },
+    "por": {
+        "name": "",
+        "description": ""
+    },
+    "endpoint": {
+        "twitter": {
+        "url": "https://twitter.com/nemrcomedy",
+        "followers": null
         }
+    }
     },
     {
+    "eng": {
         "name": "lebanon24",
-        "description": "",
-        "endpoint": {
-            "facebook": {
-                "url": "https://facebook.com/lebanon24.lb",
-                "followers": null
-            }
+        "description": ""
+    },
+    "ara": {
+        "name": "",
+        "description": ""
+    },
+    "por": {
+        "name": "",
+        "description": ""
+    },
+    "endpoint": {
+        "facebook": {
+        "url": "https://facebook.com/lebanon24.lb",
+        "followers": null
         }
+    }
     }
 ]
