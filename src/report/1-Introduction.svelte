@@ -10,7 +10,7 @@
 
 <section>
 
-    <h1 class="subtitle">{introduction['title'][lang]}</h1>
+    <h1 class="title">{introduction['title'][lang]}</h1>
 
     {#each Object.keys(introduction['paragraphs']) as paragraph_key}
         <p>

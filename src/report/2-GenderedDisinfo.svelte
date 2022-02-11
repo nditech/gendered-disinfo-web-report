@@ -13,7 +13,7 @@
 
 <section>
 
-    <h1 class="subtitle">{gendereddisinfo['title'][lang]}</h1>
+    <h1 class="title">{gendereddisinfo['title'][lang]}</h1>
 
     {#each Object.keys(gendereddisinfo['paragraphs_1']) as paragraph_key}
         <p>
@@ -27,7 +27,7 @@
     </div>
 
 
-    <h1 class="subsubtitle">{gendereddisinfo['subtitle'][lang]}</h1>
+    <h1 class="subtitle">{gendereddisinfo['subtitle'][lang]}</h1>
 
     {#each Object.keys(gendereddisinfo['paragraphs_2']) as paragraph_key}
         <p>

@@ -55,7 +55,7 @@
         padding: 0px;
         margin: 0px;
         height: auto;
-        opacity: 0.9;
+        opacity: 0.7;
     }
 
 

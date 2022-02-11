@@ -5,6 +5,10 @@
     export let dataset;
     export let params;
 
+    // import strings
+    import { casestudies } from '../../strings.json';
+    const casestudy = casestudies['brazil'];
+
     // unpack
     const { 
         sources, 
@@ -64,21 +68,27 @@
         }
     })
 
+
+    // engagement filters
+    const engagement_table = [
+        ["Type", "Minimum Value"],
+        ["Views", "30000"],
+        ["Reactions", "800"],
+        ["Comments", "150"],
+        ["Shares", "50"]
+    ];
+
 </script>
 
 <section>
 
-    <p class="title">Brazil</p>
-        
+    <h1 class="title">{casestudy['title'][lang]}</h1>
     <p>
-        For this case study, we partnered with the <a target="_blank" href="https://www.internetlab.org.br/en/">InternetLab</a>. 
-        We seek to establish the prevalence and nature of disinformation campaigns throughout the COVID pandemic.
+        {@html casestudy['partners'][lang]}
     </p>
-
-    <br>
-    <br>
+        
     
-    <p class="subtitle">Political Network</p>
+    <h1 class="subtitle">{casestudies['subtitle_1'][lang]}</h1>
     <p>
         In-country participants identified <b>{nbr_of_accounts}</b> Telegram, Facebook, Twitter and Youtube accounts as being part of 
         the political network.
@@ -86,33 +96,32 @@
     <Table data={political_network_table}/>
 
 
-    <p class="subtitle">Dataset</p>
+    <h1 class="subtitle">{casestudies['subtitle_2'][lang]}</h1>
     <p>
         Data collection returned a total of <b>{posts.length.toLocaleString()}</b> posts between {min_date} and {max_date}.
     </p>
     <br>
     <p>
-        This search bar allows you to find social media posts based on space-separated keywords (click for full results). 
-        Some keywords have been removed if they either had low or high occurrence.
+        {@html casestudies['searchbar_1'][lang]}
     </p>
     <br>
-    <p style="font-style: italic;">
-        Some posts might have been taken down by the author or the platform since this data collection activity.
+    <p>
+        {@html casestudies['searchbar_2'][lang]}
     </p>
     <br>
     <SearchTable placeholders={params['examples']['queries']} documents={posts} word_mapping={dictionary}/>
 
 
-
-    <p class="subtitle">Filtering</p>
-    <p class="subsubtitle">Lexicon</p>
+    <h1 class="subtitle">{casestudies['subtitle_3'][lang]}</h1>
+    <h1 class="subsubtitle">{casestudies['subsubtitle_1'][lang]}</h1>
     <p>
         Participants came up with a list of <b>{lexicon.length} words</b> prone to be used in disinformation. Only posts containing at least
         one of these keywords were kept. 
     </p>
     <Table data={lexicon_table}/>
 
-    <p class="subsubtitle">Events</p>
+    
+    <h1 class="subsubtitle">{casestudies['subsubtitle_2'][lang]}</h1>
     <p>
         The shock timeline developed by the participants is composed of {events.length} key events. We only considered social media posts 
         published during the 21 days following each event. 
@@ -120,29 +129,23 @@
     <Table data={events_table}/>
 
 
-    <p class="subsubtitle">Engagement</p>
+    <h1 class="subsubtitle">{casestudies['subsubtitle_3'][lang]}</h1>
     <p>
-        Post that did not meet the minimum engagement thresholds were dismissed.
+        {@html casestudies['engagement_1'][lang]}
     </p>
-    <Table data={[
-        ["Type", "Minimum Value"],
-        ["Views", "30000"],
-        ["Reactions", "800"],
-        ["Comments", "150"],
-        ["Shares", "50"]
-    ]}/>
+    <Table data={engagement_table}/>
 
-    <p class="subtitle">Results</p>
 
+    <h1 class="subtitle">{casestudies['subtitle_4'][lang]}</h1>
     <p>
         Using automated lexical, temporal and engagement filters, in combination with human reviews we uncovered a total of 
         <b>{submissions_of_interest.length}</b> posts containing disinformation from <b>{belligerents.length}</b> belligerents.
     </p>
     <br>
-
     <Heatmap data={submissions_of_interest} sources={belligerents} events={events}/>
 
-    <p class="subsubtitle">Belligerents</p>
+    
+    <h1 class="subsubtitle">{casestudies['subsubtitle_4'][lang]}</h1>
     <p>
         Here is a short description of the <b>{belligerents.length.toLocaleString()} state-affiliated accounts</b> that published 
         disinformation.
@@ -151,29 +154,27 @@
     <Portraits data={belligerents}/>
 
 
-    <br>
-    <h1 class="subsubtitle">Salient Narratives</h1>
+    <h1 class="subsubtitle">{casestudies['subsubtitle_5'][lang]}</h1>
     <p>
         We reviewed all the posts of interest and categorized them into {categories.length} narratives.
     </p>
     <List elements={categories.map(d => d['description'])}/>
 
-    <br>
+        
 
-    <h1 class="subsubtitle">Engagement</h1>
+    <h1 class="subsubtitle">{casestudies['subsubtitle_6'][lang]}</h1>
     <p>
-        Each post is represented as a square. The color intensity is proportional to the level of engagement.
+        {@html casestudies['engagement_2'][lang]}
     </p>
     <br>
     {#each categories as category, i}
         <DotMatrixPlot data={dotmatrix.filter(d => d['categories'].includes(category['key']))} title={`${romanize(i+1)}. ${category['name_count']}`} max_interactions={Math.max(...dotmatrix.map(d => d['interactions']['count']))}/>
     {/each}
 
-    <br>
     
-    <h1 class="subsubtitle">Coordination</h1>
+    <h1 class="subsubtitle">{casestudies['subsubtitle_7'][lang]}</h1>
     <p>
-        Let's now look at coordination for each of these categories. To do so, we will look at our social media posts using a graph representation.
+        {@html casestudies['coordination'][lang]}
     </p>
     <br>
     <p>
@@ -181,8 +182,6 @@
     </p>
     <Slider previous_callback={(opt) => change_category(opt)} next_callback={(opt) => change_category(opt)} options={options}/>
     <Network bind:nodes={nodes} bind:vertices={vertices}/>
-
-
 
 </section>
 

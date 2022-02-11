@@ -117,7 +117,7 @@
         --font-size-very-small: 0.9em;
         --font-size-small: 1.0em;
         --font-size-normal: 1.3em;
-        --font-size-large: 1.8em;
+        --font-size-large: 1.6em;
         --font-size-very-large: 2em;
         --font-weight-bold: 600;
         --font-weight-normal: 400;
@@ -210,7 +210,8 @@
 
     :global(.subtitle) {
         text-align: left;
-        margin: 0em auto 0.5em;
+        margin: 0px;
+        margin-top: 1em;
         font-weight: var(--font-weight-bold);
         font-size: var(--font-size-large);
         max-width: var(--max-width);

@@ -158,9 +158,6 @@
         <div class="separator"></div>
         <Discussion lang={lang}/>
 
-        <!-- <div class="separator"></div>
-        <Interventions lang={lang}/> -->
-
         <div class="separator"></div>
         <Conclusion lang={lang}/>
 

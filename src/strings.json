@@ -261,14 +261,115 @@
             "ara": "<p>بعد أن راجع المشاركون كافة تدوينات وسائل التواصل الاجتماعي، أجرينا التحليل على أربعة أصعدة.</p>"
         },
         "24": {
-            "eng": "<ol><li>Belligerents: We looked at who were behind the accounts that published disinformation – their political affiliation, their partisanship.</li><li>Salient narratives: The participants reviewed all the posts that had been flagged as containing gendered disinformation and categorized them by narrative.</li><li>Engagement: Disaggregated by social media platforms, we looked at which posts received the highest engagement.</li></ol>",
-            "por": "<ol><li>Beligerantes: Identificamos quem estava por trás das contas que publicaram desinformação – suas filiações e inclinações políticas.</li><li>Narrativas relevantes: Os participantes revisaram todas as postagens sinalizadas por conter desinformação de gênero e classificaram as postagens por narrativa.</li><li>Engajamento: Desagregando por plataforma, identificamos quais postagens despertaram mais engajamento.</li></ol>",
-            "ara": "<ol><li>الخصوم: تمعنّا في أصحاب الحسابات التي نشرت المعلومات المضللة، وتحديداً في انتمائهم السياسي، والجهة التي يتحزّبون لها. </li><li>السرديات البارزة: راجع المشاركون كافة التدوينات التي تمّ وضع علامة عليها كونها تتضمّن معلومات مضللة جندرياً، ثم صنّفوها وفقاً للسردية. </li><li>التفاعل: تمعنّا في التدوينات التي لقيت القدر الأكبر من التفاعل، بعد تصنيفها وفقاً لمنصات وسائل التواصل الاجتماعي.</li></ol>"
+            "eng": "<ol><li>Belligerents: We looked at who were behind the accounts that published disinformation – their political affiliation, their partisanship.</li><li>Salient narratives: The participants reviewed all the posts that had been flagged as containing gendered disinformation and categorized them by narrative.</li><li>Engagement: Disaggregated by social media platforms, we looked at which posts received the highest engagement.</li><li>Coordination: Here we investigated the extent to which different accounts demonstrated a propensity for each of the narratives. To do so, we assessed whether two accounts published a message about the same topic within a 15 day interval.</li></ol>",
+            "por": "<ol><li>Beligerantes: Identificamos quem estava por trás das contas que publicaram desinformação – suas filiações e inclinações políticas.</li><li>Narrativas relevantes: Os participantes revisaram todas as postagens sinalizadas por conter desinformação de gênero e classificaram as postagens por narrativa.</li><li>Engajamento: Desagregando por plataforma, identificamos quais postagens despertaram mais engajamento.</li><li>Coesão: Investigamos em que medida contas distintas demonstraram inclinação para cada uma das narrativas. Para tal, avaliamos se duas contas publicaram mensagens sobre um mesmo tópico dentro de um intervalo de quinze dias.</li></ol>",
+            "ara": "<ol><li>الخصوم: تمعنّا في أصحاب الحسابات التي نشرت المعلومات المضللة، وتحديداً في انتمائهم السياسي، والجهة التي يتحزّبون لها. </li><li>السرديات البارزة: راجع المشاركون كافة التدوينات التي تمّ وضع علامة عليها كونها تتضمّن معلومات مضللة جندرياً، ثم صنّفوها وفقاً للسردية. </li><li>التفاعل: تمعنّا في التدوينات التي لقيت القدر الأكبر من التفاعل، بعد تصنيفها وفقاً لمنصات وسائل التواصل الاجتماعي.</li><li>التنسيق: درسنا هنا إلى أي مدى أظهرت الحسابات المختلفة ميلاً إلى كل من السرديات. للقيام بذلك، قمنا بتقييم ما إذا كان حسابان قد نشرا رسالةً عن الموضوع نفسه خلال فترة 15 يوماً.</li></ol>"
+        }
+    },
+    "casestudies": {
+        "brazil": {
+            "title": {
+                "eng": "Brazil",
+                "por": "Brasil",
+                "ara": "البرازيل"
+            },
+            "partners": {
+                "eng": "<p>For this case study, we partnered with the <a target='_blank' href='https://www.internetlab.org.br/en/'>InternetLab</a>. We seek to establish the prevalence and nature of disinformation campaigns throughout the COVID pandemic.</p>",
+                "por": "<p>Nosso parceiro local é o <a target='_blank' href='https://www.internetlab.org.br/en/'>InternetLab</a>, um centro independente de pesquisa dedicado ao fomento do debate acadêmico em temas relacionados ao direito e à tecnologia, sobretudo às políticas no campo da internet.</p>",
+                "ara": "<p>شريكنا في البرازيل هو <a target='_blank' href='https://www.internetlab.org.br/en/'>InternetLab</a> مركز أبحاث مستقل يهدف إلى تعزيز النقاش الأكاديمي حول قضايا متعلقة بالقانون والتكنولوجيا، خاصةً سياسة الإنترنت. </p>"
+            }
         },
-        "25": {
-            "eng": "<p>Coordination: Here we investigated the extent to which different accounts demonstrated a propensity for each of the narratives. To do so, we assessed whether two accounts published a message about the same topic within a 15 day interval.</p>",
-            "por": "<p>Coesão: Investigamos em que medida contas distintas demonstraram inclinação para cada uma das narrativas. Para tal, avaliamos se duas contas publicaram mensagens sobre um mesmo tópico dentro de um intervalo de quinze dias.</p>",
-            "ara": "<p>التنسيق: درسنا هنا إلى أي مدى أظهرت الحسابات المختلفة ميلاً إلى كل من السرديات. للقيام بذلك، قمنا بتقييم ما إذا كان حسابان قد نشرا رسالةً عن الموضوع نفسه خلال فترة 15 يوماً.</p>"
+        "lebanon": {
+            "title": {
+                "eng": "Lebanon",
+                "por": "Líbano",
+                "ara": "لبنان"
+            },
+            "partners": {
+                "eng": "<p>For this case study, we partnered with the <a target='_blank' href='https://www.skeyesmedia.org/en/Home'>Skeyes Center for Media and Cultural Freedom</a> and <a target='_blank' href='https://www.abaadmena.org'>ABAAD - Resource Centre for Gender Equality</a>. We seek to establish the prevalence and nature of disinformation campaigns throughout the economic and political crisis.</p>",
+                "por": "<p>Trabalhamos com diversas organizações locais, dentre as quais o <a target='_blank' href='https://www.skeyesmedia.org/en/Home'>Skeyes Center for Media and Cultural Freedom</a>, o <a target='_blank' href='https://www.abaadmena.org'>ABAAD - Resource Centre for Gender Equality</a> e o National Democratic Institute.</p>",
+                "ara": "<p>عملنا مع عدة منظمات محلية مثل مركز سمير قصير للحريات الإعلامية والثقافية (سكايز)، ومركز الموارد للمساواة بين الجنسين- أبعاد، والمعهد الديمقراطي الوطني.</p>"
+            }
+        },
+        "searchbar_1": {
+            "eng": "<p>This search bar allows you to find social media posts based on space-separated keywords (click for full results). Some keywords have been removed if they either had low or high occurrence.</p>",
+            "por": "<p>Utilizando a barra de pesquisa abaixo, é possível encontrar postagens de redes sociais com base em palavras-chave separadas por espaços (clique para obter todos os resultados). Algumas palavras-chave com poucas ou muitas ocorrências foram descartadas.</p>",
+            "ara": "<p>يتيح شريط البحث هذا إيجاد تدوينات وسائل التواصل الاجتماعي بناءً على الكلمات الرئيسية المفصولة بمسافات (انقر للاطلاع على النتائج كاملة). تمّ حذف بعض الكلمات الرئيسية إذا كانت قليلة أو كثيرة الاستعمال.</p>"
+        },
+        "searchbar_2": {
+            "eng": "<p style='font-style: italic;'>Some posts might have been taken down by the author or the platform since this data collection activity.</p>",
+            "por": "<p style='font-style: italic;'>É possível que algumas postagens tenham sido removidas desde o início da coleta de dados.</p>",
+            "ara": "<p style='font-style: italic;'>من المحتمل أن تكون بعض التدوينات قد حُذفت منذ أن تمّ جمع هذه البيانات.</p>"
+        },
+        "engagement_1": {
+            "eng": "<p>Post that did not meet the minimum engagement thresholds were dismissed.</p>",
+            "por": "<p>A postagem que não atendeu aos limites mínimos de engajamento foi dispensada.</p>",
+            "ara": "<p>تم رفض المشاركة التي لا تلبي الحد الأدنى من المشاركة.</p>"
+        },
+        "engagement_2": {
+            "eng": "<p>Each post is represented as a square. The color intensity is proportional to the level of engagement.</p>",
+            "por": "<p>Cada postagem está representada por um quadrado. A intensidade da cor reflete o nível de engajamento.</p>",
+            "ara": "<p>كانت كل تدوينة ممثّلةً على شكل مربّع. وقد عكست كثافة ألوان المربّعات مستوى التفاعل الذي حظيت به كل تدوينة.</p>"
+        },
+        "coordination": {
+            "eng": "<p>Let's now look at coordination for each of these categories. To do so, we will look at our social media posts using a graph representation.</p>",
+            "por": "<p>Agora vamos ver as conexões em cada uma das categorias, ilustradas por meio de uma representação esquemática das postagens coletadas das redes sociais.</p>",
+            "ara": "<p>فلنتمعن الآن في مستوى التنسيق بالنسبة إلى كل من هذه الفئات. للقيام بذلك، سندرس تدوينات وسائل التواصل الاجتماعي التي اخترناها استناداً إلى مخططات بيانية.</p>"
+        },
+        "subtitle_1": {
+            "eng": "Political Network",
+            "por": "Rede Política",
+            "ara": "الشبكة السياسية"
+        },
+        "subtitle_2": {
+            "eng": "Dataset",
+            "por": "Base de Dados",
+            "ara": "مجموعة البيانات"
+        },
+        "subtitle_3": {
+            "eng": "Filtering",
+            "por": "Filtrando",
+            "ara": "الفلتره"
+        },
+        "subsubtitle_1": {
+            "eng": "Lexicon",
+            "por": "Léxico",
+            "ara": "المعجم"
+        },
+        "subsubtitle_2": {
+            "eng": "Events",
+            "por": "Eventos",
+            "ara": "الأحداث"
+        },
+        "subsubtitle_3": {
+            "eng": "Engagement",
+            "por": "Engajamento",
+            "ara": "التفاعل"
+        },
+        "subtitle_4": {
+            "eng": "Results",
+            "por": "Resultados",
+            "ara": "النتائج"
+        },
+        "subsubtitle_4": {
+            "eng": "Belligerents",
+            "por": "Beligerantes",
+            "ara": "الخصوم"
+        },
+        "subsubtitle_5": {
+            "eng": "Salient Narratives",
+            "por": "Narrativas Relevantes",
+            "ara": "السرديات البارزة"
+        },
+        "subsubtitle_6": {
+            "eng": "Engagement",
+            "por": "Engajamento",
+            "ara": "التفاعل"
+        },
+        "subsubtitle_7": {
+            "eng": "Coordination",
+            "por": "Coesão",
+            "ara": "التنسيق"
         }
     },
     "discussion": {
