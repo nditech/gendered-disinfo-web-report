@@ -1,7 +1,7 @@
 <script>
 
-    // import constants
-    import { TITLE } from './constants.json';
+    // import config
+    import { TITLE } from './config.json';
 
     // import libs
     import { getUrlParams } from './libs/url.js';

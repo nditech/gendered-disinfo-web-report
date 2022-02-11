@@ -1,7 +1,7 @@
 'use strict';
 
-// load constants
-import { SUBDIRECTORY } from '../../constants.json';
+// import config
+import { SUBDIRECTORY } from '../../config.json';
 
 // load libs
 import { request_GET, getRequestWrapper } from '../../libs/http.js';

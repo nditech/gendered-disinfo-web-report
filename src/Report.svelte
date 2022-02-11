@@ -4,8 +4,8 @@
     export let lang;
     export let isMobile;
 
-    // import constants
-    import { OF_INTEREST, MIN_NBR_OF_PUBLICATION_OF_INTEREST } from './constants.json';
+    // import config
+    import { OF_INTEREST, MIN_NBR_OF_PUBLICATION_OF_INTEREST } from './config.json';
 
     // import libs
     import { onMount } from 'svelte';

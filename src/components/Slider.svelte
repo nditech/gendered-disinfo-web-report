@@ -8,8 +8,8 @@
     // import ui lib
     import { onMount } from "svelte";
 
-    // import constants
-    import { SUBDIRECTORY } from '../constants.json';
+    // import config
+    import { SUBDIRECTORY } from '../config.json';
 
     // displayed
     let pointer = -1;

@@ -9,8 +9,8 @@
     // import libs
     import { getFormattedDateTime } from '../libs/dt.js';
 
-    // import constants
-    import { SUBDIRECTORY } from '../constants.json';
+    // import config
+    import { SUBDIRECTORY } from '../config.json';
 
     // ids
     const table_id_values = `${table_id}-values`;

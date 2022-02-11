@@ -3,8 +3,8 @@
     // properties
     export let lang;
 
-    // load constants
-    import { SUBDIRECTORY, AUTHOR, AUTHOR_DOMAIN } from './constants.json';
+    // import config
+    import { SUBDIRECTORY, AUTHOR, AUTHOR_DOMAIN } from './config.json';
 
     // import strings
     import { title, subtitle } from './strings.json';

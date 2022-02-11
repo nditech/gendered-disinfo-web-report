@@ -10,12 +10,12 @@ import css from 'rollup-plugin-css-only';
 import json from '@rollup/plugin-json';
 import html from '@rollup/plugin-html';
 
-
 // load constants
-import { SUBDIRECTORY, DOMAIN, TITLE, DESCRIPTION, AUTHOR, THUMBNAIL_FILEPATH, GOOGLE_ANALYTICS_ID } from './src/constants.json';
+import { SUBDIRECTORY, DOMAIN, TITLE, DESCRIPTION, AUTHOR, THUMBNAIL_FILEPATH, GOOGLE_ANALYTICS_ID, TOR } from './src/constants.json';
+
 
 // build metas
-const METAS = [
+let METAS = [
     { 'itemprop': 'name', 'content': TITLE },
     { 'itemprop': 'description', 'content': DESCRIPTION },
     { 'itemprop': 'image', 'content': `${DOMAIN}${SUBDIRECTORY}${THUMBNAIL_FILEPATH}` },
@@ -37,6 +37,13 @@ const METAS = [
     { 'name': 'twitter:image:src', 'content': `${DOMAIN}${SUBDIRECTORY}${THUMBNAIL_FILEPATH}` },
     { 'name': 'msapplication-TileImage', 'content': `${DOMAIN}${SUBDIRECTORY}${THUMBNAIL_FILEPATH}` }
 ];
+
+// Tor
+if (TOR['ENABLE']){
+    METAS.push(
+        { 'http-equiv': "onion-location", 'content': `${ONION_ADDRESS}${SUBDIRECTORY}` }
+    )
+}
 
 // Google Analytics 
 const googleAnalytics = `

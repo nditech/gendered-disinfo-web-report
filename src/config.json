@@ -13,6 +13,10 @@
     "AUTHOR_DOMAIN": "https://ndi.org",
     "EMAIL": "info@charitableanalytics.org",
     "GOOGLE_ANALYTICS_ID": "G-005X6Y4G5M",
+    "TOR": {
+        "ENABLE": false,
+        "ONION_ADDRESS": "http://<addr>.onion"
+    },
     "OF_INTEREST": [
         [ 
             {"key": "contains_disinfo", "value": "yes"},

@@ -4,7 +4,7 @@
 import * as strings from '../strings.json'
 
 // load supported languages from json file
-import { SUPPORTED_LANGUAGES } from '../constants.json'
+import { SUPPORTED_LANGUAGES } from '../config.json'
 
 /**
  * Returns true if the language key is supported

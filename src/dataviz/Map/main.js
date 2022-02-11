@@ -1,6 +1,6 @@
 'use strict';
 
-// import constants
+// constants
 import { DEFAULT_LAT, DEFAULT_LNG, DEFAULT_ZOOM, MAX_ZOOM, MIN_ZOOM, MAP_STYLE, MAP_ATTRIBUTION } from './env.js';
 
 // import libs

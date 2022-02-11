@@ -3,8 +3,8 @@
     // properties
     export let lang;
 
-    // load constants
-    import { SUBDIRECTORY, EMAIL } from '../constants.json';
+    // import config
+    import { SUBDIRECTORY, EMAIL } from '../config.json';
 
     // load libs
     import { getString } from '../libs/translator.js';

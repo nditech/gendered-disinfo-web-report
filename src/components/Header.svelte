@@ -4,11 +4,8 @@
     export let lang;
     export let isMobile;
 
-    // import constants
-    import { SUPPORTED_LANGUAGES, SUBDIRECTORY, TITLE, AUTHOR_DOMAIN } from '../constants.json';
-
-    // import libs
-    import { getString } from '../libs/translator.js';
+    // import config
+    import { SUPPORTED_LANGUAGES, SUBDIRECTORY, TITLE, AUTHOR_DOMAIN } from '../config.json';
 
     // change url
     function get_language_url(lang){

@@ -10,8 +10,8 @@
     let _value;
     let __value;
 
-    // import constants
-    import { SUBDIRECTORY } from '../constants.json';
+    // import config
+    import { SUBDIRECTORY } from '../config.json';
 
     // locale lib
     import { clean_str } from '../libs/locale.js';

@@ -3,8 +3,8 @@
     // properties
     export let data;
 
-    // import constants
-    import { SUBDIRECTORY } from '../constants.json';
+    // import config
+    import { SUBDIRECTORY } from '../config.json';
 
     function nFormatter(num){
         if (num >= 1000000000) {

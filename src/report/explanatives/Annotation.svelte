@@ -3,8 +3,8 @@
     // ui lib
     import { onMount } from "svelte";
 
-    // load constants
-    import { SUBDIRECTORY } from '../../constants.json';
+    // import config
+    import { SUBDIRECTORY } from '../../config.json';
 
     // constants size
     const canvas_w = 400;

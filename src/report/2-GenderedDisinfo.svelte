@@ -6,8 +6,8 @@
     // import strings
     import { gendereddisinfo } from '../strings.json';
 
-    // import constants
-    import { SUBDIRECTORY } from '../constants.json'
+    // import config
+    import { SUBDIRECTORY } from '../config.json'
 
 </script>
 
