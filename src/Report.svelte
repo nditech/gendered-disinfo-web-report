@@ -9,7 +9,6 @@
 
     // import libs
     import { onMount } from 'svelte';
-    import { getString } from './libs/translator.js';
     
     // import helper functions
     import { interleave, load_params, load_tools, load_findings, load_posts_zip } from './report/scripts/helper.js';

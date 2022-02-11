@@ -20,6 +20,7 @@ module.exports = {
     ],
     rules: {
         "camelcase": 'off',
-        "indent": 'off'
+        "indent": 'off',
+        "no-unused-vars": 'off',
     }
 };
