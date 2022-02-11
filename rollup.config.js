@@ -11,7 +11,7 @@ import json from '@rollup/plugin-json';
 import html from '@rollup/plugin-html';
 
 // load constants
-import { SUBDIRECTORY, DOMAIN, TITLE, DESCRIPTION, AUTHOR, THUMBNAIL_FILEPATH, GOOGLE_ANALYTICS_ID, TOR } from './src/constants.json';
+import { SUBDIRECTORY, DOMAIN, TITLE, DESCRIPTION, AUTHOR, THUMBNAIL_FILEPATH, GOOGLE_ANALYTICS_ID, TOR } from './src/config.json';
 
 
 // build metas
@@ -38,13 +38,6 @@ let METAS = [
     { 'name': 'msapplication-TileImage', 'content': `${DOMAIN}${SUBDIRECTORY}${THUMBNAIL_FILEPATH}` }
 ];
 
-// Tor
-if (TOR['ENABLE']){
-    METAS.push(
-        { 'http-equiv': "onion-location", 'content': `${ONION_ADDRESS}${SUBDIRECTORY}` }
-    )
-}
-
 // Google Analytics 
 const googleAnalytics = `
     <script async src="https://www.googletagmanager.com/gtag/js?id=${GOOGLE_ANALYTICS_ID}"></script>
@@ -54,8 +47,7 @@ const googleAnalytics = `
         gtag('js', new Date());
         
         gtag('config', '${GOOGLE_ANALYTICS_ID}');
-    </script>
-`;
+    </script>`;
 
 
 const production = !process.env.ROLLUP_WATCH;
@@ -110,15 +102,14 @@ const htmlOptions = {
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
 ${googleAnalytics}
-
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
 
     <title>${TITLE}</title>
 ${metas}
+${TOR['ENABLE'] ? `    <meta http-equiv="onion-location" content="${TOR['ONION_ADDRESS']}${SUBDIRECTORY}">` : ''}
 
 ${css}
 ${script}

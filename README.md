@@ -143,7 +143,7 @@ To serve your website through Tor, you will need your own linux server.
 
         "TOR": {
                 "ENABLE": false,
-                "ONION_ADDRESS": "http://<addr>.onion"
+                "ONION_ADDRESS": "http://ADDR.onion"
         },
 
 6. Rebuild the report, 
