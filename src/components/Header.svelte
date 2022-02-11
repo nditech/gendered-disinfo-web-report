@@ -22,7 +22,7 @@
 
 <nav>
     <div id="logo" on:click={() => window.open(AUTHOR_DOMAIN, '_blank')}>
-        <img alt="logo" src="{SUBDIRECTORY}assets/logo.png">
+        <img alt="logo" src="{SUBDIRECTORY}assets/ndi-logo.svg">
     </div>
 
     {#if isMobile}
@@ -99,7 +99,8 @@
     }
 
     #logo img {
-        max-width: 150px;
+        height: 36px;
+        width: auto;
     }
 
 </style>
