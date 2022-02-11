@@ -12,6 +12,7 @@
     "AUTHOR": "National Democratic Institute",
     "AUTHOR_DOMAIN": "https://ndi.org",
     "EMAIL": "info@charitableanalytics.org",
+    "GOOGLE_ANALYTICS_ID": "G-VMTQKE5VED",
     "OF_INTEREST": [
         [ 
             {"key": "contains_disinfo", "value": "yes"},

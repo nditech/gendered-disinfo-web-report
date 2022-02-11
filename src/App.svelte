@@ -45,8 +45,18 @@
 
             // monitor scrolling
             main.addEventListener('scroll', function(e){
+
+                // update scrolling distance
                 _scrollTop = main.scrollTop;
+
+                // update show/hide footer variable
                 hide_cover = _scrollTop > _screenHeight*0.1;
+
+                // hide tooltip
+                const tooltips = document.getElementsByClassName('tooltip');
+                for(let tooltip of tooltips){
+                    tooltip.style.display = 'none';
+                }
             })
 
         }, 200);
@@ -100,7 +110,6 @@
         --max-width-small: 40vw;
         --max-width: 60vw;
         --max-width-large: 75vw;
-        --max-width-very-large: 85vw;
         --section-padding: 16px 32px;
         --section-padding-small: 8px 16px;
         --font-size-very-very-very-small: 0.65em;
@@ -232,17 +241,17 @@
     @media (max-width : 599px) {
         :global(section) {
             font-size: var(--font-size-very-small);
-            max-width: var(--max-width-very-large);
+            max-width: var(--max-width-large);
             padding: var(--section-padding-small);
             word-spacing: -2px;
         }
 
         :global(.title) {
-            max-width: var(--max-width-very-large);
+            max-width: var(--max-width-large);
         }
 
         :global(.subtitle) {
-            max-width: var(--max-width-very-large);
+            max-width: var(--max-width-large);
         }
 
         /* enumerations have less left padding */
