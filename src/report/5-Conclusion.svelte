@@ -16,7 +16,6 @@
         <p>
             {@html conclusion['paragraphs'][paragraph_key][lang]}
         </p>
-        <br>
     {/each}
 
 </section>

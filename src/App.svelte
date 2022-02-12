@@ -154,6 +154,7 @@
         color: var(--black);
         margin: 0px;
         padding: 0px;
+        margin-bottom: 16px;
     }
 
     :global(::selection){
@@ -202,7 +203,8 @@
 
     :global(.title) {
         text-align: left;
-        margin: 0em auto 0.5em;
+        margin: 0px;
+        margin-bottom: 0.5em;
         font-weight: var(--font-weight-bold);
         font-size: var(--font-size-very-large);
         max-width: var(--max-width);
@@ -212,6 +214,7 @@
         text-align: left;
         margin: 0px;
         margin-top: 1em;
+        margin-bottom: 0.5em;
         font-weight: var(--font-weight-bold);
         font-size: var(--font-size-large);
         max-width: var(--max-width);
@@ -221,6 +224,7 @@
         text-align: left;
         margin: 0px;
         margin-top: 1em;
+        margin-bottom: 0.5em;
         font-weight: var(--font-weight-bold);
         font-size: var(--font-size-normal);
         max-width: var(--max-width);

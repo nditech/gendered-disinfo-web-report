@@ -19,7 +19,6 @@
         <p>
             {@html gendereddisinfo['paragraphs_1'][paragraph_key][lang]}
         </p>
-        <br>
     {/each}
 
     <div>
@@ -33,7 +32,6 @@
         <p>
             {@html gendereddisinfo['paragraphs_2'][paragraph_key][lang]}
         </p>
-        <br>
     {/each}
 
 </section>

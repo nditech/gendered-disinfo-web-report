@@ -475,36 +475,9 @@
             }
         }
     },
-    "template": {
-        "eng": "",
-        "por": "",
-        "ara": ""
-    },
     "error": {
         "eng": "Error",
         "por": "Error",
         "ara": "Error"
-    },
-    "paragraphs": {
-        "1": {
-            "eng": "",
-            "por": "",
-            "ara": ""
-        },
-        "2": {
-            "eng": "",
-            "por": "",
-            "ara": ""
-        },
-        "3": {
-            "eng": "",
-            "por": "",
-            "ara": ""
-        },
-        "4": {
-            "eng": "",
-            "por": "",
-            "ara": ""
-        }
     }
 }

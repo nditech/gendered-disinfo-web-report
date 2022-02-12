@@ -73,7 +73,7 @@
     .top-title-container {
         position: relative;
         right: -50vw;
-        bottom: 40vh;
+        bottom: 50vh;
         flex-direction: column;
         overflow: hidden;
         padding: 8px 32px;

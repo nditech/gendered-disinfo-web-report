@@ -134,7 +134,7 @@
 
 </script>
 
-
+<br>
 <SearchBar bind:disable={searchbar_disable} onchange={onchange} onsubmit={onsubmit} placeholders={placeholders}/>
 <div class="separator"></div>
 <Table bind:disable={table_disable} bind:data={results}/>

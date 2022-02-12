@@ -16,7 +16,6 @@
         <p>
             {@html introduction['paragraphs'][paragraph_key][lang]}
         </p>
-        <br>
     {/each}
 
 </section>

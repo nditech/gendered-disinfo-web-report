@@ -16,7 +16,6 @@
         <p>
             {@html discussion['paragraphs_1'][paragraph_key][lang]}
         </p>
-        <br>
     {/each}
 
     <ol>
@@ -32,7 +31,6 @@
         <p>
             {@html discussion['paragraphs_2'][paragraph_key][lang]}
         </p>
-        <br>
     {/each}
 
 
