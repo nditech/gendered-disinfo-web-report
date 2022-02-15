@@ -35,7 +35,7 @@
     <div class="information-disorder">
         <img alt="false context" src="{SUBDIRECTORY}assets/images/false_context.png">
         <h1>False Context</h1>
-        <p>When genuine content is shared with contextual information</p>
+        <p>When genuine content is shared with false contextual information</p>
     </div>
     <div class="information-disorder">
         <img alt="manipulated content" src="{SUBDIRECTORY}assets/images/manipulated_content.png">
