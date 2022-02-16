@@ -40,7 +40,7 @@
 
         <h1 class="subtitle">{methods['subsubtitle_1'][lang]}</h1>
         {@html methods['11'][lang]}
-        <InformationDisorder/>
+        <InformationDisorder bind:lang={lang}/>
 
 
         <h1 class="subtitle">{methods['subsubtitle_2'][lang]}</h1>
@@ -49,7 +49,7 @@
 
         <h1 class="subtitle">{methods['subsubtitle_3'][lang]}</h1>
         {@html methods['13'][lang]}
-        <PoliticalNetwork/>
+        <PoliticalNetwork bind:lang={lang}/>
         {@html methods['14'][lang]}
 
 

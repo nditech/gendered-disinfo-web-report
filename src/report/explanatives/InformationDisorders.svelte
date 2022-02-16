@@ -1,49 +1,26 @@
 <script>
 
+    // properties
+    export let lang;
+
     // import config
     import { SUBDIRECTORY } from '../../config.json';
+
+    // import strings
+    import { information_disorders } from '../../strings.json';
 
 </script>
 
 
 <div id="information-disorder-container" class="container">
-    <div class="information-disorder">
-        <img alt="satire" src="{SUBDIRECTORY}assets/images/satire.png">
-        <h1>Satire or Parody</h1>
-        <p>The use of humor, irony, exaggeration, or ridicule to expose and criticize. Has the potential to fool.</p>
-    </div>
-    <div class="information-disorder">
-        <img alt="misleading content" src="{SUBDIRECTORY}assets/images/misleading_content.png">
-        <h1>Misleading Content</h1>
-        <p>Misleading use of information to frame an issue or individual</p>
-    </div>
-    <div class="information-disorder">
-        <img alt="imposter content" src="{SUBDIRECTORY}assets/images/imposter_content.png">
-        <h1>Imposter Content</h1>
-        <p>When genuine sources are impersonated</p>
-    </div>
-    <div class="information-disorder">
-        <img alt="fabricated content" src="{SUBDIRECTORY}assets/images/fabricated_content.png">
-        <h1>Fabricated Content</h1>
-        <p>New content is 100% false, designed to deceive and do harm</p>
-    </div>
-    <div class="information-disorder">
-        <img alt="false connection" src="{SUBDIRECTORY}assets/images/false_connection.png">
-        <h1>False Connection</h1>
-        <p>When headlines, visuals or captions don't support the content</p>
-    </div>
-    <div class="information-disorder">
-        <img alt="false context" src="{SUBDIRECTORY}assets/images/false_context.png">
-        <h1>False Context</h1>
-        <p>When genuine content is shared with false contextual information</p>
-    </div>
-    <div class="information-disorder">
-        <img alt="manipulated content" src="{SUBDIRECTORY}assets/images/manipulated_content.png">
-        <h1>Manipulated Content</h1>
-        <p>When genuine information or imagery is manipulated to deceive</p>
-    </div>
+    {#each information_disorders as information_disorder}
+        <div class="information-disorder">
+            <img alt="{information_disorder['src'].split('.').pop()}" src="{SUBDIRECTORY}assets/images/{information_disorder['src']}">
+            <h1>{information_disorder['title'][lang]}</h1>
+            <p>{information_disorder['description'][lang]}</p>
+        </div>
+    {/each}
 </div>
-
 
 
 <style>

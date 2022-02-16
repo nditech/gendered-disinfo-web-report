@@ -1,33 +1,28 @@
 <script>
 
+
+    // properties
+    export let lang;
+
     // import config
     import { SUBDIRECTORY } from '../../config.json';
+
+    // import strings
+    import { political_networks } from '../../strings.json';
 
 </script>
 
 
 <div id="political-network-container" class="container">
-    <div class="political-network">
-        <img alt="institutions" src="{SUBDIRECTORY}assets/images/institutions.png">
-        <h1>Institutions</h1>
-        <p>Bureaucrats/Technocrats</p>
-        <p>State Affiliated Financial Actors</p>
-        <p>Business Leaders (private sector)</p>
-    </div>
-    <div class="political-network">
-        <img alt="politics" src="{SUBDIRECTORY}assets/images/politics.png">
-        <h1>Politics</h1>
-        <p>Elected Officials</p>
-        <p>Staff of Elected Officials</p>
-        <p>Political Operatives</p>
-    </div>
-    <div class="political-network">
-        <img alt="society" src="{SUBDIRECTORY}assets/images/society.png">
-        <h1>Society</h1>
-        <p>Political Families</p>
-        <p>Traditional and Religious Leaders</p>
-        <p>Cultural Leaders</p>
-    </div>
+    {#each political_networks as political_network}
+        <div class="political-network">
+            <img alt="{political_network['src'].split('.').pop()}" src="{SUBDIRECTORY}assets/images/{political_network['src']}">
+            <h1>{political_network['title'][lang]}</h1>
+            {#each political_network['description'][lang] as el}
+                <p>{el}</p>
+            {/each}
+        </div>
+    {/each}
 </div>
 
 

@@ -475,6 +475,140 @@
             }
         }
     },
+    "information_disorders": [
+        { 
+            "src": "satire.png",
+            "title": {
+                "eng": "Satire or Parody",
+                "por": "Sátira ou Paródia",
+                "ara": ""
+            }, 
+            "description": {
+                "eng": "The use of humor, irony, exaggeration, or ridicule to expose and criticize. Has the potential to fool.",
+                "por": "Uso de humor, ironia, hipérbole ou escárnio para expor e criticar. Tem o potencial de confundir.",
+                "ara": ""
+            }
+        }, 
+        { 
+            "src": "misleading_content.png",
+            "title": {
+                "eng": "Misleading Content",
+                "por": "Conteúdo Enganoso",
+                "ara": ""
+            },  
+            "description": {
+                "eng": "Misleading use of information to frame an issue or individual",
+                "por": "Informações enganosas utilizadas para enquadrar um tema ou um indivíduo.",
+                "ara": ""
+            }
+        }, 
+        { 
+            "src": "imposter_content.png",
+            "title": {
+                "eng": "Imposter Content",
+                "por": "Conteúdo Impostor",
+                "ara": ""
+            },  
+            "description": {
+                "eng": "When genuine sources are impersonated",
+                "por": "Fontes genuínas simuladas por terceiros.",
+                "ara": ""
+            }
+        }, 
+        { 
+            "src": "fabricated_content.png",
+            "title": {
+                "eng": "Fabricated Content",
+                "por": "Conteúdo Fabricado",
+                "ara": ""
+            },  
+            "description": {
+                "eng": "New content is 100% false, designed to deceive and do harm",
+                "por": "Conteúdo publicado que é 100% inventado.",
+                "ara": ""
+            }
+        }, 
+        { 
+            "src": "false_connection.png",
+            "title": {
+                "eng": "False Connection", 
+                "por": "Falsa Conexão",
+                "ara": ""
+            }, 
+            "description": {
+                "eng": "When headlines, visuals or captions don't support the content",
+                "por": "Quando manchetes, imagens ou legendas não possuem relação com o conteúdo.",
+                "ara": ""
+            }
+        }, 
+        { 
+            "src": "false_context.png",
+            "title": {
+                "eng": "False Context", 
+                "por": "Falso Contexto",
+                "ara": ""
+            }, 
+            "description": {
+                "eng": "When genuine content is shared with false contextual information",
+                "por": "Conteúdo verdadeiro disseminado em meio a informações contextualizadas falsa.",
+                "ara": ""
+            }
+        }, 
+        { 
+            "src": "manipulated_content.png",
+            "title": {
+                "eng": "Manipulated Content",
+                "por": "Conteúdo Manipulado",
+                "ara": ""
+            },  
+            "description": {
+                "eng": "When genuine information or imagery is manipulated to deceive",
+                "por": "Informações ou imagens genuínas que foram manipuladas para enganar o púbico.",
+                "ara": ""
+            }
+        }
+    ],
+    "political_networks": [
+        {
+            "src": "institutions.png",
+            "title": {
+                "eng": "Institutions",
+                "por": "Instituições",
+                "ara": ""
+            },
+            "description": {
+                "eng": [ "Bureaucrats/Technocrats", "State Affiliated Financial Actors", "Business Leaders (private sector)" ],
+                "por": ["Burocratas/Tecnocratas", "Atores Financeiros Ligados ao Estado", "Líderes Empresariais (setor privado)"],
+                "ara": []
+            }
+        },
+        {
+            "src": "politics.png",
+            "title": {
+                "eng": "Politics",
+                "por": "Política",
+                "ara": ""
+            },
+            "description": {
+                "eng": [ "Elected Officials", "Staff of Elected Officials", "Political Operatives" ],
+                "por": ["Representantes Eleitos", "Assessores de Representantes Eleitos", "Operadores Políticos"],
+                "ara": []
+            }
+        },
+        {
+            "src": "society.png",
+            "title": {
+                "eng": "Society",
+                "por": "Sociedade",
+                "ara": ""
+            },
+            "description": {
+                "eng": ["Political Families", "Traditional and Religious Leaders", "Cultural Leaders"],
+                "por": ["Famílias Ligadas à Política", "Líderes Tradicionais e Religiosos", "Líderes Culturais"],
+                "ara": []
+            }
+        }
+    ],
     "error": {
         "eng": "Error",
         "por": "Error",
