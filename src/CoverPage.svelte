@@ -17,7 +17,6 @@
     <!-- Image -->
     <div id="top-img-container">
         <img alt="cover photo" src="{SUBDIRECTORY}assets/images/cover.jpg" />
-        <p>by Cara Zwibel & Evan Balgord</p>
     </div>
 
     <!-- Title Box -->
