@@ -1,36 +1,26 @@
 <script>
 
-    // properties
-    export let onstart = false;
-
-    // ui lib
-    import { onMount } from "svelte";
-
-    // displays the loader
-    export function on(){
-        document.getElementById('loader').style.display = 'inline-block';
-    }
-
-    // hides the loader
-    export function off(){
-        document.getElementById('loader').style.display = 'none';
-    }
-
-    onMount(() => {
-        onstart ? on() : off()
-    })
-
 </script>
 
-<div id="loader"></div>
+<div id="container">
+    <div id="loader"></div>
+</div>
 
 <style>
 
-    div {
-        position: absolute;
-        display: none;
-        left: 50%;
-        top: 50%;
+    #container { 
+        overflow: hidden;
+        text-align: center;
+        padding-top: 108px;
+        padding-bottom: 32px;
+        margin-top: 64px;
+        margin-bottom: 64px;
+    }
+
+    #loader {
+        margin: auto;
+        text-align: center;
+        display: inline-block;
         margin-left: -76px;
         margin-top: -76px;
         border: 16px solid #f3f3f3; /* Light grey */
@@ -39,7 +29,7 @@
         width: 120px;
         height: 120px;
         animation: spin 2s linear infinite;
-        z-index: 9;
+        z-index: 11;
     }
 
     @keyframes spin {

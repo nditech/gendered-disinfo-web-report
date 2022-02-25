@@ -13,6 +13,9 @@
     // import helper functions
     import { interleave, load_params, load_tools, load_findings, load_posts_zip } from './report/scripts/helper.js';
 
+    // import components
+    import Loader from './components/Loader.svelte';
+
     // import cover page
     import CoverPage from './CoverPage.svelte';
 
@@ -147,11 +150,15 @@
         {#if phase_2_brazil_done}
             <div class="separator"></div>
             <Brazil lang={lang} params={brazil_params} dataset={brazil_dataset}/>
+        {:else} 
+            <Loader/>
         {/if}
 
         {#if phase_3_lebanon_done}
             <div class="separator"></div>
             <Lebanon lang={lang} params={lebanon_params} dataset={lebanon_dataset}/>
+        {:else} 
+            <Loader/>
         {/if}
 
 
