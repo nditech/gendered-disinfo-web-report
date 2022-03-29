@@ -25,5 +25,6 @@
             {"key": "harms_women", "value": "yes"}            
         ]
     ],
-    "MIN_NBR_OF_PUBLICATION_OF_INTEREST": 1
+    "MIN_NBR_OF_PUBLICATION_OF_INTEREST": 1,
+    "WITH_SEARCH_BAR": false
 }

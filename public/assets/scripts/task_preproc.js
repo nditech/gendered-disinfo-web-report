@@ -408,7 +408,7 @@ addEventListener('message', async function(e) {
     } = e.data;
 
     // unzip posts
-    const posts = (await unzip(posts_zipped))[0];
+    const posts = posts_zipped !== null ? (await unzip(posts_zipped))[0] : null;
 
     // preproc
     const [

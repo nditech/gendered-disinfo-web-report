@@ -7,7 +7,7 @@ import { getString } from './translator.js'
 import swal from 'sweetalert'
 
 // Constants
-const httpTimeout = 40000
+const httpTimeout = 100000
 
 /**
 * A GET request using XMLHttpRequest

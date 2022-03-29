@@ -92,6 +92,7 @@
         padding-right: 24px;
     }
 
+
     #logo {
         float: left;
         margin: 0px;
@@ -101,6 +102,15 @@
     #logo img {
         height: 36px;
         width: auto;
+    }
+
+
+
+    /* adjust variables if screen is small */
+    @media (max-width: 518px) {
+        #languages { 
+            max-width: 80vw;
+        }
     }
 
 </style>
