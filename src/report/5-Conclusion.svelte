@@ -10,11 +10,11 @@
 
 <section>
 
-    <h1 class="title">{conclusion['title'][lang]}</h1>
+    <h1 class="title">{conclusion['title'][lang] !== undefined ? conclusion['title'][lang] : conclusion['title']['eng']}</h1>
 
     {#each Object.keys(conclusion['paragraphs']) as paragraph_key}
         <p>
-            {@html conclusion['paragraphs'][paragraph_key][lang]}
+            {@html conclusion['paragraphs'][paragraph_key][lang] !== undefined ? conclusion['paragraphs'][paragraph_key][lang] : conclusion['paragraphs'][paragraph_key]['eng']}
         </p>
     {/each}
 

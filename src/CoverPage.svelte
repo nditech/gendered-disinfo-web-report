@@ -23,8 +23,8 @@
     <div class="top-title-container">
         <br>
         <div>
-            <p class="top-title">{title[lang]}</p>
-            <p class="top-subtitle">{subtitle[lang]}</p>
+            <p class="top-title">{title[lang] !== undefined ? title[lang] : title['eng']}</p>
+            <p class="top-subtitle">{subtitle[lang] !== undefined ? subtitle[lang] : subtitle['eng']}</p>
         </div>
         <br>
         <div>

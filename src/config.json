@@ -2,7 +2,9 @@
     "SUPPORTED_LANGUAGES": [
         {"key": "eng", "name": "English", "mobile": "en"},
         {"key": "por", "name": "Português", "mobile": "pt"},
-        {"key": "ara", "name": "عَرَبي", "mobile": "عَرَ"}
+        {"key": "ara", "name": "عَرَبي", "mobile": "عَرَ"},
+        {"key": "fra", "name": "Français", "mobile": "fr"},
+        {"key": "spa", "name": "Español", "mobile": "es"}
     ],
     "DOMAIN": "https://gendereddisinfoandshocks.demcloud.org",
     "SUBDIRECTORY": "/",

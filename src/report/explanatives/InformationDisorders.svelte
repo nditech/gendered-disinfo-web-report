@@ -16,8 +16,8 @@
     {#each information_disorders as information_disorder}
         <div class="information-disorder">
             <img alt="{information_disorder['src'].split('.').pop()}" src="{SUBDIRECTORY}assets/images/{information_disorder['src']}">
-            <h1>{information_disorder['title'][lang]}</h1>
-            <p>{information_disorder['description'][lang]}</p>
+            <h1>{information_disorder['title'][lang] !== undefined ? information_disorder['title'][lang] : information_disorder['title']['eng']}</h1>
+            <p>{information_disorder['description'][lang] !== undefined ? information_disorder['description'][lang] : information_disorder['description']['eng']}</p>
         </div>
     {/each}
 </div>

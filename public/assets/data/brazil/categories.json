@@ -1,107 +1,93 @@
 [
     {
         "key": 2,
-        "eng": {
-            "description": "Claims that teaching kids gender studies leads to homosexuality, being debauched, etc",
-            "title": "Gender studies"
+        "title": {
+            "eng": "Gender studies",
+            "ara": "الدراسات الجندرية",
+            "por": "Estudos de Gênero"
         },
-        "ara": {
-            "description": "ادعاءات بأنّ تعليم الأطفال الدراسات الجندرية سيؤدي إلى المثلية والفسوق إلخ.",
-            "title": "الدراسات الجندرية"
-        },
-        "por": {
-            "description": "Alegações de que o ensino a crianças de questões ligadas a gênero leva à homossexualidade, a comportamentos imorais etc.",
-            "title": "Estudos de Gênero"
+        "description": {
+            "eng": "Claims that teaching kids gender studies leads to homosexuality, being debauched, etc",
+            "ara": "ادعاءات بأنّ تعليم الأطفال الدراسات الجندرية سيؤدي إلى المثلية والفسوق إلخ.",
+            "por": "Alegações de que o ensino a crianças de questões ligadas a gênero leva à homossexualidade, a comportamentos imorais etc."
         }
     },
     {
         "key": 3,
-        "eng": {
-            "description": "Blurring the line between LGBT and pedophilia",
-            "title": "LGBT & Pedophilia"
+        "title": {
+            "eng": "LGBT & Pedophilia",
+            "ara": "مجتمع الميم والاعتداء الجنسي على الأطفال",
+            "por": "LGBT e Pedofilia"
         },
-        "ara": {
-            "description": "تمويه الحدود الفاصلة بين مجتمع الميم والاعتداء الجنسي على الأطفال",
-            "title": "مجتمع الميم والاعتداء الجنسي على الأطفال"
-        },
-        "por": {
-            "description": "Equiparação entre LGBT e pedofilia.",
-            "title": "LGBT e Pedofilia"
+        "description": {
+            "eng": "Blurring the line between LGBT and pedophilia",
+            "ara": "تمويه الحدود الفاصلة بين مجتمع الميم والاعتداء الجنسي على الأطفال",
+            "por": "Equiparação entre LGBT e pedofilia."
         }
     },
     {
         "key": 4,
-        "eng": {
-            "description": "Smear campaign against Joice Hassellmann",
-            "title": "Joice Hassellmann"
+        "title": {
+            "eng": "Joice Hassellmann",
+            "ara": "جويس هاسلمان",
+            "por": "Joice Hassellmann"
         },
-        "ara": {
-            "description": "حملة لتشويه سمعة جويس هاسلمان",
-            "title": "جويس هاسلمان"
-        },
-        "por": {
-            "description": "Campanha difamatória contra Joice Hassellmann – jornalista, escritora, ativista e comentarista política filiada ao PSDB (Partido da Social Democracia Brasileira).",
-            "title": "Joice Hassellmann"
+        "description": {
+            "eng": "Smear campaign against Joice Hassellmann",
+            "ara": "حملة لتشويه سمعة جويس هاسلمان",
+            "por": "Campanha difamatória contra Joice Hassellmann – jornalista, escritora, ativista e comentarista política filiada ao PSDB (Partido da Social Democracia Brasileira)."
         }
     },
     {
         "key": 5,
-        "eng": {
-            "description": "Shutting down criticism of the COVID19 response voiced by women by using gendered attacks",
-            "title": "Gender & COVID19"
+        "title": {
+            "eng": "Gender & COVID19",
+            "ara": "الجندر وكوفيد-19",
+            "por": "Gênero e Covid-19"
         },
-        "ara": {
-            "description": "إسكات أصوات النساء اللواتي انتقدن آلية الاستجابة لكوفيد-19 من خلال اللجوء إلى هجمات جندرية",
-            "title": "الجندر وكوفيد-19"
-        },
-        "por": {
-            "description": "Sabotagem de críticas feitas por mulheres ao enfrentamento da pandemia por meio de ataques com viés de gênero.",
-            "title": "Gênero e Covid-19"
+        "description": {
+            "eng": "Shutting down criticism of the COVID19 response voiced by women by using gendered attacks",
+            "ara": "إسكات أصوات النساء اللواتي انتقدن آلية الاستجابة لكوفيد-19 من خلال اللجوء إلى هجمات جندرية",
+            "por": "Sabotagem de críticas feitas por mulheres ao enfrentamento da pandemia por meio de ataques com viés de gênero."
         }
     },
     {
         "key": 6,
-        "eng": {
-            "description": "Straight sexist attacks",
-            "title": "Attacks"
+        "title": {
+            "eng": "Attacks",
+            "ara": "الهجمات",
+            "por": "Ataques"
         },
-        "ara": {
-            "description": "الهجمات المباشرة المتحيّزة جنسياً",
-            "title": "الهجمات"
-        },
-        "por": {
-            "description": "Emprego de ofensas manifestamente sexistas.",
-            "title": "Ataques"
+        "description": {
+            "eng": "Straight sexist attacks",
+            "ara": "الهجمات المباشرة المتحيّزة جنسياً",
+            "por": "Emprego de ofensas manifestamente sexistas."
         }
     },
     {
         "key": 7,
-        "eng": {
-            "description": "Discrediting a feminist cause, by impugning that one of its champion is a leftist",
-            "title": "Feminism"
+        "title": {
+            "eng": "Feminism",
+            "ara": "النسوية",
+            "por": "Feminismo"
         },
-        "ara": {
-            "description": "تشويه سمعة قضية نسوية، من خلال اتهام إحدى مناصراتها بأنها يسارية",
-            "title": "النسوية"
-        },
-        "por": {
-            "description": "Descredibilização de uma causa feminista ao associá-la a uma militante de esquerda.",
-            "title": "Feminismo"
+        "description": {
+            "eng": "Discrediting a feminist cause, by impugning that one of its champion is a leftist",
+            "ara": "تشويه سمعة قضية نسوية، من خلال اتهام إحدى مناصراتها بأنها يسارية",
+            "por": "Descredibilização de uma causa feminista ao associá-la a uma militante de esquerda."
         }
     },
     {
         "key": 8,
-        "eng": {
-            "description": "Using the abortion issue as a way to demonize the progressives",
-            "title": "Abortion"
+        "title": {
+            "eng": "Abortion",
+            "ara": "الإجهاض",
+            "por": "Aborto"
         },
-        "ara": {
-            "description": "استغلال قضية الإجهاض كطريقة لتشويه صورة التقدميين",
-            "title": "الإجهاض"
-        },
-        "por": {
-            "description": "Utilização da temática do aborto como forma de demonizar os progressistas.",
-            "title": "Aborto"
+        "description": {
+            "eng": "Using the abortion issue as a way to demonize the progressives",
+            "ara": "استغلال قضية الإجهاض كطريقة لتشويه صورة التقدميين",
+            "por": "Utilização da temática do aborto como forma de demonizar os progressistas."
         }
     }
 ]

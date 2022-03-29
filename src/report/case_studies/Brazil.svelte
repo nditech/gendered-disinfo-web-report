@@ -151,64 +151,64 @@
 
 <section>
 
-    <h1 class="title">{casestudy['title'][lang]}</h1>
-    {@html casestudy['partners'][lang]}
+    <h1 class="title">{casestudy['title'][lang] !== undefined ? casestudy['title'][lang] : casestudy['title']['eng']}</h1>
+    {@html casestudy['partners'][lang] !== undefined ? casestudy['partners'][lang] : casestudy['partners']['eng']}
         
     
-    <h1 class="subtitle">{casestudies['subtitle_1'][lang]}</h1>
-    {@html str_accounts(nbr_of_accounts)[lang]}
+    <h1 class="subtitle">{casestudies['subtitle_1'][lang] !== undefined ? casestudies['subtitle_1'][lang] : casestudies['subtitle_1']['eng']}</h1>
+    {@html str_accounts(nbr_of_accounts)[lang] !== undefined ? str_accounts(nbr_of_accounts)[lang] : str_accounts(nbr_of_accounts)['eng']}
     <Table data={political_network_table}/>
 
 
-    <h1 class="subtitle">{casestudies['subtitle_2'][lang]}</h1>
-    {@html str_datacollection(posts.length.toLocaleString())[lang]}
-    {@html casestudies['searchbar_1'][lang]}
-    {@html casestudies['searchbar_2'][lang]}
+    <h1 class="subtitle">{casestudies['subtitle_2'][lang] !== undefined ? casestudies['subtitle_2'][lang] : casestudies['subtitle_2']['eng']}</h1>
+    {@html str_datacollection(posts.length.toLocaleString())[lang] !== undefined ? str_datacollection(posts.length.toLocaleString())[lang] : str_datacollection(posts.length.toLocaleString())['eng']}
+    {@html casestudies['searchbar_1'][lang] !== undefined ? casestudies['searchbar_1'][lang] : casestudies['searchbar_1']['eng']}
+    {@html casestudies['searchbar_2'][lang] !== undefined ? casestudies['searchbar_2'][lang] : casestudies['searchbar_2']['eng']}
     <SearchTable placeholders={params['examples']['queries']} documents={posts} word_mapping={dictionary}/>
 
 
-    <h1 class="subtitle">{casestudies['subtitle_3'][lang]}</h1>
-    <h1 class="subsubtitle">{casestudies['subsubtitle_1'][lang]}</h1>
-    {@html str_lexicon(lexicon.length)[lang]}
+    <h1 class="subtitle">{casestudies['subtitle_3'][lang] !== undefined ? casestudies['subtitle_3'][lang] : casestudies['subtitle_3']['eng']}</h1>
+    <h1 class="subsubtitle">{casestudies['subsubtitle_1'][lang] !== undefined ? casestudies['subsubtitle_1'][lang] : casestudies['subsubtitle_1']['eng']}</h1>
+    {@html str_lexicon(lexicon.length)[lang] !== undefined ? str_lexicon(lexicon.length)[lang] : str_lexicon(lexicon.length)['eng']}
     <Table data={lexicon_table}/>
 
     
-    <h1 class="subsubtitle">{casestudies['subsubtitle_2'][lang]}</h1>
-    {@html str_events(events.length)[lang]}
+    <h1 class="subsubtitle">{casestudies['subsubtitle_2'][lang] !== undefined ? casestudies['subsubtitle_2'][lang] : casestudies['subsubtitle_2']['eng']}</h1>
+    {@html str_events(events.length)[lang] !== undefined ? str_events(events.length)[lang] : str_events(events.length)['eng']}
     <Table data={events_table}/>
 
 
-    <h1 class="subsubtitle">{casestudies['subsubtitle_3'][lang]}</h1>
-    {@html casestudies['engagement_1'][lang]}
+    <h1 class="subsubtitle">{casestudies['subsubtitle_3'][lang] !== undefined ? casestudies['subsubtitle_3'][lang] : casestudies['subsubtitle_3']['eng']}</h1>
+    {@html casestudies['engagement_1'][lang] !== undefined ? casestudies['engagement_1'][lang] : casestudies['engagement_1']['eng']}
     <Table data={engagement_table}/>
 
 
-    <h1 class="subtitle">{casestudies['subtitle_4'][lang]}</h1>
-    {@html str_filtering(submissions_of_interest.length, belligerents.length)[lang]}
+    <h1 class="subtitle">{casestudies['subtitle_4'][lang] !== undefined ? casestudies['subtitle_4'][lang] : casestudies['subtitle_4']['eng']}</h1>
+    {@html str_filtering(submissions_of_interest.length, belligerents.length)[lang] !== undefined ? str_filtering(submissions_of_interest.length, belligerents.length)[lang] : str_filtering(submissions_of_interest.length, belligerents.length)['eng']}
     <Heatmap data={submissions_of_interest} sources={belligerents} events={events}/>
 
     
-    <h1 class="subsubtitle">{casestudies['subsubtitle_4'][lang]}</h1>
-    {@html str_belligerents(belligerents.length.toLocaleString())[lang]}
+    <h1 class="subsubtitle">{casestudies['subsubtitle_4'][lang] !== undefined ? casestudies['subsubtitle_4'][lang] : casestudies['subsubtitle_4']['eng']}</h1>
+    {@html str_belligerents(belligerents.length.toLocaleString())[lang] !== undefined ? str_belligerents(belligerents.length.toLocaleString())[lang] : str_belligerents(belligerents.length.toLocaleString())['eng']}
     <Portraits data={belligerents}/>
 
 
-    <h1 class="subsubtitle">{casestudies['subsubtitle_5'][lang]}</h1>
-    {@html str_narratives(categories.length)[lang]}
+    <h1 class="subsubtitle">{casestudies['subsubtitle_5'][lang] !== undefined ? casestudies['subsubtitle_5'][lang] : casestudies['subsubtitle_5']['eng']}</h1>
+    {@html str_narratives(categories.length)[lang] !== undefined ? str_narratives(categories.length)[lang] : str_narratives(categories.length)['eng']}
     <List elements={categories.map(d => d['description'])}/>
 
         
 
-    <h1 class="subsubtitle">{casestudies['subsubtitle_6'][lang]}</h1>
-    {@html casestudies['engagement_2'][lang]}
+    <h1 class="subsubtitle">{casestudies['subsubtitle_6'][lang] !== undefined ? casestudies['subsubtitle_6'][lang] : casestudies['subsubtitle_6']['eng']}</h1>
+    {@html casestudies['engagement_2'][lang] !== undefined ? casestudies['engagement_2'][lang] : casestudies['engagement_2']['eng']}
     {#each categories as category, i}
         <DotMatrixPlot data={dotmatrix.filter(d => d['categories'].includes(category['key']))} title={`${romanize(i+1)}. ${category['name_count']}`} max_interactions={Math.max(...dotmatrix.map(d => d['interactions']['count']))}/>
     {/each}
 
     
-    <h1 class="subsubtitle">{casestudies['subsubtitle_7'][lang]}</h1>
-    {@html casestudies['coordination'][lang]}
-    {@html str_coordination[lang]}
+    <h1 class="subsubtitle">{casestudies['subsubtitle_7'][lang] !== undefined ? casestudies['subsubtitle_7'][lang] : casestudies['subsubtitle_7']['eng']}</h1>
+    {@html casestudies['coordination'][lang] !== undefined ? casestudies['coordination'][lang] : casestudies['coordination']['eng']}
+    {@html str_coordination[lang] !== undefined ? str_coordination[lang] : str_coordination['eng']}
     <Slider previous_callback={(opt) => change_category(opt)} next_callback={(opt) => change_category(opt)} options={options}/>
     <Network bind:nodes={nodes} bind:vertices={vertices}/>
 

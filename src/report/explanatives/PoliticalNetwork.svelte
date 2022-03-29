@@ -17,8 +17,8 @@
     {#each political_networks as political_network}
         <div class="political-network">
             <img alt="{political_network['src'].split('.').pop()}" src="{SUBDIRECTORY}assets/images/{political_network['src']}">
-            <h1>{political_network['title'][lang]}</h1>
-            {#each political_network['description'][lang] as el}
+            <h1>{political_network['title'][lang] !== undefined ? political_network['title'][lang] : political_network['title']['eng']}</h1>
+            {#each political_network['description'][lang] !== undefined ?  political_network['description'][lang] :  political_network['description']['eng'] as el}
                 <p>{el}</p>
             {/each}
         </div>

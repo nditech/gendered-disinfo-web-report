@@ -13,11 +13,11 @@
 
 <section>
 
-    <h1 class="title">{gendereddisinfo['title'][lang]}</h1>
+    <h1 class="title">{gendereddisinfo['title'][lang] !== undefined ? gendereddisinfo['title'][lang] : gendereddisinfo['title']['eng']}</h1>
 
     {#each Object.keys(gendereddisinfo['paragraphs_1']) as paragraph_key}
         <p>
-            {@html gendereddisinfo['paragraphs_1'][paragraph_key][lang]}
+            {@html gendereddisinfo['paragraphs_1'][paragraph_key][lang] !== undefined ? gendereddisinfo['paragraphs_1'][paragraph_key][lang] : gendereddisinfo['paragraphs_1'][paragraph_key]['eng']}
         </p>
     {/each}
 
@@ -26,11 +26,11 @@
     </div>
 
 
-    <h1 class="subtitle">{gendereddisinfo['subtitle'][lang]}</h1>
+    <h1 class="subtitle">{gendereddisinfo['subtitle'][lang] !== undefined ? gendereddisinfo['subtitle'][lang] : gendereddisinfo['subtitle']['eng']}</h1>
 
     {#each Object.keys(gendereddisinfo['paragraphs_2']) as paragraph_key}
         <p>
-            {@html gendereddisinfo['paragraphs_2'][paragraph_key][lang]}
+            {@html gendereddisinfo['paragraphs_2'][paragraph_key][lang] !== undefined ? gendereddisinfo['paragraphs_2'][paragraph_key][lang] : gendereddisinfo['paragraphs_2'][paragraph_key]['eng']}
         </p>
     {/each}
 

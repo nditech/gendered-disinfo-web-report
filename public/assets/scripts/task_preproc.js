@@ -242,11 +242,14 @@ function preproc_categories(raw_categories, submissions, lang = 'eng'){
         // filter by categories
         const nbr_of_posts = submissions_of_interest.filter(p => p['categories'].includes(+category['key'])).length;
 
+        // title
+        const category_title = category['title'][lang] !== undefined ? category['title'][lang] : category['title']['eng'];
+        const category_description = category['description'][lang] !== undefined ? category['description'][lang] : category['description']['eng'];
         return {
             'key': category['key'],
-            'name': category[lang]['title'],
-            'name_count': `${category[lang]['title']}, (${nbr_of_posts} ${nbr_of_posts > 1 ? 'posts' : 'post'})`,
-            'description': category[lang]['description'],
+            'name': category_title,
+            'name_count': `${category_title}, (${nbr_of_posts} ${nbr_of_posts > 1 ? 'posts' : 'post'})`,
+            'description': category_description,
             'value': nbr_of_posts
         }
     })
@@ -301,8 +304,8 @@ function preprocess(sources, raw_posts, raw_submissions, events, raw_lexicon, di
     sources = sources.map(source => {
         return {
             'endpoint': source['endpoint'],
-            'name': source['eng']['name'],
-            'description': source[lang]['description']
+            'name': source['name']['eng'],
+            'description': source['description'][lang] !== undefined ? source['description'][lang] : source['description']['eng']
         }
     })
     sources.sort((a, b) => get_max_followers(b) - get_max_followers(a));
@@ -319,8 +322,8 @@ function preprocess(sources, raw_posts, raw_submissions, events, raw_lexicon, di
         return {
             'id': event['id'],
             'date': event['date'],
-            'title': event[lang]['title'],
-            'description': event[lang]['description']
+            'title': event['title'][lang] !== undefined ? event['title'][lang] : event['title']['eng'],
+            'description': event['description'][lang] !== undefined ? event['description'][lang] : event['description']['eng']
         }
     })
     events.sort((a, b) => new Date(a['date']) - new Date(b['date']));    
