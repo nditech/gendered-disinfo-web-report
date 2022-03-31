@@ -5,9 +5,6 @@
     export let dataset;
     export let params;
 
-    // import config
-    import { WITH_SEARCH_BAR } from '../../config.json';
-
     // import strings
     import { casestudies } from '../../strings.json';
     const casestudy = casestudies['brazil'];
@@ -165,11 +162,9 @@
 
     <h1 class="subtitle">{casestudies['subtitle_2'][lang] !== undefined ? casestudies['subtitle_2'][lang] : casestudies['subtitle_2']['eng']}</h1>
     {@html str_datacollection(posts.length.toLocaleString())[lang] !== undefined ? str_datacollection(posts.length.toLocaleString())[lang] : str_datacollection(posts.length.toLocaleString())['eng']}
-    {#if WITH_SEARCH_BAR}
-        {@html casestudies['searchbar_1'][lang] !== undefined ? casestudies['searchbar_1'][lang] : casestudies['searchbar_1']['eng']}
-        {@html casestudies['searchbar_2'][lang] !== undefined ? casestudies['searchbar_2'][lang] : casestudies['searchbar_2']['eng']}
-        <SearchTable placeholders={params['examples']['queries']} documents={posts} word_mapping={dictionary}/>
-    {/if}
+    {@html casestudies['searchbar_1'][lang] !== undefined ? casestudies['searchbar_1'][lang] : casestudies['searchbar_1']['eng']}
+    {@html casestudies['searchbar_2'][lang] !== undefined ? casestudies['searchbar_2'][lang] : casestudies['searchbar_2']['eng']}
+    <SearchTable placeholders={params['examples']['queries']} documents={posts} word_mapping={dictionary}/>
 
     <h1 class="subtitle">{casestudies['subtitle_3'][lang] !== undefined ? casestudies['subtitle_3'][lang] : casestudies['subtitle_3']['eng']}</h1>
     <h1 class="subsubtitle">{casestudies['subsubtitle_1'][lang] !== undefined ? casestudies['subsubtitle_1'][lang] : casestudies['subsubtitle_1']['eng']}</h1>
